@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RitualObligationTargetFilterDef>
+    <defName>MainRune_Psylink</defName>
+    <workerClass>Exodites.RitualObligationTargetWorker_MainRune_Psylink</workerClass>
+  </RitualObligationTargetFilterDef>
+
+
+  <RitualObligationTargetFilterDef>
+    <defName>MainRune_Magic_Warlock</defName>
+    <workerClass>Exodites.RitualObligationTargetWorker_MainRune_Magic_Warlock</workerClass>
+  </RitualObligationTargetFilterDef>
+  
+  <RitualObligationTargetFilterDef>
+    <defName>MainRune_Magic_Doctor</defName>
+    <workerClass>Exodites.RitualObligationTargetWorker_MainRune_Magic_Doctor</workerClass>
+  </RitualObligationTargetFilterDef>
+  
+  <RitualObligationTargetFilterDef>
+    <defName>MainRune_Magic_Bonesinger</defName>
+    <workerClass>Exodites.RitualObligationTargetWorker_MainRune_Magic_Bonesinger</workerClass>
+  </RitualObligationTargetFilterDef>
+  
+  <RitualObligationTargetFilterDef>
+    <defName>MainRune_Upgrade</defName>
+    <workerClass>Exodites.RitualObligationTargetWorker_MainRune_UpgradeMagic</workerClass>
+  </RitualObligationTargetFilterDef>
+  
+  <RitualObligationTargetFilterDef>
+    <defName>MainRune_Remove</defName>
+    <workerClass>Exodites.RitualObligationTargetWorker_MainRune_RemoveMagic</workerClass>
+  </RitualObligationTargetFilterDef>
+  
+  <RitualObligationTargetFilterDef>
+    <defName>MainRune_AshToPlants</defName>
+    <workerClass>Exodites.RitualObligationTargetFilter_MainRune_AshToPlants</workerClass>
+  </RitualObligationTargetFilterDef>
+  
+  <RitualObligationTargetFilterDef>
+    <defName>MainRune_RegrowthBodypart</defName>
+    <workerClass>Exodites.RitualObligationTargetFilter_MainRune_RegrowthBodyPart</workerClass>
+  </RitualObligationTargetFilterDef>
+  
+  <RitualObligationTargetFilterDef>
+    <defName>MainRune_Warmask</defName>
+    <workerClass>Exodites.RitualObligationTargetWorker_MainRune_Warmask</workerClass>
+  </RitualObligationTargetFilterDef>
+  
+</Defs>

@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Logger & Farmers (Plants) -->
+  <AlienRace.AlienBackstoryDef>
+    <defName>Ex_Logger</defName>
+    <title>logger</title>
+    <titleShort>logger</titleShort>
+    <baseDesc>[PAWN_nameDef] chopped trees and hauled their lumber back to the tribe. [PAWN_pronoun] wielded [PAWN_possessive] axe with the finesse of an artist and the force of a charging muffalo.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <skillGains>
+	  <Plants>6</Plants>
+	  <Melee>3</Melee>
+    </skillGains>
+    <requiredWorkTags>
+      <li>PlantWork</li>
+    </requiredWorkTags>
+    <possessions>
+      <WoodLog>10</WoodLog>
+    </possessions>
+	<spawnCategories><li>ExoditeCivil</li><li>ExoditeLogger</li></spawnCategories>
+	<slot>Adulthood</slot>
+  </AlienRace.AlienBackstoryDef>
+  
+  <AlienRace.AlienBackstoryDef>
+    <defName>Ex_Gatherer</defName>
+    <title>gatherer</title>
+    <titleShort>gatherer</titleShort>
+    <baseDesc>Using [PAWN_possessive] knowledge of plants, roots, and berries, [PAWN_nameDef] could find food in even the most barren landscapes. [PAWN_pronoun] stayed away from animals.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <skillGains>
+	  <Plants>8</Plants>
+	  <Animals>-2</Animals>
+    </skillGains>
+    <requiredWorkTags>
+      <li>PlantWork</li>
+    </requiredWorkTags>
+	<spawnCategories><li>ExoditeCivil</li><li>ExoditeFarmer</li></spawnCategories>
+	<slot>Adulthood</slot>
+  </AlienRace.AlienBackstoryDef>
+  
+  <AlienRace.AlienBackstoryDef>
+    <defName>Ex_Loner</defName> 
+    <title>loner</title>
+    <titleShort>loner</titleShort>
+    <baseDesc>[PAWN_nameDef] never much liked the tribal council or the yearly festivals. [PAWN_pronoun] preferred the open plain and the whistle of wind through the rocks.
+\n[PAWN_pronoun] visited [PAWN_possessive] tribe from time to time, but mostly took care of [PAWN_objective]self using [PAWN_possessive] own survival skills.</baseDesc>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+    <skillGains>
+      <Shooting>3</Shooting>
+      <Melee>2</Melee>
+      <Plants>5</Plants>
+      <Construction>1</Construction>
+    </skillGains>
+    <workDisables>
+      <li>Social</li>
+    </workDisables>
+	<spawnCategories><li>ExoditeCivil</li><li>ExoditeFarmer</li><li>ExoditeLogger</li></spawnCategories>
+	<slot>Adulthood</slot>
+  </AlienRace.AlienBackstoryDef>
+  
+  <AlienRace.AlienBackstoryDef>
+    <defName>Ex_Banished</defName> 
+    <title>banished</title>
+    <titleShort>banished</titleShort>
+    <baseDesc>[PAWN_nameDef]'s tribe banished [PAWN_objective] following a bloody dispute. [PAWN_pronoun] survived in the wilds alone for a long time.</baseDesc>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+    <skillGains>
+      <Melee>3</Melee>
+      <Shooting>2</Shooting>
+      <Plants>4</Plants>
+    </skillGains>
+    <workDisables>
+      <li>Social</li>
+    </workDisables>
+	<spawnCategories><li>ExoditeCivil</li><li>ExoditeFarmer</li><li>ExoditeLogger</li></spawnCategories>
+	<slot>Adulthood</slot>
+  </AlienRace.AlienBackstoryDef>
+  
+  <AlienRace.AlienBackstoryDef>
+    <defName>Ex_TreehouseBuilder</defName> 
+    <title>treehouse builder</title>
+    <titleShort>treehouse builder</titleShort>
+    <baseDesc>[PAWN_nameDef] built houses among, and sometimes suspended in, the trees for [PAWN_possessive] people to use while traveling or foraging. [PAWN_nameDef] learned how to best find and use wild plants, and how to fight off wild animals.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <skillGains>
+      <Plants>6</Plants>
+      <Melee>3</Melee>
+    </skillGains>
+    <requiredWorkTags>
+      <li>PlantWork</li>
+    </requiredWorkTags>
+	<spawnCategories><li>ExoditeCivil</li><li>ExoditeLogger</li></spawnCategories>
+	<slot>Adulthood</slot>
+  </AlienRace.AlienBackstoryDef>
+  
+  <AlienRace.AlienBackstoryDef>
+    <defName>Ex_PlankCutter</defName>
+    <title>plank cutter</title>
+    <titleShort>plank cutter</titleShort>
+    <baseDesc>[PAWN_nameDef] helped [PAWN_possessive] tribe build huge wooden structures by cutting trees into sturdy planks. [PAWN_nameDef] developed a fine understanding of how wood grows and splits.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <skillGains>
+      <Plants>6</Plants>
+      <Melee>3</Melee>
+    </skillGains>
+    <requiredWorkTags>
+      <li>PlantWork</li>
+    </requiredWorkTags>
+	<spawnCategories><li>ExoditeCivil</li><li>ExoditeLogger</li></spawnCategories>
+	<slot>Adulthood</slot>
+  </AlienRace.AlienBackstoryDef>
+  <!-- Logger & Farmers (Plants)-->
+  
+  <!-- Framers (Construction) -->
+  <AlienRace.AlienBackstoryDef>
+    <defName>Ex_Framer</defName>
+    <title>framer</title>
+    <titleShort>framer</titleShort>
+    <baseDesc>[PAWN_nameDef] was responsible for erecting structures for [PAWN_possessive] fellow tribespeople to live in. This included both temporary structures for nomadic travel, and permanent settlements. Gathering building materials from local plant life was part of the job.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <skillGains>
+	  <Construction>6</Construction>
+	  <Plants>2</Plants>
+    </skillGains>
+    <requiredWorkTags>
+      <li>ManualSkilled</li>
+    </requiredWorkTags>
+	<spawnCategories><li>ExoditeCivil</li></spawnCategories>
+	<slot>Adulthood</slot>
+  </AlienRace.AlienBackstoryDef>
+  
+  <AlienRace.AlienBackstoryDef>
+    <defName>Ex_Bricklayer</defName>
+    <title>bricklayer</title>
+    <titleShort>bricklayer</titleShort>
+    <baseDesc>[PAWN_nameDef] was responsible for erecting structures of stone for [PAWN_possessive] fellow tribespeople. Strong foundations and walls, altars and temples during construction required {PAWN_nameDef} to make some calculations and adjust the shape of stone bricks.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <skillGains>
+	  <Construction>6</Construction>
+	  <Crafting>1</Crafting>
+	  <Intellectual>2</Intellectual>
+    </skillGains>
+    <requiredWorkTags>
+      <li>ManualSkilled</li>
+    </requiredWorkTags>
+	<spawnCategories><li>ExoditeCivil</li></spawnCategories>
+	<slot>Adulthood</slot>
+  </AlienRace.AlienBackstoryDef>
+  <!-- Framers (Construction) -->
+  
+  <!-- Miners (Mining) -->
+  <AlienRace.AlienBackstoryDef>
+    <defName>Ex_Miner</defName>
+    <title>digger</title>
+    <titleShort>digger</titleShort>
+    <baseDesc>[PAWN_nameDef] labored in mines and caves, digging out spaces for storing items and hiding from threats. [PAWN_possessive] work provided hiding spots for [PAWN_possessive] friends on many occasions.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <skillGains>
+      <Mining>5</Mining>
+      <Melee>4</Melee>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+	<spawnCategories><li>ExoditeCivil</li><li>ExoditeMiner</li></spawnCategories>
+	<slot>Adulthood</slot>
+  </AlienRace.AlienBackstoryDef>
+  <!-- Miners (Mining) -->
+  
+  <!-- Cookers (Cooking) -->
+  <AlienRace.AlienBackstoryDef>
+    <defName>Ex_Butcher</defName>
+    <title>butcher</title>
+    <titleShort>butcher</titleShort>
+    <baseDesc>[PAWN_nameDef]'s main job in the hunting party was the butchering of animals. [PAWN_pronoun] became a master with the knife, able to extract every bit of value from a carcass in a short time.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <skillGains>
+      <Cooking>6</Cooking>
+      <Animals>3</Animals>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Violent</li>
+      <li>Animals</li>
+    </requiredWorkTags>
+    <possessions>
+      <Meat_Bison>5</Meat_Bison>
+    </possessions>
+	<spawnCategories><li>ExoditeCivil</li></spawnCategories>
+	<slot>Adulthood</slot>
+  </AlienRace.AlienBackstoryDef>
+  
+  <AlienRace.AlienBackstoryDef>
+    <defName>Ex_HearthTender</defName>
+    <title>hearth tender</title>
+    <titleShort>tender</titleShort>
+    <baseDesc>While the others were out hunting and foraging, [PAWN_nameDef] would stay at home to cook and take care of the young and sick.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <skillGains>
+      <Cooking>4</Cooking>
+      <Medicine>3</Medicine>
+      <Crafting>2</Crafting>
+    </skillGains>
+    <forcedTraits>
+      <Undergrounder>0</Undergrounder>
+    </forcedTraits>
+	<spawnCategories><li>ExoditeCivil</li></spawnCategories>
+	<slot>Adulthood</slot>
+  </AlienRace.AlienBackstoryDef>
+  
+  <AlienRace.AlienBackstoryDef>
+    <defName>Ex_StewKeeper</defName> 
+    <title>stew keeper</title>
+    <titleShort>stewkeeper</titleShort>
+    <baseDesc>[PAWN_nameDef] prepared meals from the plants and animals brought in by gatherers, farmers, and hunters of [PAWN_possessive] tribe. [PAWN_pronoun] had to make sure it was calorie-efficient, long-lasting, and healthy. [PAWN_pronoun] often processed and sometime gathered plants [PAWN_objective]self.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <skillGains>
+	  <Cooking>6</Cooking>
+	  <Plants>2</Plants>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Cooking</li>
+    </requiredWorkTags>
+	<spawnCategories><li>ExoditeCivil</li></spawnCategories>
+	<slot>Adulthood</slot>
+  </AlienRace.AlienBackstoryDef>
+  <!-- Cookers (Cooking) -->
+  
+  <!-- aaa (Animals) -->
+  <AlienRace.AlienBackstoryDef>
+    <defName>Ex_Tamer</defName>
+    <title>tamer</title>
+    <titleShort>tamer</titleShort>
+    <baseDesc>[PAWN_nameDef]'s role in [PAWN_possessive] tribe was to connect with the natural world around - especially the world of animals. In addition to fulfilling a spiritual role, [PAWN_pronoun] also tamed wild beasts and cared for them as they served the tribe.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <skillGains>
+	  <Animals>6</Animals>
+	  <Social>2</Social>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Animals</li>
+    </requiredWorkTags>
+	<spawnCategories><li>ExoditeCivil</li></spawnCategories>
+	<slot>Adulthood</slot>
+  </AlienRace.AlienBackstoryDef>
+  
+  <AlienRace.AlienBackstoryDef>
+    <defName>Ex_Herder</defName>
+    <title>herder</title>
+    <titleShort>herder</titleShort>
+    <baseDesc>[PAWN_nameDef] herded a variety of animals to help feed and clothe [PAWN_possessive] tribe while on the move. [PAWN_nameDef] learned how to calm and direct the beasts, and how to hunt [PAWN_possessive] own meals on the trail.</baseDesc>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+    <skillGains>
+      <Shooting>3</Shooting>
+      <Animals>5</Animals>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Violent</li>
+      <li>Animals</li>
+    </requiredWorkTags>
+	<spawnCategories><li>ExoditeCivil</li><li>ExoditeHunter</li></spawnCategories>
+	<slot>Adulthood</slot>
+  </AlienRace.AlienBackstoryDef>
+  <!-- aaa (Animals) -->
+  
+  <!-- Craftmans (Crafting) -->
+  <AlienRace.AlienBackstoryDef>
+    <defName>Ex_Weaver</defName>
+    <title>weaver</title>
+    <titleShort>weaver</titleShort>
+    <baseDesc>[PAWN_nameDef] was an expert at working wool, plant fibers and natural dyes into beautiful clothing for [PAWN_possessive] kin. [PAWN_possessive] handicrafts were traded frequently with other settlements.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <skillGains>
+	  <Crafting>6</Crafting>
+	  <Plants>2</Plants>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Crafting</li>
+    </requiredWorkTags>
+    <possessions>
+	  <Cloth>10</Cloth>
+    </possessions>
+	<spawnCategories><li>ExoditeCivil</li></spawnCategories>
+	<slot>Adulthood</slot>
+  </AlienRace.AlienBackstoryDef>
+  
+  <AlienRace.AlienBackstoryDef>
+    <defName>Ex_Blacksmith</defName>
+    <title>blacksmith</title>
+    <titleShort>blacksmith</titleShort>
+    <description>As a smith, [PAWN_nameDef] gained a reputation for the high quality of [PAWN_possessive] work. [PAWN_pronoun] wasn't bad at using the swords [PAWN_pronoun] forged either.</description>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>Intellectual</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>ManualDumb</li>
+      <li>ManualSkilled</li>
+    </requiredWorkTags>
+    <skillGains>
+      <Shooting>-5</Shooting>
+      <Melee>4</Melee>
+      <Crafting>6</Crafting>
+    </skillGains>
+    <spawnCategories>
+      <li>ExoditeCivil</li>
+      <li>ExoditeWarrior</li>
+    </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <possessions>
+      <MeleeWeapon_LongSword>1</MeleeWeapon_LongSword>
+    </possessions>
+  </AlienRace.AlienBackstoryDef>
+  <!-- Craftmans (Crafting) -->
+  
+  <!-- Healers (Medicine) -->
+  <AlienRace.AlienBackstoryDef>
+    <defName>Ex_Healer</defName>
+    <title>healer</title>
+    <titleShort>healer</titleShort>
+    <baseDesc>After [PAWN_possessive] tribe's elder healer was killed in a raid, [PAWN_nameDef] took on the role. [PAWN_pronoun] spent [PAWN_possessive] days scrounging up herbs and mineral compounds from the nearby area to use in surprisingly effective remedies.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <skillGains>
+      <Medicine>7</Medicine>
+      <Plants>3</Plants>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Caring</li>
+    </requiredWorkTags>
+    <possessions>
+	  <MedicineHerbal>5</MedicineHerbal>
+    </possessions>
+	<spawnCategories><li>ExoditeCivil</li></spawnCategories>
+	<slot>Adulthood</slot>
+  </AlienRace.AlienBackstoryDef>
+  <!-- Healers (Medicine) -->
+  
+  <!-- ASI (Artistic, Social, Intellectual) -->
+  <AlienRace.AlienBackstoryDef>
+    <defName>Ex_Carver</defName>
+    <title>carver</title>
+    <titleShort>carver</titleShort>
+    <baseDesc>[PAWN_nameDef] carved artworks for [PAWN_possessive] tribe from wood, stone, and occasionally, more exotic materials. The work was sometimes sold, and sometimes kept to beautify settlements and provide a focus for rituals.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <skillGains>
+      <Artistic>7</Artistic>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Artistic</li>
+    </requiredWorkTags>
+    <possessions>
+      <WoodLog>1</WoodLog>
+    </possessions>
+	<spawnCategories><li>ExoditeCivil</li></spawnCategories>
+	<slot>Adulthood</slot>
+  </AlienRace.AlienBackstoryDef>
+  
+  <AlienRace.AlienBackstoryDef>
+    <defName>Ex_LoreKeeper</defName>
+    <title>lore keeper</title>
+    <titleShort>keeper</titleShort>
+    <baseDesc>[PAWN_nameDef] was one of a long line of lore keepers in [PAWN_possessive] tribe. Every night around the fire, [PAWN_pronoun] would pass on ancient knowledge and helpful wisdom through stories.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <skillGains>
+      <Intellectual>7</Intellectual>
+      <Social>3</Social>
+      <Artistic>2</Artistic>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+	<spawnCategories><li>ExoditeCivil</li></spawnCategories>
+	<slot>Adulthood</slot>
+  </AlienRace.AlienBackstoryDef>
+  
+  <AlienRace.AlienBackstoryDef>
+    <defName>Ex_Malingerer</defName>
+    <title>malingerer</title>
+    <titleShort>malingerer</titleShort>
+    <baseDesc>[PAWN_nameDef] often feigned sickness in order to avoid [PAWN_possessive] responsibilities. While resting in the sick hut, [PAWN_pronoun] told stories to the children.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <skillGains>
+      <Intellectual>2</Intellectual>
+      <Social>5</Social>
+    </skillGains>
+    <workDisables>
+      <li>ManualDumb</li>
+    </workDisables>
+	<spawnCategories><li>ExoditeCivil</li></spawnCategories>
+	<slot>Adulthood</slot>
+  </AlienRace.AlienBackstoryDef>
+  <!-- ASI (Artistic, Social, Intellectual) -->
+</Defs>

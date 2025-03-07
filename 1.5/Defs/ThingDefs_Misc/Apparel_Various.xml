@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+  <ThingDef ParentName="ArmorMachineableBase">
+    <defName>Apparel_ArmoredPants</defName>
+    <label>armored pants</label>
+    <description>Simple pants made of fabric or leather, to which many plates of psychoplastics are sewn, forming scales like a fish's. It provides good protection and does not restrict movement, but the strength strongly depends on the base, and the creation is laborious.</description>
+    <recipeMaker>
+      <researchPrerequisite>Tech_WraithboneArmor</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+      <displayPriority>220</displayPriority>
+    </recipeMaker>
+	<graphicData>
+      <texPath>Pawn/Apparel/ArmoredPants/ArmoredPants</texPath>  <!-- Надо поменять текстуру -->
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>0.9</drawSize>
+    </graphicData>
+	<statBases>
+      <WorkToMake>13000</WorkToMake>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>1.5</Mass>
+      <Flammability>0.5</Flammability>
+	  <MarketValue>250</MarketValue>
+      <ArmorRating_Sharp>0.6</ArmorRating_Sharp>
+	  <StuffEffectMultiplierArmor>0.06</StuffEffectMultiplierArmor>
+      <ArmorRating_Blunt>0.32</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.27</ArmorRating_Heat>
+      <StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.08</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>3</EquipDelay>
+    </statBases>
+    <!--<equippedStatOffsets>
+      <MoveSpeed>-0.06</MoveSpeed>
+    </equippedStatOffsets>-->
+    <thingCategories>
+      <li>ApparelArmor</li>
+    </thingCategories>
+	<costStuffCount>40</costStuffCount>
+	<costList>
+      <PsybonePlates>60</PsybonePlates>
+    </costList>
+	<stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+	<apparel>
+      <bodyPartGroups>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <layers>
+        <li>OnSkin</li>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>ExoditeSpecialMilitaryApparel</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <only>(0.44,0.44,0.44)</only>
+        </li>
+        <li>
+          <only>(0.62,0.62,0.62)</only>
+        </li>
+      </options>
+    </colorGenerator>
+    <tradeTags>
+      <li>Exodite_Clothing</li>
+      <li>Exodite_Armor</li>
+    </tradeTags>
+	<techLevel>Medieval</techLevel>
+  </ThingDef>
+  
+  
+  <!-- !!! -->
+  
+  <ThingDef ParentName="ArmorMachineableBase">
+    <defName>Apparel_ArmoredVest</defName>
+    <label>armored vest</label>
+    <description>A vest made of fabric or leather, to which many plates of psychoplastics are sewn, forming scales like a fish. It provides good protection and does not restrict movement, but the strength strongly depends on the base, and the creation is laborious.</description>
+    <techLevel>Medieval</techLevel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedApparel_E</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+      <displayPriority>220</displayPriority>
+	  <researchPrerequisite>Tech_WraithboneArmor</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Pawn/Apparel/ArmoredVest/ArmoredVest</texPath>  <!-- Надо поменять текстуру. Небольшие помарки и нет текстур для Hulk и Fat. -->
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <statBases>
+      <WorkToMake>13000</WorkToMake>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>2.5</Mass>
+      <Flammability>0.6</Flammability>
+      <ArmorRating_Sharp>0.7</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.42</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.27</ArmorRating_Heat>
+      <EquipDelay>3</EquipDelay>
+	  <StuffEffectMultiplierArmor>0.06</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.22</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.1</MoveSpeed>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>ApparelArmor</li>
+    </thingCategories>
+    <costStuffCount>40</costStuffCount>
+	<costList>
+      <PsybonePlates>60</PsybonePlates>
+    </costList>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+		<li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Pawn/Apparel/ArmoredVest/ArmoredVest</wornGraphicPath>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>ExoditeSpecialMilitaryApparel</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <tradeTags>
+      <li>Ex_Armor</li>
+    </tradeTags>
+  </ThingDef>
+  
+  
+  <ThingDef ParentName="HatBase">
+    <defName>Apparel_BonesingerHelmet</defName>
+    <label>bonesinger helmet</label>
+    <description>Bonesinger's helmet, made entirely of psychoplastics. Speeds up the work.</description>
+    <graphicData>
+      <texPath>Pawn/Apparel/BonesingerHelmet/BonesingerHelmet</texPath>   <!-- Надо поменять текстуру -->
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconScale>1</uiIconScale>
+	<tickerType>Long</tickerType>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <MarketValue>600</MarketValue>
+      <Mass>3.5</Mass>
+      <Flammability>0.4</Flammability>
+      <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.27</ArmorRating_Heat>
+      <Insulation_Cold>2</Insulation_Cold>
+      <Insulation_Heat>1</Insulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <BonesingerWorkSpeed>0.50</BonesingerWorkSpeed>
+    </equippedStatOffsets>
+    <generateCommonality>0.1</generateCommonality>
+    <smeltable>false</smeltable>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Pawn/Apparel/BonesingerHelmet/BonesingerHelmet</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>ExoditeBonesingerApparel</li>
+      </tags>
+    </apparel>
+    <tradeTags>
+      <li>BonesingerEquipment</li>
+    </tradeTags>
+	<comps>
+	  <li Class = "CompProperties_SelfhealHitpoints">
+		<ticksPerHeal>14000</ticksPerHeal>
+	  </li>
+	</comps>
+  </ThingDef>
+  
+  <ThingDef ParentName="HatBase">
+    <defName>Apparel_ExSimpleHelmet</defName>
+    <label>simple helmet</label>
+    <description>A helmet made entirely of psychoplastics. Provides good head protection.</description>
+    <graphicData>
+      <texPath>Pawn/Apparel/SimpleHelmet/SimpleHelmet</texPath>  <!-- Надо поменять текстуру -->
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconScale>1</uiIconScale>
+	<tickerType>Long</tickerType>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <MarketValue>600</MarketValue>
+      <Mass>2.0</Mass>
+      <Flammability>0.4</Flammability>
+      <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.27</ArmorRating_Heat>
+      <Insulation_Cold>2</Insulation_Cold>
+      <Insulation_Heat>1</Insulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <smeltable>false</smeltable>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Pawn/Apparel/SimpleHelmet/SimpleHelmet</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>ExoditeSpecialMilitaryApparel</li>
+      </tags>
+	  <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <tradeTags>
+      <li>Ex_Armor</li>
+    </tradeTags>
+	<comps>
+	  <li Class = "CompProperties_SelfhealHitpoints">
+		<ticksPerHeal>14000</ticksPerHeal>
+	  </li>
+	</comps>
+  </ThingDef>
+  
+</Defs>

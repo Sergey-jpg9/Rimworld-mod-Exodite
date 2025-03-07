@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--Hediff_MagicDef.xml ( -->
+  <BonesingerDef.label>Костопев</BonesingerDef.label>
+  <BonesingerDef.description>Пешка может использовать свои способности, чтобы создавать из ничего материал, известный как психокость. Из него можно сделать очень многое - от простых инструментов и одежды до оружия и строений. Среди ушедших этой группы изделия костопевов используются только при охоте на опасную добычу.</BonesingerDef.description>
+  <BonesingerDef.descriptionShort>Данный хедифф показывает, что пешка является костопевом - магом-ремесленником-строителем космических эльфов.</BonesingerDef.descriptionShort>
+  
+  <WarlockDef.label>Колдун</WarlockDef.label>
+  <WarlockDef.description>Пешка может использовать свои магические силы для боевых действий: наложить боевую маску на союзников, ударить молнией противников и перехватывать входящие пули и заклинания. Среди ушедших этой группы колдуны используются только против инопланетных вторженцев и в гражданских войнах.</WarlockDef.description>
+  <WarlockDef.descriptionShort>Данный хедифф показывает, что пешка является колдуном - боевым магом.</WarlockDef.descriptionShort>
+  
+  <DoctorDef.label>Жрец Иши</DoctorDef.label>
+  <DoctorDef.description>Пешка может использовать свои способности для лечения живых существ. Среди ушедших этой группы жрецы Иши играют главенствующую роль в управлении племенем.</DoctorDef.description>
+  <DoctorDef.descriptionShort>Данный хедифф показывает, что пешка является жрецом Иши - лекарем, способным быстро лечить как растения, так и животных.</DoctorDef.descriptionShort>
+  <!--Hediff_MagicDef.xml ) -->
+  
+  <!--HediffDefs.xml ( -->
+  <KhaineMaskEffect.label>Боевая маска</KhaineMaskEffect.label>
+  <KhaineMaskEffect.description>Боевая маска - особое состояние сознания, в ходе которого носитель примеряет на себя личность Кхейна, бога войны.</KhaineMaskEffect.description>
+  <KhaineMaskEffect.labelNoun>Боевая маска</KhaineMaskEffect.labelNoun>
+  
+  <PsychicBloodFilter.label>Магическая фильтрация крови</PsychicBloodFilter.label>
+  <PsychicBloodFilter.description>Разгонет кровь в жилах, заставляя ее течь быстрее. Помогает печени пациента в работе. Также значительно ускоряет выход крови из открытых ран. Болезненно.</PsychicBloodFilter.description>
+  
+  <MutationLimbInjury.label>Повреждение конечности</MutationLimbInjury.label>
+  <MutationLimbInjury.description>Данная часть тела была сильно повреждена воздействием варпа. Можно ампутировать или вылечить люцифериумом.</MutationLimbInjury.description>
+  <MutationLimbInjury.stages.0.label>слабое</MutationLimbInjury.stages.0.label>
+  <MutationLimbInjury.stages.1.label>обычное</MutationLimbInjury.stages.1.label>
+  <MutationLimbInjury.stages.2.label>повреждение</MutationLimbInjury.stages.2.label>
+  <MutationLimbInjury.stages.3.label>сильное</MutationLimbInjury.stages.3.label>
+  <MutationLimbInjury.stages.4.label>болезненное</MutationLimbInjury.stages.4.label>
+  <MutationLimbInjury.stages.5.label>очень серьезное</MutationLimbInjury.stages.5.label>
+  
+  <Crystallisation_1stage.label>кристаллизация 1 фаза</Crystallisation_1stage.label>
+  <Crystallisation_1stage.description>Часть тела медленно превращается в кристалл.</Crystallisation_1stage.description>
+  
+  <Crystallisation_2stage.label>кристаллизация 2 фаза</Crystallisation_2stage.label>
+  <Crystallisation_2stage.description>Часть тела быстро превращается в кристалл.</Crystallisation_2stage.description>
+  
+  <SynchronizeWeapon_Ranged.label>синхронизация</SynchronizeWeapon_Ranged.label>
+  <SynchronizeWeapon_Ranged.description>Оружие психически синхронизировано с владельцем и помогает ему наводиться на цель.</SynchronizeWeapon_Ranged.description>
+  
+  <SynchronizeWeapon_Melee.label>синхронизация</SynchronizeWeapon_Melee.label>
+  <SynchronizeWeapon_Melee.description>Оружие психически синхронизировано с владельцем и помогает ему наводиться на цель.</SynchronizeWeapon_Melee.description>
+  
+  <HunterRuneHediff.label>эффект руны охотника</HunterRuneHediff.label>
+  <HunterRuneHediff.description>Увеличивает точность и скорость, но руны разрушаются со временем.</HunterRuneHediff.description>
+  
+  <Sleeping.label>спит</Sleeping.label>
+  <Sleeping.description>Спит.</Sleeping.description>
+  
+  <DragonArmor_Dakotaraptor.label>Броня из психокости</DragonArmor_Dakotaraptor.label>
+  <DragonArmor_Dakotaraptor.description>Броня из психокости для вашего динозавра.</DragonArmor_Dakotaraptor.description>
+  
+  <DragonArmor_Utahraptor.label>Броня из психокости(Ютараптор)</DragonArmor_Utahraptor.label>
+  <DragonArmor_Utahraptor.description>Броня из психокости для вашего динозавра.</DragonArmor_Utahraptor.description>
+  
+  <GyrinxEffect.label>Эффект гиринкса</GyrinxEffect.label>
+  <GyrinxEffect.description>Гиринкс помогает лучше колдовать своему двуногому товарищу.</GyrinxEffect.description>
+  <!--HediffDefs.xml ) -->
+  
+  <!-- BodyOartHediffs.xml ( -->
+  <EldarEye.label>Глаз</EldarEye.label>
+  <EldarEye.description>...</EldarEye.description>
+  
+  <EldarLeg.label>Нога</EldarLeg.label>
+  <EldarLeg.description>...</EldarLeg.description>
+  
+  <EldarEar.label>Ухо</EldarEar.label>
+  <EldarEar.description>...</EldarEar.description>
+  
+  <AeldariHediffGiver.label>служебный хедифф</AeldariHediffGiver.label>
+  <AeldariHediffGiver.description>Скрытый хедифф, который устанавливает новые части тела. Позже исчезнет.</AeldariHediffGiver.description>
+  
+  <WarlockHediffGiver.label>служебный хедифф</WarlockHediffGiver.label>
+  <WarlockHediffGiver.description>Скрытый хедифф, который выдает способности колдуна. Позже исчезнет.</WarlockHediffGiver.description>
+  
+  <PriestHediffGiver.label>служебный хедифф</PriestHediffGiver.label>
+  <PriestHediffGiver.description>Скрытый хедифф, который выдает способности жреца. Позже исчезнет.</PriestHediffGiver.description>
+  
+  <BonesingerHediffGiver.label>служебный хедифф</BonesingerHediffGiver.label>
+  <BonesingerHediffGiver.description>Скрытый хедифф, который выдает способности костопева. Позже исчезнет.</BonesingerHediffGiver.description>
+  
+  <!-- BodyOartHediffs.xml ) -->
+</LanguageData>

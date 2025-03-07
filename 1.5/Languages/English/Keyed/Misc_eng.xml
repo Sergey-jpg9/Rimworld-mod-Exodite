@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Rituals translations-->
+	<RitualTargetMainRuneNotEnoughGrass>There are not enough {0} soul herbs to perform the ritual.</RitualTargetMainRuneNotEnoughGrass>
+	<RitualTargetMainRuneNoPawnsWithRunicFocus>There are no pawns in your settlement with the meditation type: rune.</RitualTargetMainRuneNoPawnsWithRunicFocus>
+	<RitualTargetMainRuneNoDoctorsInColony>There is no priest of Isha in your settlement.</RitualTargetMainRuneNoDoctorsInColony>
+	<RitualTargetMainRuneNoWarlocksInColony>There is no warlock in your settlement.</RitualTargetMainRuneNoWarlocksInColony>
+	<RitualTargetMainRuneNoPawnsToLink>There are no suitable pawns in your settlement.</RitualTargetMainRuneNoPawnsToLink>
+	<RitualTechnologyIsNotFinished>This technology has not been discovered yet.</RitualTechnologyIsNotFinished>
+	
+	<!--Rituals psylink-->
+	<P_RitualTargetMainRuneInfo>main rune</P_RitualTargetMainRuneInfo>
+	<Pl_MainRuneExplanationBase>The more participants there are in the binding ritual, the greater its power: The ritual will take less time, and the soul herbs will grow more.\n\n With such a number of participants({0}), you will collect {1} soul herbs.</Pl_MainRuneExplanationBase>
+	<P_LetterTextLinkingRitualCompleted>PAWN has completed the linking ritual with LINKABLE.\n\n He has improved his psi connection, which now allows him to use new psi abilities.</P_LetterTextLinkingRitualCompleted>
+	<!-- Rituals psylink -->
+	
+	<!--Rituals warlock-->
+	<WR_RitualTargetMainRuneInfo>main rune</WR_RitualTargetMainRuneInfo>
+	<Warlock_ExplanationBase>The more participants there are in the binding ritual, the greater its power: The ritual will take less time, and the soul herbs will grow more.\n\n With such a number of participants({0}), you will collect {1} soul herbs.</Warlock_ExplanationBase>
+	<WR_LetterTextRitualCompleted>PAWN completed the ritual with LINKABLE.\n\n He received the psi abilities of a sorcerer - a combat mage of support. This ability has 4 levels. The level can be increased with the help of a ritual on the main rune. Each level, in addition to passive character enhancement, adds new abilities: \n(1)Psycast "battle mask" \n(2)Psycast "Lightning Strike" (has problems) \n(3) Increasing the "Consciousness" parameter \n (4) The ability "Psi shield" (useless so far, because it intercepts only spells)</WR_LetterTextRitualCompleted>
+	<WR_LetterLabelRitualCompleted>The ritual is complete.</WR_LetterLabelRitualCompleted>
+	<!--Rituals warlock-->
+	
+	<!--Rituals doctor-->
+	<DR_RitualTargetMainRuneInfo>main rune</DR_RitualTargetMainRuneInfo>
+	<Doctor_ExplanationBase>The more participants there are in the binding ritual, the greater its power: The ritual will take less time, and the soul herbs will grow more.\n\n With such a number of participants({0}), you will collect {1} soul herbs.</Doctor_ExplanationBase>
+	<DR_LetterTextRitualCompleted>PAWN completed the ritual with LINKABLE.\n\n He received the psi abilities of the priest Ishi, a healer and a plant breeder. This ability has 4 levels. The level can be increased with the help of a ritual on the main rune. Each level, in addition to passive character enhancement, adds new abilities: \n(1)Psycast "Treatment of plants" \n(2)Psycast "Acceleration of blood" \n(3) Increase in the parameter "Consciousness" \n (4) Psycast "Treatment"</DR_LetterTextRitualCompleted>
+	<DR_LetterLabelRitualCompleted>The ritual is complete.</DR_LetterLabelRitualCompleted>
+	<!--Rituals doctor-->
+	
+	<!--Rituals bonesinger-->
+	<BR_RitualTargetMainRuneInfo>main rune</BR_RitualTargetMainRuneInfo>
+	<Bonesinger_ExplanationBase>The more participants there are in the binding ritual, the greater its power: The ritual will take less time, and the soul herbs will grow more.\n\n With such a number of participants({0}), you will collect {1} soul herbs.</Bonesinger_ExplanationBase>
+	<BR_LetterTextRitualCompleted>PAWN completed the ritual with LINKABLE.\n\n He received the psi abilities of kostopev, the magical craftsman aeldari. This ability has 4 levels. The level can be increased with the help of a ritual on the main rune. Each level, in addition to passive performance enhancement, adds the ability to create new items. The level of ability required to create is indicated in the recipe description.</BR_LetterTextRitualCompleted>
+	<BR_LetterLabelRitualCompleted>The ritual is complete.</BR_LetterLabelRitualCompleted>
+	<!--Rituals bonesinger-->
+	
+	<!--Rituals remove magic-->
+	<RM_RitualTargetMainRuneInfo>main rune</RM_RitualTargetMainRuneInfo>
+	<RemoveMagic_ExplanationBase>The more participants there are in the binding ritual, the greater its power: The ritual will take less time, and the soul herbs will grow more.\n\n With such a number of participants({0}), you will collect {1} soul herbs.</RemoveMagic_ExplanationBase>
+	<RM_LetterTextRitualCompleted>PAWN completed the ritual with LINKABLE.\n\n He blocked his psi connection.</RM_LetterTextRitualCompleted>
+	<RM_LetterLabelRitualCompleted>The ritual is complete.</RM_LetterLabelRitualCompleted>
+	<!--Rituals remove magic-->
+	
+	<!--Rituals upgrade magic-->
+	<UM_RitualTargetMainRuneInfo>main rune</UM_RitualTargetMainRuneInfo>
+	<UpgradeMagic_ExplanationBase>The more participants there are in the binding ritual, the greater its power: The ritual will take less time, and the soul herbs will grow more.\n\n With such a number of participants({0}), you will collect {1} soul herbs.</UpgradeMagic_ExplanationBase>
+	<UM_LetterTextRitualCompleted>PAWN has completed the linking ritual with LINKABLE.\n\n He has improved his psi connection, which now allows him to use new psi abilities.</UM_LetterTextRitualCompleted>
+	<UM_LetterLabelRitualCompleted>The ritual is complete.</UM_LetterLabelRitualCompleted>
+	<!--Rituals upgrade magic-->
+	
+	<!-- Rituals ash to plants -->
+	<AP_RitualTargetMainRuneInfo>main rune</AP_RitualTargetMainRuneInfo>
+	<AshToPlants_ExplanationBase>The more participants there are in the binding ritual, the greater its power: The ritual will take less time, and the soul herbs will grow more.\n\n With such a number of participants({0}), you will collect {1} soul herbs.</AshToPlants_ExplanationBase>
+	<AP_LetterTextRitualCompleted>PAWN completed the ritual with LINKABLE.\n\n All the ashes on the map have been transformed into plants.</AP_LetterTextRitualCompleted>
+	<AP_LetterLabelRitualCompleted>The ritual is complete.</AP_LetterLabelRitualCompleted>
+	<!--Rituals ash to plants-->
+	
+	<!-- Rituals warmask -->
+	<WM_RitualTargetMainRuneInfo>main rune</WM_RitualTargetMainRuneInfo>
+	<Warmask_ExplanationBase>The more participants there are in the binding ritual, the greater its power: The ritual will take less time, and the soul herbs will grow more.\n\n With such a number of participants({0}), you will collect {1} soul herbs.</Warmask_ExplanationBase>
+	<WM_LetterTextRitualCompleted>PAWN has completed the linking ritual with LINKABLE.\n\n All those gathered put on a combat mask and are ready for battle.</WM_LetterTextRitualCompleted>
+	<WM_LetterLabelRitualCompleted>The ritual is complete.</WM_LetterLabelRitualCompleted>
+	<!-- Rituals warmask -->
+	
+	<!--Rituals regrowth bodypart-->
+	<RB_RitualTargetMainRuneInfo>main rune</RB_RitualTargetMainRuneInfo>
+	<RegrowthBodypart_ExplanationBase>The more participants there are in the binding ritual, the greater its power: The ritual will take less time, and the soul herbs will grow more.\n\n With such a number of participants({0}), you will collect {1} soul herbs.</RegrowthBodypart_ExplanationBase>
+	<RB_LetterTextRitualCompleted>PAWN has completed the linking ritual with LINKABLE.\n\n The patient was cured. Attention, the patient may need additional medical care.</RB_LetterTextRitualCompleted>
+	<RB_LetterLabelRitualCompleted>The ritual is complete.</RB_LetterLabelRitualCompleted>
+	<!--Rituals regrowth bodypart-->
+	<!--Rituals translations-->
+	
+	<!--Jobs translations-->
+	<!--do psychic bill-->
+	<NotABonesinger>The chosen pawn is not a bonesinger.</NotABonesinger>
+	<BonesingerLevelToSmall>Bonesinger's ability level is too low (requires {0} level).</BonesingerLevelToSmall>
+	<NeedMorePsyfocus>The psifocus is too small for this recipe (requires at least {0}%)</NeedMorePsyfocus>
+	<ToManyEntropyx2>The psyheating is too high for this job.</ToManyEntropyx2>
+	<ToManyEntropy>The psyheating is too high for this job.</ToManyEntropy>
+	<!--do psychic bill-->
+	
+	<!--psychic refueling-->
+	<NotAMage>The chosen pawn is not a psycaster.</NotAMage>
+	<!--psychic refueling-->
+	<!--Jobs translations-->
+</LanguageData>

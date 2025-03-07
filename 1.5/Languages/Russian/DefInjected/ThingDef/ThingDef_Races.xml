@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- EN: human -->
+  <Aeldari.label>аэльдари</Aeldari.label>
+  <!-- EN: A baseline human, mostly unmodified by gene engineering and mostly unchanged by evolutionary pressures on non-Earth planets. -->
+  <Aeldari.description>Обычный аэльдари, практически не изменённый генной инженерией или эволюционными процессами других планет.</Aeldari.description>
+  <!-- EN: left fist -->
+  <Aeldari.tools.left_fist.label>левый кулак</Aeldari.tools.left_fist.label>
+  <!-- EN: right fist -->
+  <Aeldari.tools.right_fist.label>правый кулак</Aeldari.tools.right_fist.label>
+  <!-- EN: teeth -->
+  <Aeldari.tools.teeth.label>зубы</Aeldari.tools.teeth.label>
+  <!-- EN: head -->
+  <Aeldari.tools.head.label>голова</Aeldari.tools.head.label>
+
+</LanguageData>

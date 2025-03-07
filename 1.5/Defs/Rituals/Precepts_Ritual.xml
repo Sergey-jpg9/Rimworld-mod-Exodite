@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <PreceptDef>
+    <defName>MainRune_Precept_Psylink</defName>
+    <label>main rune linking</label>
+    <description>One exodite communicates with the gods in front of the altar. The linker meditates in front of the rune, awakening psi abilities. Others gather around and watch, adding strength to the ritual.</description>
+    <issue>Ritual</issue>
+    <preceptClass>Precept_Ritual</preceptClass>
+    <visible>false</visible>
+    <countsTowardsPreceptLimit>false</countsTowardsPreceptLimit>
+    <selectionWeight>1.0</selectionWeight>
+    <ritualPatternBase>MainRune_Pattern_Psylink</ritualPatternBase>
+    <iconPath>UI/Icons/Rituals/AnimaTreeLinking</iconPath>                 <!-- Это надо поменять-->
+    <usesIdeoVisualEffects>false</usesIdeoVisualEffects>
+    <mergeRitualGizmosFromAllIdeos>true</mergeRitualGizmosFromAllIdeos>
+    <useRepeatPenalty>false</useRepeatPenalty>
+    <showRitualFloatMenuOption>false</showRitualFloatMenuOption>
+  </PreceptDef>
+  
+  <PreceptDef>
+    <defName>MainRune_Precept_Warlock</defName>
+    <label>initiation into warlocks</label>
+    <description>One exodite communicates with Khaine in front of the altar. The linker meditates in front of the rune, awakening the warlock's psi abilities. Others gather around and watch, adding strength to the ritual.</description>
+    <issue>Ritual</issue>
+    <preceptClass>Precept_Ritual</preceptClass>
+    <visible>false</visible>
+    <countsTowardsPreceptLimit>false</countsTowardsPreceptLimit>
+    <selectionWeight>1.0</selectionWeight>
+    <ritualPatternBase>MainRune_Pattern_Warlock</ritualPatternBase>
+    <iconPath>UI/Icons/Rituals/AnimaTreeLinking</iconPath>                 <!-- Это надо поменять-->
+    <usesIdeoVisualEffects>false</usesIdeoVisualEffects>
+    <mergeRitualGizmosFromAllIdeos>true</mergeRitualGizmosFromAllIdeos>
+    <useRepeatPenalty>false</useRepeatPenalty>
+    <showRitualFloatMenuOption>false</showRitualFloatMenuOption>
+  </PreceptDef>
+  
+    <PreceptDef>
+    <defName>MainRune_Precept_Bonesinger</defName>
+    <label>initiation into bonesingers</label>
+    <description>One exodite communicates with the Waul in front of the altar. The linker meditates in front of the rune, awakening bonesinger's psi abilities. Others gather around and watch, adding strength to the ritual.</description>
+    <issue>Ritual</issue>
+    <preceptClass>Precept_Ritual</preceptClass>
+    <visible>false</visible>
+    <countsTowardsPreceptLimit>false</countsTowardsPreceptLimit>
+    <selectionWeight>1.0</selectionWeight>
+    <ritualPatternBase>MainRune_Pattern_Bonesinger</ritualPatternBase>
+    <iconPath>UI/Icons/Rituals/AnimaTreeLinking</iconPath>                 <!-- Это надо поменять-->
+    <usesIdeoVisualEffects>false</usesIdeoVisualEffects>
+    <mergeRitualGizmosFromAllIdeos>true</mergeRitualGizmosFromAllIdeos>
+    <useRepeatPenalty>false</useRepeatPenalty>
+    <showRitualFloatMenuOption>false</showRitualFloatMenuOption>
+  </PreceptDef>
+  
+    <PreceptDef>
+    <defName>MainRune_Precept_Doctor</defName>
+    <label>initiation into priests</label>
+    <description>One exodite communicates with Isha in front of the altar. The linker meditates in front of the rune, awakening the psychic abilities of the priest. Others gather around and watch, adding strength to the ritual.</description>
+    <issue>Ritual</issue>
+    <preceptClass>Precept_Ritual</preceptClass>
+    <visible>false</visible>
+    <countsTowardsPreceptLimit>false</countsTowardsPreceptLimit>
+    <selectionWeight>1.0</selectionWeight>
+    <ritualPatternBase>MainRune_Pattern_Doctor</ritualPatternBase>
+    <iconPath>UI/Icons/Rituals/AnimaTreeLinking</iconPath>                 <!-- Это надо поменять-->
+    <usesIdeoVisualEffects>false</usesIdeoVisualEffects>
+    <mergeRitualGizmosFromAllIdeos>true</mergeRitualGizmosFromAllIdeos>
+    <useRepeatPenalty>false</useRepeatPenalty>
+    <showRitualFloatMenuOption>false</showRitualFloatMenuOption>
+  </PreceptDef>
+  
+  <PreceptDef>
+    <defName>MainRune_Precept_RemoveMagic</defName>
+    <label>blocking magic</label>
+    <description>One exodite communicates with the gods in front of the altar. The linker meditates in front of the rune, blocking his psi abilities (not psylink). Others gather around and watch, adding strength to the ritual.</description>
+    <issue>Ritual</issue>
+    <preceptClass>Precept_Ritual</preceptClass>
+    <visible>false</visible>
+    <countsTowardsPreceptLimit>false</countsTowardsPreceptLimit>
+    <selectionWeight>1.0</selectionWeight>
+    <ritualPatternBase>MainRune_Pattern_RemoveMagic</ritualPatternBase>
+    <iconPath>UI/Icons/Rituals/AnimaTreeLinking</iconPath>                 <!-- Это надо поменять-->
+    <usesIdeoVisualEffects>false</usesIdeoVisualEffects>
+    <mergeRitualGizmosFromAllIdeos>true</mergeRitualGizmosFromAllIdeos>
+    <useRepeatPenalty>false</useRepeatPenalty>
+    <showRitualFloatMenuOption>false</showRitualFloatMenuOption>
+  </PreceptDef>
+  
+  <PreceptDef>
+    <defName>MainRune_Precept_UpgradeMagic</defName>
+    <label>improving magic</label>
+    <description>One exodite communicates with the gods in front of the altar. The linker meditates in front of the rune, improving his psi abilities (not psylink). Others gather around and watch, adding strength to the ritual.</description>
+    <issue>Ritual</issue>
+    <preceptClass>Precept_Ritual</preceptClass>
+    <visible>false</visible>
+    <countsTowardsPreceptLimit>false</countsTowardsPreceptLimit>
+    <selectionWeight>1.0</selectionWeight>
+    <ritualPatternBase>MainRune_Pattern_UpgradeMagic</ritualPatternBase>
+    <iconPath>UI/Icons/Rituals/AnimaTreeLinking</iconPath>                 <!-- Это надо поменять-->
+    <usesIdeoVisualEffects>false</usesIdeoVisualEffects>
+    <mergeRitualGizmosFromAllIdeos>true</mergeRitualGizmosFromAllIdeos>
+    <useRepeatPenalty>false</useRepeatPenalty>
+    <showRitualFloatMenuOption>false</showRitualFloatMenuOption>
+  </PreceptDef>
+  
+  <PreceptDef>
+    <defName>MainRune_Precept_AshToPlants</defName>
+    <label>Ash to plants</label>
+    <description>The priest of Isha stands in front of the altar and appeals to his goddess to turn the ashes into living plants (plants already growing on the ashes will grow faster). Others gather around and watch, adding strength to the ritual.</description>
+    <issue>Ritual</issue>
+    <preceptClass>Precept_Ritual</preceptClass>
+    <visible>false</visible>
+    <countsTowardsPreceptLimit>false</countsTowardsPreceptLimit>
+    <selectionWeight>1.0</selectionWeight>
+    <ritualPatternBase>MainRune_Pattern_AshToPlants</ritualPatternBase>
+    <iconPath>UI/Icons/Rituals/AnimaTreeLinking</iconPath>                 <!-- Это надо поменять-->
+    <usesIdeoVisualEffects>false</usesIdeoVisualEffects>
+    <mergeRitualGizmosFromAllIdeos>true</mergeRitualGizmosFromAllIdeos>
+    <useRepeatPenalty>false</useRepeatPenalty>
+    <showRitualFloatMenuOption>false</showRitualFloatMenuOption>
+  </PreceptDef>
+  
+  <PreceptDef>
+    <defName>MainRune_Precept_RegrowthBodypart</defName>
+    <label>regrowthing bodypart</label>
+    <description>The priest of Isha stands in front of the altar and appeals to his goddess to help heal the patient (grow 1 missing limb, heal 1 scar). Others gather around and watch, adding strength to the ritual.</description>
+    <issue>Ritual</issue>
+    <preceptClass>Precept_Ritual</preceptClass>
+    <visible>false</visible>
+    <countsTowardsPreceptLimit>false</countsTowardsPreceptLimit>
+    <selectionWeight>1.0</selectionWeight>
+    <ritualPatternBase>MainRune_Pattern_RegrowthBodypart</ritualPatternBase>
+    <iconPath>UI/Icons/Rituals/AnimaTreeLinking</iconPath>                 <!-- Это надо поменять-->
+    <usesIdeoVisualEffects>false</usesIdeoVisualEffects>
+    <mergeRitualGizmosFromAllIdeos>true</mergeRitualGizmosFromAllIdeos>
+    <useRepeatPenalty>false</useRepeatPenalty>
+    <showRitualFloatMenuOption>false</showRitualFloatMenuOption>
+  </PreceptDef>
+  
+  <PreceptDef>
+    <defName>MainRune_Precept_Warmask</defName>
+    <label>Warmask</label>
+    <description>The warlock stands in front of the altar and puts on a "warmask" for all those gathered, making the warriors a little more bloodthirsty. Others gather around and watch, adding strength to the ritual.</description>
+    <issue>Ritual</issue>
+    <preceptClass>Precept_Ritual</preceptClass>
+    <visible>false</visible>
+    <countsTowardsPreceptLimit>false</countsTowardsPreceptLimit>
+    <selectionWeight>1.0</selectionWeight>
+    <ritualPatternBase>MainRune_Pattern_Warmask</ritualPatternBase>
+    <iconPath>UI/Icons/Rituals/AnimaTreeLinking</iconPath>                 <!-- Это надо поменять-->
+    <usesIdeoVisualEffects>false</usesIdeoVisualEffects>
+    <mergeRitualGizmosFromAllIdeos>true</mergeRitualGizmosFromAllIdeos>
+    <useRepeatPenalty>false</useRepeatPenalty>
+    <showRitualFloatMenuOption>false</showRitualFloatMenuOption>
+  </PreceptDef>
+</Defs>

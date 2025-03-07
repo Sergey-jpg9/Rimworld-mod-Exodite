@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Apparel_ArmoredPants.label>Бронированые штаны</Apparel_ArmoredPants.label>
+  <Apparel_ArmoredPants.description>Обычные штаны из ткани или кожи, к которым пришиты множество пластинок из психопластика, образуя чешую наподобие рыбьей. Обеспечивает хорошую защиту и не стесняет движений, но прочность сильно зависит от основы, а создание трудоемко.</Apparel_ArmoredPants.description>
+  
+  <Apparel_ArmoredVest.label>Чешуйчатая броня</Apparel_ArmoredVest.label>
+  <Apparel_ArmoredVest.description>Жилет из ткани или кожи, к которому пришиты множество пластинок из психопластика, образуя чешую наподобие рыбьей. Обеспечивает хорошую защиту и не стесняет движений, но прочность сильно зависит от основы, а создание трудоемко.</Apparel_ArmoredVest.description>
+ 
+  <Apparel_BonesingerHelmet.label>Шлем костопева</Apparel_BonesingerHelmet.label>
+  <Apparel_BonesingerHelmet.description>Шлем костопева, целиком выполненный из психопластиков. Ускоряет работу.</Apparel_BonesingerHelmet.description>
+  
+  <Apparel_SimpleHelmet.label>Простой шлем</Apparel_SimpleHelmet.label>
+  <Apparel_SimpleHelmet.description>Шлем, целиком выполненный из психопластиков. Обеспечивает хорошую защиту головы.</Apparel_SimpleHelmet.description>
+  
+</LanguageData>

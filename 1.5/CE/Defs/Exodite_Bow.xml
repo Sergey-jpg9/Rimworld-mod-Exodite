@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingCategoryDef>
+		<defName>AmmoExoditeArrows</defName>
+		<label>exodite arrows</label>
+		<parent>AmmoNeolithic</parent>
+		<iconPath>UI/Icons/ThingCategories/CaliberArrow</iconPath>
+	</ThingCategoryDef>
+
+	<!-- ==================== AmmoSet ========================== -->
+
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_ExoditeArrow</defName>
+		<label>exodite arrows</label>
+		<ammoTypes>
+			<Ammo_ExoditeArrow_Stone>Projectile_ExoditeArrow_Stone</Ammo_ExoditeArrow_Stone>
+			<Ammo_ExoditeArrow_Steel>Projectile_ExoditeArrow_Steel</Ammo_ExoditeArrow_Steel>
+			<Ammo_ExoditeArrow_Plasteel>Projectile_ExoditeArrow_Plasteel</Ammo_ExoditeArrow_Plasteel>
+			<Ammo_ExoditeArrow_Psybone>Projectile_ExoditeArrow_Psybone</Ammo_ExoditeArrow_Psybone>
+			<Ammo_ExoditeArrow_Venom>Projectile_ExoditeArrow_Venom</Ammo_ExoditeArrow_Venom>
+			<Ammo_ExoditeArrow_Flame>Projectile_ExoditeArrow_Flame</Ammo_ExoditeArrow_Flame>
+		</ammoTypes>
+	</CombatExtended.AmmoSetDef>
+
+	<!-- ==================== Ammo ========================== -->
+
+	<ThingDef Class="CombatExtended.AmmoDef" Name="AmmoExoditeArrowBase" ParentName="NeolithicAmmoBase" Abstract="True">
+		<description>Heavy arrow designed to be fired from a great bow.</description>
+		<statBases>
+			<Mass>0.065</Mass>
+			<Bulk>0.43</Bulk>
+			<Flammability>1</Flammability>
+		</statBases>
+		<thingCategories>
+			<li>AmmoExoditeArrows</li>
+		</thingCategories>
+		<stackLimit>1000</stackLimit>
+		<tradeTags>
+			<!--<li>CE_PreIndustrialAmmo</li>-->
+			<li>CE_AutoEnableTrade</li>
+			<li>CE_AutoEnableCrafting_FueledSmithy</li>
+			<li>CE_AutoEnableCrafting_ElectricSmithy</li>
+		</tradeTags>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoExoditeArrowBase">
+		<defName>Ammo_ExoditeArrow_Stone</defName>
+		<label>great arrow (stone)</label>
+		<graphicData>
+			<texPath>Things/Ammo/Neolithic/Arrow/Stone</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<Mass>0.045</Mass>
+			<MarketValue>0.26</MarketValue>
+		</statBases>
+		<ammoClass>StoneArrow</ammoClass>
+		<tradeTags>
+			<li>CE_AutoEnableCrafting_CraftingSpot</li>
+		</tradeTags>
+		<generateAllowChance>0.1</generateAllowChance>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoExoditeArrowBase">
+		<defName>Ammo_ExoditeArrow_Steel</defName>
+		<label>great arrow (steel)</label>
+		<graphicData>
+			<texPath>Things/Ammo/Neolithic/Arrow/Steel</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>0.53</MarketValue>
+		</statBases>
+		<ammoClass>SteelArrow</ammoClass>
+		<generateAllowChance>0.2</generateAllowChance>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoExoditeArrowBase">
+		<defName>Ammo_ExoditeArrow_Plasteel</defName>
+		<label>great arrow (plasteel)</label>
+		<graphicData>
+			<texPath>Things/Ammo/Neolithic/Arrow/Plasteel</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<Mass>0.05</Mass>
+			<MarketValue>2.0</MarketValue>
+		</statBases>
+		<ammoClass>PlasteelArrow</ammoClass>
+		<generateAllowChance>0.2</generateAllowChance>
+	</ThingDef>
+	
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoExoditeArrowBase">
+		<defName>Ammo_ExoditeArrow_Psybone</defName>
+		<label>great arrow (psybone)</label>
+		<graphicData>
+			<texPath>Things/Ammo/Neolithic/Arrow/Plasteel</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<Mass>0.05</Mass>
+			<MarketValue>2.0</MarketValue>
+		</statBases>
+		<ammoClass>PlasteelArrow</ammoClass>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoExoditeArrowBase">
+		<defName>Ammo_ExoditeArrow_Venom</defName>
+		<label>great arrow (venom)</label>
+		<graphicData>
+			<texPath>Things/Ammo/Neolithic/Arrow/Venom</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>2.58</MarketValue>
+		</statBases>
+		<ammoClass>VenomArrow</ammoClass>
+		<generateAllowChance>0</generateAllowChance>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoExoditeArrowBase">
+		<defName>Ammo_ExoditeArrow_Flame</defName>
+		<label>great arrow (flame)</label>
+		<graphicData>
+			<texPath>Things/Ammo/Neolithic/Arrow/Flame</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<Mass>0.05</Mass>
+			<MarketValue>1.16</MarketValue>
+		</statBases>
+		<ammoClass>FlameArrow</ammoClass>
+		<generateAllowChance>0.1</generateAllowChance>
+	</ThingDef>
+
+	<!-- ================== Projectiles ================== -->
+
+	<ThingDef Name="BaseExoditeArrowProjectile" ParentName="BaseBulletCE" Abstract="true">
+		<graphicData>
+			<texPath>Things/Projectile/Arrow_Small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>Arrow</damageDef>
+			<speed>30</speed>
+		</projectile>
+	</ThingDef>
+
+	<!-- The amount of arrows usable over the ammo lifetime for each resource cost is equal to
+		[r / (1 - x)];
+			x = preExplosionSpawnChance,
+			r = resource cost. -->
+
+	<ThingDef ParentName="BaseExoditeArrowProjectile">
+		<defName>Projectile_ExoditeArrow_Stone</defName>
+		<label>exodite arrow (stone)</label>
+		<graphicData>
+			<texPath>Things/Projectile/Arrows/Arrow_Stone</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<speed>24</speed>
+			<damageAmountBase>9</damageAmountBase>
+			<armorPenetrationBlunt>1.46</armorPenetrationBlunt>
+			<armorPenetrationSharp>1</armorPenetrationSharp>
+			<preExplosionSpawnChance>0.2</preExplosionSpawnChance><!-- 12.5 arrows per resource -->
+			<preExplosionSpawnThingDef>Ammo_ExoditeArrow_Stone</preExplosionSpawnThingDef>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseExoditeArrowProjectile">
+		<defName>Projectile_ExoditeArrow_Steel</defName>
+		<label>exodite arrow (steel)</label>
+		<graphicData>
+			<texPath>Things/Projectile/Arrows/Arrow_Steel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageAmountBase>10</damageAmountBase>
+			<armorPenetrationBlunt>3.18</armorPenetrationBlunt>
+			<armorPenetrationSharp>2</armorPenetrationSharp>
+			<preExplosionSpawnChance>0.6</preExplosionSpawnChance><!-- 25 arrows per resource -->
+			<preExplosionSpawnThingDef>Ammo_ExoditeArrow_Steel</preExplosionSpawnThingDef>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseExoditeArrowProjectile">
+		<defName>Projectile_ExoditeArrow_Plasteel</defName>
+		<label>exodite arrow (plasteel)</label>
+		<graphicData>
+			<texPath>Things/Projectile/Arrows/Arrow_Plasteel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<speed>31</speed>
+			<damageAmountBase>8</damageAmountBase>
+			<armorPenetrationBlunt>2.96</armorPenetrationBlunt>
+			<armorPenetrationSharp>3</armorPenetrationSharp>
+			<preExplosionSpawnChance>0.75</preExplosionSpawnChance><!-- 40 arrows per resource -->
+			<preExplosionSpawnThingDef>Ammo_ExoditeArrow_Plasteel</preExplosionSpawnThingDef>
+		</projectile>
+	</ThingDef>
+	
+	<ThingDef ParentName="BaseExoditeArrowProjectile">
+		<defName>Projectile_ExoditeArrow_Psybone</defName>
+		<label>exodite arrow (psybone)</label>
+		<graphicData>
+			<texPath>Things/Projectile/Arrows/Arrow_Plasteel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<speed>31</speed>
+			<damageAmountBase>9</damageAmountBase>
+			<armorPenetrationBlunt>5.5</armorPenetrationBlunt>
+			<armorPenetrationSharp>7</armorPenetrationSharp>
+			<preExplosionSpawnChance>0.8</preExplosionSpawnChance><!-- 50 arrows per resource -->
+			<preExplosionSpawnThingDef>Ammo_ExoditeArrow_Psybone</preExplosionSpawnThingDef>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseExoditeArrowProjectile">
+		<defName>Projectile_ExoditeArrow_Venom</defName>
+		<label>exodite arrow (venom)</label>
+		<graphicData>
+			<texPath>Things/Projectile/Arrows/Arrow_Venom</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>ArrowVenom</damageDef>
+			<damageAmountBase>10</damageAmountBase>
+			<armorPenetrationBlunt>3.18</armorPenetrationBlunt>
+			<armorPenetrationSharp>2</armorPenetrationSharp>
+			<preExplosionSpawnChance>0.6</preExplosionSpawnChance><!-- 25 arrows per resource -->
+			<preExplosionSpawnThingDef>Ammo_ExoditeArrow_Steel</preExplosionSpawnThingDef>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseExoditeArrowProjectile">
+		<defName>Projectile_ExoditeArrow_Flame</defName>
+		<label>exodite arrow (flame)</label>
+		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+		<graphicData>
+			<texPath>Things/Projectile/Arrows/Arrow_Flame</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<explosionRadius>0.2</explosionRadius>
+			<damageDef>ArrowFire</damageDef>
+			<damageAmountBase>4</damageAmountBase>
+			<preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+			<preExplosionSpawnChance>0.16</preExplosionSpawnChance>
+		</projectile>
+	</ThingDef>
+
+	<!-- ==================== Recipes ========================== -->
+
+	<RecipeDef ParentName="AmmoRecipeNeolithicBase">
+		<defName>MakeAmmo_ExoditeArrow_Stone</defName>
+		<label>make stone exodie arrows x10</label>
+		<description>Craft 10 stone exodite arrows.</description>
+		<jobString>Making stone exodite arrows.</jobString>
+		<workAmount>300</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>WoodLog</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_ExoditeArrow_Stone>10</Ammo_ExoditeArrow_Stone>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeNeolithicBase">
+		<defName>MakeAmmo_ExoditeArrow_Steel</defName>
+		<label>make steel exodite arrows x10</label>
+		<description>Craft 10 steel exodite arrows.</description>
+		<jobString>Making steel exodite arrows.</jobString>
+		<workAmount>400</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>WoodLog</li>
+				<li>Steel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_ExoditeArrow_Steel>10</Ammo_ExoditeArrow_Steel>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeNeolithicBase">
+		<defName>MakeAmmo_ExoditeArrow_Plasteel</defName>
+		<label>make plasteel exodite arrows x10</label>
+		<description>Craft 10 plasteel exodite arrows.</description>
+		<jobString>Making plasteel exodite arrows.</jobString>
+		<workAmount>1400</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>WoodLog</li>
+				<li>Plasteel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_ExoditeArrow_Plasteel>10</Ammo_ExoditeArrow_Plasteel>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeNeolithicBase">
+		<defName>MakeAmmo_ExoditeArrow_Venom</defName>
+		<label>make venom exodite arrows x10</label>
+		<description>Craft 10 venom exodite arrows.</description>
+		<jobString>Making venom exodite arrows.</jobString>
+		<workAmount>1600</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineHerbal</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>WoodLog</li>
+				<li>Steel</li>
+				<li>MedicineHerbal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_ExoditeArrow_Venom>10</Ammo_ExoditeArrow_Venom>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeNeolithicBase">
+		<defName>MakeAmmo_ExoditeArrow_Flame</defName>
+		<label>make flame exodite arrows x10</label>
+		<description>Craft 10 flame exodite arrows.</description>
+		<jobString>Making flame exodite arrows.</jobString>
+		<workAmount>800</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Prometheum</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>WoodLog</li>
+				<li>Steel</li>
+				<li>Prometheum</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_ExoditeArrow_Flame>10</Ammo_ExoditeArrow_Flame>
+		</products>
+	</RecipeDef>
+	
+	
+</Defs>

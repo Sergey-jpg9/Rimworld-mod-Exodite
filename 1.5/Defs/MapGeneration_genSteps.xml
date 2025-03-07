@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GenStepDef>
+    <defName>PlaceIfNeed_WebwayPortal</defName>
+    <order>601</order>
+    <genStep Class="Exodites.GenStep_PlaceIfNeed_WebwayPortal"/>
+  </GenStepDef>
+</Defs>

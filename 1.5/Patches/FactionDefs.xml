@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/FactionDef[categoryTag="Tribal" or categoryTag="Outlander" or defName="Pirate"]</xpath>
+		<value>
+		  <apparelStuffFilter>
+		    <stuffCategoriesToAllow>
+				<li>Metallic</li>
+				<li>Woody</li>
+				<li>Stony</li>
+				<li>Fabric</li>
+				<li>Leathery</li>
+			</stuffCategoriesToAllow>
+			<disallowedThingDefs>
+				<li>PsyplasticCloth</li>
+			</disallowedThingDefs>
+		  </apparelStuffFilter>
+		</value>
+	</Operation>
+</Patch>

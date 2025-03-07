@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	
+	<!-- ========== Tools ========== -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>
+			Defs/ThingDef[defName="Gun_ShurikenCatapult"]/tools
+		</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>stock</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>8</power>
+					<cooldownTime>1.55</cooldownTime>
+					<chanceFactor>1.5</chanceFactor>
+					<armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Stock</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>barrel</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>5</power>
+					<cooldownTime>2.02</cooldownTime>
+					<armorPenetrationBlunt>1.630</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>muzzle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>8</power>
+					<cooldownTime>1.55</cooldownTime>
+					<armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Bow_Exodte"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>7</power>
+					<cooldownTime>1.6</cooldownTime>
+					<armorPenetrationBlunt>0.65</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+	
+	<!-- ========== Shuriken Catapult ========== -->
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>Gun_ShurikenCatapult</defName>
+		<statBases>
+			<Mass>2.4</Mass>
+			<RangedWeapon_Cooldown>0.3</RangedWeapon_Cooldown>
+			<SightsEfficiency>1.1</SightsEfficiency>
+			<ShotSpread>0.08</ShotSpread>
+			<SwayFactor>1.33</SwayFactor>
+			<Bulk>10.03</Bulk>
+		</statBases>
+		<Properties>
+			<recoilAmount>1.50</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Bullet_Shurikens_Catapult</defaultProjectile>
+			<warmupTime>1.4</warmupTime>
+			<range>32</range>
+			<burstShotCount>10</burstShotCount>
+			<ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+			<soundCast>Shot_ChargeRifle</soundCast>
+			<soundCastTail>GunTail_Medium</soundCastTail>
+			<muzzleFlashScale>9</muzzleFlashScale>
+		</Properties>
+		<AmmoUser>
+			<magazineSize>100</magazineSize>
+			<reloadTime>4</reloadTime>
+			<ammoSet>AmmoSet_Shurikens_Catapult</ammoSet>
+		</AmmoUser>
+		<FireModes>
+			<aimedBurstShotCount>3</aimedBurstShotCount>
+			<aiUseBurstMode>TRUE</aiUseBurstMode>
+			<aiAimMode>AimedShot</aiAimMode>
+		</FireModes>
+		<weaponTags>
+			<li>CE_AI_AR</li>
+		</weaponTags>
+	</Operation>
+	
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="Gun_ShurikenCatapult"]/equippedStatOffsets/ShootingAccuracyPawn</xpath>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Gun_ShurikenCatapult"]/equippedStatOffsets</xpath>
+		<value>
+			<AimingAccuracy>-0.1</AimingAccuracy>
+		</value>
+	</Operation>
+	
+	<!-- ========== Great bow ========== -->
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>Bow_Exodte</defName>
+		<statBases>
+			<SightsEfficiency>0.85</SightsEfficiency>
+			<ShotSpread>1</ShotSpread>
+			<SwayFactor>2</SwayFactor>
+			<Bulk>5.00</Bulk>
+			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+		</statBases>
+		<Properties>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Projectile_GreatArrow_Stone</defaultProjectile>
+			<warmupTime>1.3</warmupTime>
+			<range>30</range>
+			<soundCast>Bow_Large</soundCast>
+		</Properties>
+		<AmmoUser>
+			<ammoSet>AmmoSet_ExoditeArrow</ammoSet>
+		</AmmoUser>
+		<FireModes />
+		<weaponTags>
+			<li>CE_Bow</li>
+		</weaponTags>
+		<AllowWithRunAndGun>false</AllowWithRunAndGun>
+	</Operation>
+	
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="Bow_Exodte"]/equippedStatOffsets</xpath>
+	</Operation>
+</Patch>

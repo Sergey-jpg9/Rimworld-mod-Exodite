@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!-- Rituals translations -->
+	<RitualTargetMainRuneNotEnoughGrass>Для проведения ритуала не хватает {0} травы душ.</RitualTargetMainRuneNotEnoughGrass>
+	<RitualTargetMainRuneNoPawnsWithRunicFocus>В вашем поселении нет пешек с типом медитации: рунный.</RitualTargetMainRuneNoPawnsWithRunicFocus>
+	<RitualTargetMainRuneNoDoctorsInColony>В вашем поселении нет жреца Иши.</RitualTargetMainRuneNoDoctorsInColony>
+	<RitualTargetMainRuneNoWarlocksInColony>В вашем поселении нет колдуна.</RitualTargetMainRuneNoWarlocksInColony>
+	<RitualTargetMainRuneNoPawnsToLink>В вашем поселении нет подходящих пешек.</RitualTargetMainRuneNoPawnsToLink>
+	<RitualTechnologyIsNotFinished>Данная технология еще не открыта.</RitualTechnologyIsNotFinished>
+	
+	<!-- Rituals psylink -->
+	<P_RitualTargetMainRuneInfo>главная руна</P_RitualTargetMainRuneInfo>
+	<Pl_MainRuneExplanationBase>Чем больше участников в ритуале связывания, тем больше его сила: Ритуал займет меньше времени, а травы души вырастет больше.\n\n При таком количестве участников({0}) вы сэкониомите {1} травы души.</Pl_MainRuneExplanationBase>
+	<P_LetterTextLinkingRitualCompleted>PAWN завершил ритуал связывания с LINKABLE.\n\n Он улучшил свою пси-связь, что теперь позволяет ему применять новые пси-способности.</P_LetterTextLinkingRitualCompleted>
+	
+	<!-- Rituals psylink -->
+	
+	<!-- Rituals warlock -->
+	<WR_RitualTargetMainRuneInfo>главная руна</WR_RitualTargetMainRuneInfo>
+	<Warlock_ExplanationBase>Чем больше участников в ритуале связывания, тем больше его сила: Ритуал займет меньше времени, а травы души вырастет больше.\n\n При таком количестве участников({0}) вы сэкониомите {1} травы души.</Warlock_ExplanationBase>
+	<WR_LetterTextRitualCompleted>PAWN завершил ритуал с LINKABLE.\n\n Он получил пси-способности колдуна - боевого мага поддержки. Эта способность имеет 4 уровня. Уровень можно повысить с помощью ритуала на главной руне. Каждый уровень, помимо пассивного повышения характеристик, добавляет новые способности: \n(1)Псайкаст "боевая маска" \n(2)Псайкаст "Удар молнии"(имеет проблемы) \n(3) Увеличение параметра "Сознание" \n (4) Способность "Пси-щит" (пока бесполезно, т.к. перехватывает только заклинания)</WR_LetterTextRitualCompleted>
+	<WR_LetterLabelRitualCompleted>Ритуал завершен.</WR_LetterLabelRitualCompleted>
+	<!-- Rituals warlock -->
+	
+	<!-- Rituals doctor -->
+	<DR_RitualTargetMainRuneInfo>главная руна</DR_RitualTargetMainRuneInfo>
+	<Doctor_ExplanationBase>Чем больше участников в ритуале связывания, тем больше его сила: Ритуал займет меньше времени, а травы души вырастет больше.\n\n При таком количестве участников({0}) вы сэкониомите {1} травы души.</Doctor_ExplanationBase>
+	<DR_LetterTextRitualCompleted>PAWN завершил ритуал с LINKABLE.\n\n Он получил пси-способности жреца Иши - лекаря и растениевода. Эта способность имеет 4 уровня. Уровень можно повысить с помощью ритуала на главной руне. Каждый уровень, помимо пассивного повышения характеристик, добавляет новые способности: \n(1)Псайкаст "Лечение растений" \n(2)Псайкаст "Ускорение крови" \n(3) Увеличение параметра "Сознание" \n (4) Псайкаст "Лечение"</DR_LetterTextRitualCompleted>
+	<DR_LetterLabelRitualCompleted>Ритуал завершен.</DR_LetterLabelRitualCompleted>
+	<!-- Rituals doctor -->
+	
+	<!-- Rituals bonesinger -->
+	<BR_RitualTargetMainRuneInfo>главная руна</BR_RitualTargetMainRuneInfo>
+	<Bonesinger_ExplanationBase>Чем больше участников в ритуале связывания, тем больше его сила: Ритуал займет меньше времени, а травы души вырастет больше.\n\n При таком количестве участников({0}) вы сэкониомите {1} травы души.</Bonesinger_ExplanationBase>
+	<BR_LetterTextRitualCompleted>PAWN завершил ритуал с LINKABLE.\n\n Он получил пси-способности костопева - магического ремесленника аэльдари. Эта способность имеет 4 уровня. Уровень можно повысить с помощью ритуала на главной руне. Каждый уровень, помимо пассивного повышения характеристик, добавляет возможность создавать новые предметы. Уровень способности, необходимый для создания, указан в описании рецепта.</BR_LetterTextRitualCompleted>
+	<BR_LetterLabelRitualCompleted>Ритуал завершен.</BR_LetterLabelRitualCompleted>
+	<!-- Rituals bonesinger -->
+	
+	<!-- Rituals remove magic -->
+	<RM_RitualTargetMainRuneInfo>главная руна</RM_RitualTargetMainRuneInfo>
+	<RemoveMagic_ExplanationBase>Чем больше участников в ритуале связывания, тем больше его сила: Ритуал займет меньше времени, а травы души вырастет больше.\n\n При таком количестве участников({0}) вы сэкониомите {1} травы души.</RemoveMagic_ExplanationBase>
+	<RM_LetterTextRitualCompleted>PAWN завершил ритуал с LINKABLE.\n\n Он блокировал свою пси-связь.</RM_LetterTextRitualCompleted>
+	<RM_LetterLabelRitualCompleted>Ритуал завершен.</RM_LetterLabelRitualCompleted>
+	<!-- Rituals remove magic -->
+	
+	<!-- Rituals upgrade magic -->
+	<UM_RitualTargetMainRuneInfo>главная руна</UM_RitualTargetMainRuneInfo>
+	<UpgradeMagic_ExplanationBase>Чем больше участников в ритуале связывания, тем больше его сила: Ритуал займет меньше времени, а травы души вырастет больше.\n\n При таком количестве участников({0}) вы сэкониомите {1} травы души.</UpgradeMagic_ExplanationBase>
+	<UM_LetterTextRitualCompleted>PAWN завершил ритуал связывания с LINKABLE.\n\n Он улучшил свою пси-связь, что теперь позволяет ему применять новые пси-способности.</UM_LetterTextRitualCompleted>
+	<UM_LetterLabelRitualCompleted>Ритуал завершен.</UM_LetterLabelRitualCompleted>
+	<!-- Rituals upgrade magic -->
+	
+	<!-- Rituals ash to plants -->
+	<AP_RitualTargetMainRuneInfo>главная руна</AP_RitualTargetMainRuneInfo>
+	<AshToPlants_ExplanationBase>Чем больше участников в ритуале связывания, тем больше его сила: Ритуал займет меньше времени, а травы души вырастет больше.\n\n При таком количестве участников({0}) вы сэкониомите {1} травы души.</AshToPlants_ExplanationBase>
+	<AP_LetterTextRitualCompleted>PAWN завершил ритуал с LINKABLE.\n\n Весь пепел на карте был преобразован в растения.</AP_LetterTextRitualCompleted>
+	<AP_LetterLabelRitualCompleted>Ритуал завершен.</AP_LetterLabelRitualCompleted>
+	<!-- Rituals ash to plants -->
+	
+	<!-- Rituals warmask -->
+	<WM_RitualTargetMainRuneInfo>главная руна</WM_RitualTargetMainRuneInfo>
+	<Warmask_ExplanationBase>Чем больше участников в ритуале связывания, тем больше его сила: Ритуал займет меньше времени, а травы души вырастет больше.\n\n При таком количестве участников({0}) вы сэкониомите {1} травы души.</Warmask_ExplanationBase>
+	<WM_LetterTextRitualCompleted>PAWN завершил ритуал связывания с LINKABLE.\n\n Все собравшиеся надели боевую маску и готовы к бою.</WM_LetterTextRitualCompleted>
+	<WM_LetterLabelRitualCompleted>Ритуал завершен.</WM_LetterLabelRitualCompleted>
+	<!-- Rituals warmask -->
+	
+	<!-- Rituals regrowth bodypart -->
+	<RB_RitualTargetMainRuneInfo>главная руна</RB_RitualTargetMainRuneInfo>
+	<RegrowthBodypart_ExplanationBase>Чем больше участников в ритуале связывания, тем больше его сила: Ритуал займет меньше времени, а травы души вырастет больше.\n\n При таком количестве участников({0}) вы сэкониомите {1} травы души.</RegrowthBodypart_ExplanationBase>
+	<RB_LetterTextRitualCompleted>PAWN завершил ритуал связывания с LINKABLE.\n\n Пациент был вылечен. Внимание, пациенту, возможно, потребуется еще одна медицинская помощь.</RB_LetterTextRitualCompleted>
+	<RB_LetterLabelRitualCompleted>Ритуал завершен.</RB_LetterLabelRitualCompleted>
+	<!-- Rituals regrowth bodypart -->
+	<!-- Rituals translations  -->
+	
+	<!-- Jobs translations -->
+	<!-- do psychic bill -->
+	<NotABonesinger>Выбранная пешка не является костопевом.</NotABonesinger>
+	<BonesingerLevelToSmall>Уровень способностей костопева слишком мал (требуется {0} уровень).</BonesingerLevelToSmall>
+	<NeedMorePsyfocus>Псифокус слишком мал для данного рецепта (требуется как минимум {0} %)</NeedMorePsyfocus>
+	<ToManyEntropyx2>Пси нагрев слишком высок для этой работы.</ToManyEntropyx2>
+	<ToManyEntropy>Пси нагрев слишком высок для этой работы. Попробуйте откл. ограничитель.</ToManyEntropy>
+	<!-- do psychic bill -->
+	
+	<!-- psychic refueling -->
+	<NotAMage>Выбранная пешка не является магом.</NotAMage>
+	<!-- psychic refueling -->
+	<!-- Jobs translations -->
+</LanguageData>

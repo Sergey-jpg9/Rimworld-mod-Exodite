@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName = "HandTailoringBench"]/comps</xpath>
+    <value>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <WorkTableWorkSpeedFactor>0.05</WorkTableWorkSpeedFactor>
+        </statOffsets>
+        <maxSimultaneous>1</maxSimultaneous>
+      </li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName = "FueledSmithy"]/comps</xpath>
+    <value>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <WorkTableWorkSpeedFactor>0.05</WorkTableWorkSpeedFactor>
+        </statOffsets>
+        <maxSimultaneous>1</maxSimultaneous>
+      </li>
+    </value>
+  </Operation>
+
+</Patch>

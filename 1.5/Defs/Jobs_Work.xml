@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <JobDef>
+	<defName>DoPsyhicBill</defName>
+	<driverClass>Exodites.JobDriver_DoPsyhicBill</driverClass>
+	<reportString>doing bill at TargetA.</reportString>
+	<suspendable>false</suspendable>
+	<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	<alwaysShowWeapon>true</alwaysShowWeapon>
+  </JobDef>
+  
+  <JobDef>
+    <defName>Bonesinger_Build</defName>
+    <driverClass>Exodites.JobDriver_BonesingerBuild</driverClass>
+    <reportString>building TargetA.</reportString>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	<alwaysShowWeapon>true</alwaysShowWeapon>
+  </JobDef>
+  
+  <JobDef>
+    <defName>WebwayDistanceBuild</defName>
+    <driverClass>Exodites.JobDriver_WebwayDistanceBuild</driverClass>
+    <reportString>building TargetA.</reportString>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	<alwaysShowWeapon>true</alwaysShowWeapon>
+  </JobDef>
+  
+  <JobDef>
+    <defName>UseWebwayPortal</defName>
+    <driverClass>Exodites.JobDriver_UseWebwayPortal</driverClass>
+    <reportString>going to TargetA.</reportString>
+  </JobDef>
+  
+  <JobDef>
+    <defName>PsyhicRefuel</defName>
+    <driverClass>Exodites.JobDriver_PsyhicRefuel</driverClass>
+    <reportString>refueling TargetA.</reportString>
+    <suspendable>false</suspendable>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+  
+  <JobDef>
+	<defName>MakeMagicArmor</defName>
+	<driverClass>Exodites.JobDriver_MakeDragonArmor</driverClass>
+	<reportString>making armor at TargetA.</reportString>
+	<suspendable>false</suspendable>
+	<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	<alwaysShowWeapon>true</alwaysShowWeapon>
+  </JobDef>
+  
+  <JobDef>
+    <defName>LinkMainRune</defName>
+    <driverClass>Exodites.JobDriver_LinkMainRune</driverClass>
+    <reportString>linking at TargetA</reportString>
+    <neverShowWeapon>true</neverShowWeapon>
+  </JobDef>
+  
+  <JobDef>
+    <defName>GiveMagic_MainRune</defName>
+    <driverClass>Exodites.JobDriver_MainRune_GiveMagic</driverClass>
+    <reportString>linking at TargetA</reportString>
+    <neverShowWeapon>true</neverShowWeapon>
+  </JobDef>
+  
+  <JobDef>
+    <defName>RemoveUpgradeMagic_MainRune</defName>
+    <driverClass>Exodites.JobDriver_MainRune_RemoveUpgradeMagic</driverClass>
+    <reportString>linking at TargetA</reportString>
+    <neverShowWeapon>true</neverShowWeapon>
+  </JobDef>
+  
+  <JobDef>
+    <defName>Patient_MainRune</defName>
+    <driverClass>Exodites.JobDriver_RitualPatient</driverClass>
+    <reportString>linking at TargetA</reportString>
+    <neverShowWeapon>true</neverShowWeapon>
+  </JobDef>
+  
+  <JobDef>
+    <defName>Doctor_MainRune</defName>
+    <driverClass>Exodites.JobDriver_RitualDoctor</driverClass>
+    <reportString>linking at TargetA</reportString>
+    <neverShowWeapon>true</neverShowWeapon>
+  </JobDef>
+</Defs>

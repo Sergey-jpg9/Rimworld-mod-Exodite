@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- outcomeChances.*.label используется в OutcomeLetterLabel, RitualAttachedOutcomesInfo, RitualAttachedApplliesForOutcomes, RitualAttachedApplliesForOutcome, а также в списках после RitualDevelopmentPointRewards, RitualOutcomeChances -->
+  
+  <!-- EN: participant count -->
+  <MainRune_Outcome_Psylink.comps.0.label>количество участников</MainRune_Outcome_Psylink.comps.0.label>
+  <!-- EN: participant count -->
+  <MainRune_Outcome_Warlock.comps.0.label>количество участников</MainRune_Outcome_Warlock.comps.0.label>
+  <!-- EN: participant count -->
+  <MainRune_Outcome_Bonesinger.comps.0.label>количество участников</MainRune_Outcome_Bonesinger.comps.0.label>
+  <!-- EN: participant count -->
+  <MainRune_Outcome_Doctor.comps.0.label>количество участников</MainRune_Outcome_Doctor.comps.0.label>
+  <!-- EN: participant count -->
+  <MainRune_Outcome_RemoveMagic.comps.0.label>количество участников</MainRune_Outcome_RemoveMagic.comps.0.label>
+  <!-- EN: participant count -->
+  <MainRune_Outcome_UpgradeMagic.comps.0.label>количество участников</MainRune_Outcome_UpgradeMagic.comps.0.label>
+  <!-- EN: participant count -->
+  <MainRune_Outcome_AshToPlants.comps.0.label>количество участников</MainRune_Outcome_AshToPlants.comps.0.label>
+  <!-- EN: participant count -->
+  <MainRune_Outcome_RegrowthBodypart.comps.0.label>количество участников</MainRune_Outcome_RegrowthBodypart.comps.0.label>
+  <!-- EN: participant count -->
+  <MainRune_Outcome_Warmask.comps.0.label>количество участников</MainRune_Outcome_Warmask.comps.0.label>
+  
+</LanguageData>

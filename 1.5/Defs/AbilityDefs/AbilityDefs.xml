@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <AbilityDef ParentName="PsycastBase">
+    <defName>KhaineMaskGiver</defName>
+    <label>war mask</label>
+    <description>The sorcerer can temporarily impose another, more aggressive personality on the creature, known as a "battle mask". In this state, the creature tolerates traumatic events much more easily and is more bloodthirsty. It is rarely used by the departed, but it is extremely common among the armies of the craftworlds.</description>
+    <level>0</level>
+    <iconPath>UI/Abilities/Painblock</iconPath>
+    <hotKey>Misc1</hotKey>
+    <hostile>false</hostile>
+    <statBases>
+      <Ability_EntropyGain>16</Ability_EntropyGain>
+      <Ability_PsyfocusCost>0.04</Ability_PsyfocusCost>
+      <Ability_Duration>60</Ability_Duration>
+    </statBases>
+    <verbProperties>
+      <warmupTime>0.25</warmupTime>
+      <range>6.9</range>
+      <targetParams>
+        <canTargetSelf>True</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class = "CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>KhaineMaskEffect</hediffDef>
+        <!--<durationMultiplier>PsychicSensitivity</durationMultiplier>-->
+        <psychic>True</psychic>
+        <applicableToMechs>False</applicableToMechs>
+      </li>
+      <li Class="CompProperties_AbilityFleckOnTarget">
+        <fleckDef>PsycastPsychicEffect</fleckDef>
+      </li>
+    </comps>
+  </AbilityDef>
+  
+  <AbilityDef ParentName="PsycastBase">
+    <defName>Flashstrike</defName>
+    <label>thunder strike</label>
+    <description>Block pain pathways in the target's brain for a short time. This can allow a person to move and act even with grievous injuries which would normally incapacitate them.</description>
+    <level>0</level>
+    <iconPath>UI/Abilities/Painblock</iconPath>
+    <hotKey>Misc1</hotKey>
+    <hostile>false</hostile>
+    <statBases>
+      <Ability_EntropyGain>26</Ability_EntropyGain>
+      <Ability_PsyfocusCost>0.06</Ability_PsyfocusCost>
+      <Ability_Duration>60</Ability_Duration>
+	  <Ability_EffectRadius>3.9</Ability_EffectRadius>
+    </statBases>
+    <verbProperties>
+      <warmupTime>1</warmupTime>
+      <range>26.9</range>
+      <targetParams>
+		<canTargetLocations>True</canTargetLocations>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="Exodites.CompProperties_AbilityFlashstrike">
+        <goodwillImpact>-35</goodwillImpact>
+      </li>
+    </comps>
+  </AbilityDef>
+  
+  <AbilityDef ParentName="PsycastBase">
+    <defName>Healing</defName>
+    <label>healing</label>
+    <description>Block pain pathways in the target's brain for a short time. This can allow a person to move and act even with grievous injuries which would normally incapacitate them.</description>
+    <level>0</level>
+    <iconPath>UI/Abilities/Painblock</iconPath>
+    <hotKey>Misc1</hotKey>
+    <hostile>false</hostile>
+    <statBases>
+      <Ability_EntropyGain>15</Ability_EntropyGain>
+      <Ability_PsyfocusCost>0.02</Ability_PsyfocusCost>
+      <Ability_Duration>60</Ability_Duration>
+    </statBases>
+    <verbProperties>
+      <warmupTime>0.35</warmupTime>
+      <range>24.9</range>
+      <targetParams>
+        <canTargetSelf>True</canTargetSelf>
+        <canTargetAnimals>True</canTargetAnimals>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class = "CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>PsychicHeal</hediffDef>
+        <durationMultiplier>PsychicSensitivity</durationMultiplier>
+        <psychic>True</psychic>
+        <applicableToMechs>False</applicableToMechs>
+      </li>
+      <li Class="CompProperties_AbilityFleckOnTarget">
+        <fleckDef>PsycastPsychicEffect</fleckDef>
+      </li>
+    </comps>
+  </AbilityDef>
+  
+  <AbilityDef ParentName="PsycastBase">
+    <defName>Healing2x</defName>
+    <label>healing</label>
+    <description>Heal wounds, but don't regrowth bodyparts.</description>
+    <level>0</level>
+    <iconPath>UI/Abilities/Painblock</iconPath>
+    <hotKey>Misc1</hotKey>
+    <hostile>false</hostile>
+    <statBases>
+      <Ability_EntropyGain>15</Ability_EntropyGain>
+      <Ability_PsyfocusCost>0.02</Ability_PsyfocusCost>
+      <Ability_Duration>60</Ability_Duration>
+    </statBases>
+    <verbProperties>
+      <warmupTime>0.35</warmupTime>
+      <range>24.9</range>
+      <targetParams>
+        <canTargetSelf>True</canTargetSelf>
+        <canTargetAnimals>True</canTargetAnimals>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class = "Exodites.CompProperties_AbilityHeal">
+        <healCount>5</healCount>
+		<count>2</count>
+      </li>
+      <li Class="CompProperties_AbilityFleckOnTarget">
+        <fleckDef>PsycastPsychicEffect</fleckDef>
+      </li>
+    </comps>
+  </AbilityDef>
+  
+  <AbilityDef ParentName="PsycastBase">
+    <defName>PlantsHealing</defName>
+    <label>plants healing</label>
+    <description>The priest of Ishi can cure plant diseases.</description>
+    <level>0</level>
+    <iconPath>UI/Abilities/Painblock</iconPath>
+    <hotKey>Misc1</hotKey>
+    <hostile>false</hostile>
+    <statBases>
+      <Ability_EntropyGain>15</Ability_EntropyGain>
+      <Ability_PsyfocusCost>0.02</Ability_PsyfocusCost>
+      <Ability_Duration>60</Ability_Duration>
+	  <Ability_EffectRadius>3.9</Ability_EffectRadius>
+    </statBases>
+    <verbProperties>
+      <warmupTime>0.35</warmupTime>
+      <range>9.9</range>
+      <targetParams>
+        <canTargetLocations>true</canTargetLocations>
+		<canTargetPlants>true</canTargetPlants>
+		<canTargetPawns>false</canTargetPawns>
+		<canTargetAnimals>false</canTargetAnimals>
+		<canTargetHumans>false</canTargetHumans>
+		<canTargetMechs>false</canTargetMechs>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class = "Exodites.CompProperties_AbilityHealPlants">
+      </li>
+      <li Class="CompProperties_AbilityFleckOnTarget">
+        <fleckDef>PsycastPsychicEffect</fleckDef>
+      </li>
+    </comps>
+  </AbilityDef>
+  
+  <AbilityDef ParentName="PsycastBase">
+    <defName>PsychicBloodFilter</defName>
+    <label>blood filter</label>
+    <description>A spell designed to cure diseases.</description>
+    <level>0</level>
+    <iconPath>UI/Abilities/Painblock</iconPath>
+    <hotKey>Misc1</hotKey>
+    <hostile>false</hostile>
+    <statBases>
+      <Ability_EntropyGain>15</Ability_EntropyGain>
+      <Ability_PsyfocusCost>0.02</Ability_PsyfocusCost>
+      <Ability_Duration>60</Ability_Duration>
+    </statBases>
+    <verbProperties>
+      <warmupTime>0.35</warmupTime>
+      <range>9.9</range>
+      <targetParams>
+        <canTargetSelf>True</canTargetSelf>
+        <canTargetAnimals>True</canTargetAnimals>
+		<canTargetHumans>True</canTargetHumans>
+		<canTargetMechs>false</canTargetMechs>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class = "CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>PsychicBloodFilter</hediffDef>
+        <durationMultiplier>PsychicSensitivity</durationMultiplier>
+        <psychic>True</psychic>
+        <applicableToMechs>False</applicableToMechs>
+      </li>
+      <li Class="CompProperties_AbilityFleckOnTarget">
+        <fleckDef>PsycastPsychicEffect</fleckDef>
+      </li>
+    </comps>
+  </AbilityDef>
+  
+  <AbilityDef ParentName="PsycastBase">
+	<defName>Ability_None</defName> <!-- Служебная способность, ничего не делает -->
+	<description>An ability that do northing.</description>
+    <label>ability none</label>
+    <level>0</level>
+    <statBases>
+      <Ability_EntropyGain>15</Ability_EntropyGain>
+      <Ability_PsyfocusCost>0.02</Ability_PsyfocusCost>
+      <Ability_Duration>60</Ability_Duration>
+    </statBases>
+    <verbProperties>
+      <warmupTime>0.35</warmupTime>
+      <range>9.9</range>
+      <targetParams>
+        <canTargetSelf>True</canTargetSelf>
+        <canTargetAnimals>True</canTargetAnimals>
+		<canTargetHumans>True</canTargetHumans>
+		<canTargetMechs>false</canTargetMechs>
+      </targetParams>
+    </verbProperties>
+  </AbilityDef>
+</Defs>

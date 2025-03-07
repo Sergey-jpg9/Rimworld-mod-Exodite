@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: bulk goods trader -->
+  <Caravan_Exodite_BulkGoods.label>оптовый торговец</Caravan_Exodite_BulkGoods.label>
+  
+  <!-- EN: war merchant -->
+  <Caravan_Exodite_WarMerchant.label>торговец оружием</Caravan_Exodite_WarMerchant.label>
+  
+  <Caravan_Exodite_Animals.label>торговец животными</Caravan_Exodite_Animals.label>
+</LanguageData>

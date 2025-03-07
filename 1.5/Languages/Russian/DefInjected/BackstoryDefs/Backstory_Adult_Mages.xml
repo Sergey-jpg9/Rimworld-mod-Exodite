@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: [PAWN_nameDef] was chosen as bonesinger of his tribe. {PAWN_pronoun} created runes, made tools and things out of psychocity. -->
+  <Ex_Bonesinger.description>{PAWN_nameDef} {PAWN_gender ? был выбран : была выбрана} как костопев своего племени. {PAWN_pronoun} {PAWN_gender ? создавал : создавала} руны, {PAWN_gender ? творил : творила} инструменты и вещи из психокости.</Ex_Bonesinger.description>
+  <!-- EN: hunter --> 
+  <Ex_Bonesinger.title>костопев</Ex_Bonesinger.title>
+  <!-- EN: hunter -->
+  <Ex_Bonesinger.titleShort>костопев</Ex_Bonesinger.titleShort>
+  
+  <!-- [PAWN_nameDef] was a priest of Isha within {PAWN_possessive} tribe. The treatment of injuries, both physical and psychological, fell on {PAWN_possessive} shoulders. -->
+  <Ex_IshaPriest.description>{PAWN_nameDef} {PAWN_gender ? являлся жрецом : являлась жрицей} Иши внутри своего племени. Лечение травм как физичеких, так и психологических, легло на {PAWN_possessive} плечи.</Ex_IshaPriest.description>
+  <!-- EN: priest of Isha -->
+  <Ex_IshaPriest.title>жрец Иши</Ex_IshaPriest.title>
+  <Ex_IshaPriest.titleFemale>жрица Иши</Ex_IshaPriest.titleFemale>
+  <!-- EN: priest -->
+  <Ex_IshaPriest.titleShort>жрец</Ex_IshaPriest.titleShort>
+  <Ex_IshaPriest.titleShortFemale>жрица</Ex_IshaPriest.titleShortFemale>
+  
+  <!-- EN: Khaine is the god of war and the warlock is his messenger. The [PAWN_nameDef] led detachments of {PAWN_possessive} tribesmen into battle, fighting with sword and magic on a par with other warriors. -->
+  <Ex_Warlock.description>Кхейн - бог войны и колдун - его посланник. {PAWN_nameDef} {PAWN_gender ? вел : вела} отряды своих соплеменников в бой, сражаясь мечом и магией наравне с другими воинами.</Ex_Warlock.description>
+  <!-- EN: warlock -->
+  <Ex_Warlock.title>колдун</Ex_Warlock.title>
+  <Ex_Warlock.titleFemale>колдунья</Ex_Warlock.titleFemale>
+  <!-- EN: warlock -->
+  <Ex_Warlock.titleShort>колдун</Ex_Warlock.titleShort>
+  <Ex_Warlock.titleShortFemale>колдунья</Ex_Warlock.titleShortFemale>
+  
+</LanguageData>

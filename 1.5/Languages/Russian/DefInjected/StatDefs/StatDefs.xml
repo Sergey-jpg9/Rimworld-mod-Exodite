@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RangedDodge.label>Уклонение</RangedDodge.label>
+  <RangedDodge.description>Способность уклонения от пуль, стрел и прочих снарядов за счет своей скорости и ловкости. Повышается с увеличением скорости движения, чертой ловкость и различными устройствами.</RangedDodge.description>
+  
+  <BonesingerWorkSpeed.label>Скорость работы костопева</BonesingerWorkSpeed.label>
+  <BonesingerWorkSpeed.description>Скорость работы костопева. Если есть спец. инструмент - умножайте на 3.</BonesingerWorkSpeed.description>
+  
+</LanguageData>

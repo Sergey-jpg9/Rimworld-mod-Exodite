@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HediffDef>
+		<defName>EldarEye</defName>
+		<label>eye</label>
+		<labelNoun>a eye</labelNoun>
+		<description>...</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>0.001</initialSeverity>
+		<makesAlert>false</makesAlert>
+		<stages>
+			<li>
+				<becomeVisible>false</becomeVisible>
+				<partEfficiencyOffset>0.2</partEfficiencyOffset>
+				
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>EldarLeg</defName>
+		<label>leg</label>
+		<labelNoun>a leg</labelNoun>
+		<description>...</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>0.001</initialSeverity>
+		<makesAlert>false</makesAlert>
+		<stages>
+			<li>
+				<becomeVisible>false</becomeVisible>
+				<partEfficiencyOffset>0.08</partEfficiencyOffset>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>EldarEar</defName>
+		<label>ear</label>
+		<labelNoun>a ear</labelNoun>
+		<description>...</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>0.001</initialSeverity>
+		<makesAlert>false</makesAlert>
+		<stages>
+			<li>
+				<becomeVisible>false</becomeVisible>
+				<partEfficiencyOffset>0.16</partEfficiencyOffset>
+			</li>
+		</stages>
+	</HediffDef>
+  
+  <HediffDef>
+    <defName>AeldariHediffGiver</defName>
+    <label>service hediff</label>
+    <description>Hidden hediff that installs new bodyparts. It will disappear later.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <!--<battleStateLabel>blind</battleStateLabel>-->
+    <maxSeverity>1</maxSeverity>
+	<stages>
+		<li>
+			<becomeVisible>false</becomeVisible>
+			<partEfficiencyOffset>0.2</partEfficiencyOffset>
+		</li>
+	</stages>
+    <hediffGivers>
+		<li Class="Exodites.HediffGiver_Momentum">
+				<hediff>EldarEye</hediff>
+				<partsToAffect>
+					<li>Eye</li>
+				</partsToAffect>
+				<countToAffect>2</countToAffect>
+			</li>
+			
+			<li Class="Exodites.HediffGiver_Momentum">
+				<hediff>EldarLeg</hediff>
+				<partsToAffect>
+					<li>Leg</li>
+				</partsToAffect>
+				<countToAffect>2</countToAffect>
+			</li>
+			
+			<li Class="Exodites.HediffGiver_Momentum">
+				<hediff>EldarEar</hediff>
+				<partsToAffect>
+					<li>Ear</li>
+				</partsToAffect>
+				<countToAffect>2</countToAffect>
+			</li>
+	</hediffGivers>
+    <comps>
+      <li Class="HediffCompProperties_SelfHeal">
+        <healAmount>0.2</healAmount>
+      </li>
+    </comps>
+  </HediffDef>
+  
+  <HediffDef>
+    <defName>WarlockHediffGiver</defName>
+    <label>service hediff</label>
+    <description>Hidden hediff that give warlock's abilities. It will disappear later.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <!--<battleStateLabel>blind</battleStateLabel>-->
+    <maxSeverity>1</maxSeverity>
+	<stages>
+		<li>
+			<becomeVisible>false</becomeVisible>
+			<partEfficiencyOffset>0.2</partEfficiencyOffset>
+		</li>
+	</stages>
+    <hediffGivers>
+		<li Class="Exodites.HediffGiver_Momentum">
+				<hediff>WarlockDef</hediff>
+				<partsToAffect>
+					<li>Brain</li>
+				</partsToAffect>
+				<countToAffect>1</countToAffect>
+			</li>
+			
+			<li Class="Exodites.HediffGiver_Momentum">
+				<hediff>PsychicAmplifier</hediff>
+				<partsToAffect>
+					<li>Brain</li>
+				</partsToAffect>
+				<countToAffect>1</countToAffect>
+			</li>
+	</hediffGivers>
+    <comps>
+      <li Class="HediffCompProperties_SelfHeal">
+        <healAmount>0.2</healAmount>
+      </li>
+    </comps>
+  </HediffDef>
+  
+    <HediffDef>
+    <defName>PriestHediffGiver</defName>
+    <label>service hediff</label>
+    <description>Hidden hediff that give priest's abilities. It will disappear later.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <!--<battleStateLabel>blind</battleStateLabel>-->
+    <maxSeverity>1</maxSeverity>
+	<stages>
+		<li>
+			<becomeVisible>false</becomeVisible>
+			<partEfficiencyOffset>0.2</partEfficiencyOffset>
+		</li>
+	</stages>
+    <hediffGivers>
+		<li Class="Exodites.HediffGiver_Momentum">
+				<hediff>DoctorDef</hediff>
+				<partsToAffect>
+					<li>Brain</li>
+				</partsToAffect>
+				<countToAffect>1</countToAffect>
+			</li>
+			
+			<li Class="Exodites.HediffGiver_Momentum">
+				<hediff>PsychicAmplifier</hediff>
+				<partsToAffect>
+					<li>Brain</li>
+				</partsToAffect>
+				<countToAffect>1</countToAffect>
+			</li>
+	</hediffGivers>
+    <comps>
+      <li Class="HediffCompProperties_SelfHeal">
+        <healAmount>0.2</healAmount>
+      </li>
+    </comps>
+  </HediffDef>
+  
+  <HediffDef>
+    <defName>BonesingerHediffGiver</defName>
+    <label>service hediff</label>
+    <description>Hidden hediff that give bonesinger's abilities. It will disappear later.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <!--<battleStateLabel>blind</battleStateLabel>-->
+    <maxSeverity>1</maxSeverity>
+	<stages>
+		<li>
+			<becomeVisible>false</becomeVisible>
+			<partEfficiencyOffset>0.2</partEfficiencyOffset>
+		</li>
+	</stages>
+    <hediffGivers>
+		<li Class="Exodites.HediffGiver_Momentum">
+				<hediff>BonesingerDef</hediff>
+				<partsToAffect>
+					<li>Brain</li>
+				</partsToAffect>
+				<countToAffect>1</countToAffect>
+			</li>
+			
+			<li Class="Exodites.HediffGiver_Momentum">
+				<hediff>PsychicAmplifier</hediff>
+				<partsToAffect>
+					<li>Brain</li>
+				</partsToAffect>
+				<countToAffect>1</countToAffect>
+			</li>
+	</hediffGivers>
+    <comps>
+      <li Class="HediffCompProperties_SelfHeal">
+        <healAmount>0.2</healAmount>
+      </li>
+    </comps>
+  </HediffDef>
+</Defs>

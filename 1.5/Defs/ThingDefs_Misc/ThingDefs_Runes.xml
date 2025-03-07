@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ApparelBase">
+    <defName>Apparel_MagicRune</defName>
+    <label>magic rune</label>
+    <description>A pouch with magical runes that help the pawn store and dispel overheating.</description>
+    <thingClass>Apparel</thingClass>
+    <graphicData>
+      <texPath>Runes/MagicRune</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <techLevel>Medieval</techLevel>
+    <statBases>
+      <Mass>0.5</Mass>
+	  <MarketValue>80</MarketValue>
+      <WorkToMake>14000</WorkToMake>
+      <Flammability>0.4</Flammability>
+      <EquipDelay>2</EquipDelay>
+	  <MaxHitPoints>30</MaxHitPoints>
+    </statBases>
+    <thingCategories>
+      <li>ApparelUtility</li>
+    </thingCategories>
+    <apparel>
+	  <tags>
+        <li>MagicRune</li>
+      </tags>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfDamaged>false</careIfDamaged>
+      <wearPerDay>0</wearPerDay>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+    </apparel>
+    <allowedArchonexusCount>1</allowedArchonexusCount>
+	<equippedStatOffsets>
+		<PsychicEntropyRecoveryRate>0.03</PsychicEntropyRecoveryRate>
+		<PsychicEntropyMax>10</PsychicEntropyMax>
+	</equippedStatOffsets>
+	<comps>
+	  <li Class="Exodites.CompProperties_MagicRune">
+		<damagePerWork>6</damagePerWork>
+	  </li>
+	</comps>
+	<tradeTags>
+      <li>Exodite_Runes</li>
+    </tradeTags>
+	<smeltable>false</smeltable>
+  </ThingDef>
+  
+  <ThingDef ParentName="ApparelBase">
+    <defName>Apparel_HealerRune</defName>
+    <label>healer rune</label>
+    <description>A bag with dual-use magic runes: they will help the healer in the treatment or heal the patient on their own, collapsing in the process. Caution! The use of automatic treatment on creatures with low psychosensitivity is dangerous and is frowned upon by Isha.</description>
+    <thingClass>Apparel</thingClass>
+    <graphicData>
+      <texPath>Runes/HealersRune</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <techLevel>Medieval</techLevel>
+    <statBases>
+      <Mass>0.5</Mass>
+      <WorkToMake>14000</WorkToMake>
+	  <MarketValue>80</MarketValue>
+      <Flammability>0.4</Flammability>
+      <EquipDelay>2</EquipDelay>
+	  <MaxHitPoints>30</MaxHitPoints>
+    </statBases>
+    <thingCategories>
+      <li>ApparelUtility</li>
+    </thingCategories>
+    <apparel>
+	  <tags>
+        <li>HealerRune</li>
+      </tags>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfDamaged>false</careIfDamaged>
+      <wearPerDay>0</wearPerDay>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+    </apparel>
+    <allowedArchonexusCount>1</allowedArchonexusCount>
+	<equippedStatOffsets>
+		<MedicalTendSpeed>0.1</MedicalTendSpeed>
+		<ImmunityGainSpeedFactor>0.01</ImmunityGainSpeedFactor>
+	</equippedStatOffsets>
+	<comps>
+	  <li Class="Exodites.CompProperties_HealerRune">
+		<damagePerHeal>6</damagePerHeal>
+	  </li>
+	</comps>
+	<tradeTags>
+      <li>Exodite_Runes</li>
+    </tradeTags>
+	<smeltable>false</smeltable>
+  </ThingDef>
+  
+  <ThingDef ParentName="ApparelBase">
+    <defName>Apparel_HuntersRune</defName>
+    <label>hunter rune</label>
+    <description>A bag with magical runes that will help in the hunt for dangerous prey. What you need to hit more accurately and retreat more safely.</description>
+    <thingClass>Apparel</thingClass>
+    <graphicData>
+      <texPath>Runes/HuntersRune</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <techLevel>Medieval</techLevel>
+    <statBases>
+      <Mass>0.5</Mass>
+      <WorkToMake>14000</WorkToMake>
+	  <MarketValue>80</MarketValue>
+      <Flammability>0.4</Flammability>
+      <EquipDelay>2</EquipDelay>
+	  <MaxHitPoints>30</MaxHitPoints>
+    </statBases>
+    <thingCategories>
+      <li>ApparelUtility</li>
+    </thingCategories>
+    <apparel>
+	  <tags>
+        <li>HunterRune</li>
+      </tags>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfDamaged>false</careIfDamaged>
+      <wearPerDay>0</wearPerDay>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+    </apparel>
+    <allowedArchonexusCount>1</allowedArchonexusCount>
+	<equippedStatOffsets>
+	  <RangedDodge>0.075</RangedDodge>
+	  <HuntingStealth>0.25</HuntingStealth>
+	</equippedStatOffsets>
+	<comps>
+	  <li Class="Exodites.CompProperties_HunterRune">
+		<damagePerWork>1</damagePerWork>
+		<ticksBetweenDamages>25</ticksBetweenDamages>
+	  </li>
+	</comps>
+	<tradeTags>
+      <li>Exodite_Runes</li>
+    </tradeTags>
+	<smeltable>false</smeltable>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Apparel_MagicRune.label>Магическая руна</Apparel_MagicRune.label>
+  <Apparel_MagicRune.description>Мешочек с магическими рунами, которые помогают пешке хранить и рассеивать перегрев.</Apparel_MagicRune.description>
+  
+  <Apparel_HealerRune.label>Руна целителя</Apparel_HealerRune.label>
+  <Apparel_HealerRune.description>Мешочек с магическими рунами двойного назначения: они помогут целителю в лечении или самостоятельно вылечат пациента, разрушившись в процессе. Осторожно! Использование автоматического лечения на существах с малой психочувствительностью опасно и не одобряется Исшей.</Apparel_HealerRune.description>
+  
+  <Apparel_HuntersRune.label>Руна охотника</Apparel_HuntersRune.label>
+  <Apparel_HuntersRune.description>Мешочек с магическими рунами, которые помогут в охоте на опасную добычу. То что нужно, чтобы точнее попадать и безопаснее отступать.</Apparel_HuntersRune.description>
+  
+  <Bow_Exodte.label>Лук ушедших</Bow_Exodte.label>
+  <Bow_Exodte.description>Лук среднего размера, используемый лучшими охотниками для поражения самых бронированных целей. Будучи выполненным из психопластиков он позволяет накопить большую энергию, а стрелы держат почти мономолеулярную заточку.</Bow_Exodte.description>
+  <Arrow_Exodite.label>стрела</Arrow_Exodite.label>
+  
+  <Gun_ShurikenCatapult.label>Сюрикеновая катапульта</Gun_ShurikenCatapult.label>
+  <Gun_ShurikenCatapult.description>Базовое оружие войск миров-кораблей. Выпускает поток сюрикенов, смертельный для любых целей на коротких дистанциях. Экзодиты редко сами изготавливают это оружие, полагаясь на поставки с ближайшего мира-корабля.</Gun_ShurikenCatapult.description>
+  <Bullet_ShurikenCatapult.label>поток сюрикенов</Bullet_ShurikenCatapult.label>
+  
+  <BonesingerInstrument.label>Инструмент костопева</BonesingerInstrument.label>
+  <BonesingerInstrument.description>Костопев может выполнять свою работу и без своего инструмента, но будет делать это гораздо дольше. Устройство используется как псифокус и предохранитель при колдовстве, позволяя безопасно черпать больше энергии.</BonesingerInstrument.description>
+  
+  <MagicStaff_Exodite.label>Магический посох</MagicStaff_Exodite.label>
+  <MagicStaff_Exodite.description>Магический посох, который стреляет магическими снарядами и увеличивает псинагрев мага. Магический урон зависит от магических способностей мага.</MagicStaff_Exodite.description>
+  
+  <Exodite_MeleeWeapon_BoneSpear.label>Костяное копье</Exodite_MeleeWeapon_BoneSpear.label>
+  <Exodite_MeleeWeapon_BoneSpear.description>Копье из психокости, известное тем, что его используют драконьи всадники. Легкое, длинное и прочное это оружие способно пробивать тяжелую броню.</Exodite_MeleeWeapon_BoneSpear.description>
+</LanguageData>

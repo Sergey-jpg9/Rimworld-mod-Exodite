@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <MainRune_Precept_Psylink.label>связь с главной руной</MainRune_Precept_Psylink.label>
+  <MainRune_Precept_Psylink.description>Один экзодит связывается с богами перед алтарем. Связующий медитирует перед руной, пробуждая пси-способности. Другие собираются вокруг и смотрят, добавляя ритуалу силы.</MainRune_Precept_Psylink.description>
+  
+  <MainRune_Precept_Warlock.label>посвящение в колдуны</MainRune_Precept_Warlock.label>
+  <MainRune_Precept_Warlock.description>Один экзодит связывается с Кхейном перед алтарем. Связующий медитирует перед руной, пробуждая пси-способности колдуна. Другие собираются вокруг и смотрят, добавляя ритуалу силы.</MainRune_Precept_Warlock.description>
+  
+  <MainRune_Precept_Bonesinger.label>посвящение в костопевы</MainRune_Precept_Bonesinger.label>
+  <MainRune_Precept_Bonesinger.description>Один экзодит связывается с Ваулом перед алтарем. Связующий медитирует перед руной, пробуждая пси-способности костопева. Другие собираются вокруг и смотрят, добавляя ритуалу силы.</MainRune_Precept_Bonesinger.description>
+  
+  <MainRune_Precept_Doctor.label>посвящение в жрецы</MainRune_Precept_Doctor.label>
+  <MainRune_Precept_Doctor.description>Один экзодит связывается с Ишей перед алтарем. Связующий медитирует перед руной, пробуждая пси-способности жреца. Другие собираются вокруг и смотрят, добавляя ритуалу силы.</MainRune_Precept_Doctor.description>
+  
+  <MainRune_Precept_RemoveMagic.label>блокирование способностей</MainRune_Precept_RemoveMagic.label>
+  <MainRune_Precept_RemoveMagic.description>Один экзодит связывается с богами перед алтарем. Связующий медитирует перед руной, блокируя свои пси-способности(не псилинк). Другие собираются вокруг и смотрят, добавляя ритуалу силы.</MainRune_Precept_RemoveMagic.description>
+  
+  <MainRune_Precept_UpgradeMagic.label>улучшение способностей</MainRune_Precept_UpgradeMagic.label>
+  <MainRune_Precept_UpgradeMagic.description>Один экзодит связывается с богами перед алтарем. Связующий медитирует перед руной, улучшая свои пси-способности(не псилинк). Другие собираются вокруг и смотрят, добавляя ритуалу силы.</MainRune_Precept_UpgradeMagic.description>
+  
+  <MainRune_Precept_AshToPlants.label>Пепел в растения</MainRune_Precept_AshToPlants.label>
+  <MainRune_Precept_AshToPlants.description>Жрец Иши встает перед алтарем и обращается к своей богине, чтобы она превратила пепел в живые растения (растения уже растущие на пепле быстрее вырастут). Другие собираются вокруг и смотрят, добавляя ритуалу силы.</MainRune_Precept_AshToPlants.description>
+  
+  <MainRune_Precept_RegrowthBodypart.label>восстановление конечности</MainRune_Precept_RegrowthBodypart.label>
+  <MainRune_Precept_RegrowthBodypart.description>Жрец Иши встает перед алтарем и обращается к своей богине, чтобы она помогла исцелить больного (вырастить отсутствующую конечность, исцелить шрам). Другие собираются вокруг и смотрят, добавляя ритуалу силы.</MainRune_Precept_RegrowthBodypart.description>
+  
+  <MainRune_Precept_Warmask.label>Боевая маска</MainRune_Precept_Warmask.label>
+  <MainRune_Precept_Warmask.description>Колдун встает перед алтарем и накладывает всем собравшимся "боевую маску", делая воинов немного более кровожадными. Другие собираются вокруг и смотрят, добавляя ритуалу силы.</MainRune_Precept_Warmask.description>
+  
+  
+</LanguageData>

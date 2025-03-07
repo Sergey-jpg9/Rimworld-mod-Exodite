@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="BuildingBase" Name="Psybone_Wall">
+    <defName>Wraithbone_Wall</defName>
+    <label>wraithbone wall</label>
+    <description>An impassable wall. Capable of holding up a roof.</description>
+    <thingClass>Exodites.Building_Bonesinger</thingClass>
+    <category>Building</category>
+    <graphicData>
+      <texPath>Things/Building/Linked/Wall</texPath>
+      <graphicClass>Graphic_Appearances</graphicClass>
+      <linkType>CornerFiller</linkType>
+      <linkFlags>
+        <li>Wall</li>
+        <li>Rock</li>
+      </linkFlags>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+        <edgeTop>Damage/Edge</edgeTop>
+        <edgeBot>Damage/Edge</edgeBot>
+        <edgeLeft>Damage/Edge</edgeLeft>
+        <edgeRight>Damage/Edge</edgeRight>
+      </damageData>
+    </graphicData>
+    <uiIconPath>Things/Building/Linked/WallSmooth_MenuIcon</uiIconPath>
+    <statBases>
+      <MaxHitPoints>1050</MaxHitPoints>
+      <WorkToBuild>1350</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <MeditationFocusStrength>0.22</MeditationFocusStrength>
+	  <Beauty>1</Beauty>
+    </statBases>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <blockWind>true</blockWind>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>1</fillPercent>
+    <coversFloor>true</coversFloor>
+    <placingDraggableDimensions>1</placingDraggableDimensions>
+    <tickerType>Long</tickerType>
+    <rotatable>false</rotatable>
+    <selectable>true</selectable>
+    <neverMultiSelect>true</neverMultiSelect>
+    <useStuffTerrainAffordance>false</useStuffTerrainAffordance>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <holdsRoof>true</holdsRoof>
+    <designationCategory>Structure</designationCategory>
+    <uiOrder>2000</uiOrder>
+    <staticSunShadowHeight>1.0</staticSunShadowHeight>
+    <blockLight>true</blockLight>
+    <canOverlapZones>false</canOverlapZones>
+    <fertility>0</fertility>
+    <building>
+      <paintable>true</paintable>
+      <isInert>true</isInert>
+      <isPlaceOverableWall>true</isPlaceOverableWall>
+      <ai_chillDestination>false</ai_chillDestination>
+      <supportsWallAttachments>true</supportsWallAttachments>
+      <blueprintGraphicData>
+        <texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
+      </blueprintGraphicData>
+	  <blueprintClass>Exodites.Blueprint_Build_Bonesinger</blueprintClass>
+      <relatedBuildCommands>
+        <li>Door</li>
+        <li>Autodoor</li>
+        <li>OrnateDoor</li>
+        <li MayRequire="Ludeon.RimWorld.Anomaly">SecurityDoor</li>
+      </relatedBuildCommands>
+    </building>
+    <comps>
+      <li Class="CompProperties_MeditationFocus">
+        <statDef>MeditationFocusStrength</statDef>
+        <focusTypes>
+          <li>Minimal</li>
+        </focusTypes>
+      </li>
+	  <li Class = "CompProperties_SelfhealHitpoints">
+		<ticksPerHeal>14000</ticksPerHeal>
+	  </li>
+    </comps>
+	<researchPrerequisites>
+      <li>Tech_WraithboneConstruction</li>
+    </researchPrerequisites>
+    <damageMultipliers>
+      <li>
+        <damageDef>Bomb</damageDef>
+        <multiplier>2</multiplier>
+      </li>
+      <li>
+        <damageDef>Thump</damageDef>
+        <multiplier>2</multiplier>
+      </li>
+    </damageMultipliers>
+    <designationHotKey>Misc3</designationHotKey>
+	<constructionSkillPrerequisite>100</constructionSkillPrerequisite>
+  </ThingDef>
+  
+  <ThingDef ParentName="BuildingBase">
+    <defName>Wraithbone_Column</defName>
+    <label>wraithbone column</label>
+    <description>A column capable of holding a roof. Does not block sight or movement and looks quite nice.</description>
+    <designationCategory>Structure</designationCategory>
+    <uiOrder>2040</uiOrder>
+	<thingClass>Exodites.Building_Bonesinger</thingClass>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.25</fillPercent>
+    <pathCost>0</pathCost>
+    <statBases>
+      <MaxHitPoints>860</MaxHitPoints>
+      <WorkToBuild>7500</WorkToBuild>
+      <Mass>10</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>6</Beauty>
+      <StyleDominance MayRequire="Ludeon.RimWorld.Ideology">10</StyleDominance>
+    </statBases>
+	<constructionSkillPrerequisite>100</constructionSkillPrerequisite>
+    <holdsRoof>true</holdsRoof>
+    <canOverlapZones>false</canOverlapZones>
+	<tickerType>Long</tickerType>
+    <rotatable>false</rotatable>
+    <fertility>0</fertility>
+    <specialDisplayRadius>6.9</specialDisplayRadius> <!-- must be kept in sync with roof hold-up radius -->
+    <building>
+      <isInert>true</isInert>
+      <ai_chillDestination>false</ai_chillDestination>
+      <paintable>true</paintable>
+	  <blueprintClass>Exodites.Blueprint_Build_Bonesinger</blueprintClass>
+    </building>
+    <graphicData>
+      <drawSize>(1,1.25)</drawSize>
+      <drawOffset>(0,0,0.2)</drawOffset>
+      <texPath>Things/Building/Furniture/Column</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shadowData>
+        <volume>(0.3, 0.5, 0.3)</volume>
+        <offset>(0,0,-0.23)</offset>
+      </shadowData>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Styleable" />
+	  <li Class = "CompProperties_SelfhealHitpoints">
+		<ticksPerHeal>14000</ticksPerHeal>
+	  </li>
+    </comps>
+	<researchPrerequisites>
+      <li>Tech_WraithboneConstruction</li>
+    </researchPrerequisites>
+  </ThingDef>
+</Defs>

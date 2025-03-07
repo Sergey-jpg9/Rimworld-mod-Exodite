@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TraderKindDef[defName="Caravan_Exodite_WarMerchant"]/stockGenerators</xpath>
+		<value>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Ammo_Shurikens_Catapult</thingDef>
+				<countRange>
+					<min>300</min>
+					<max>600</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_Tag">
+				<tradeTag>CE_PreIndustrialAmmo</tradeTag>
+				<countRange>
+					<min>60</min>
+					<max>300</max>
+				</countRange>
+				<price>Cheap</price>
+				<thingDefCountRange>
+					<min>1</min>
+					<max>4</max>
+				</thingDefCountRange>
+			</li>
+		</value>
+	</Operation>
+</Patch>

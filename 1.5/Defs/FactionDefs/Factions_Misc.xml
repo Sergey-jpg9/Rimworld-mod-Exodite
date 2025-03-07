@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <FactionDef ParentName="FactionBase" Name="ExoditeTribeBase" Abstract="True">
+    <pawnSingular>exodite</pawnSingular>
+    <pawnsPlural>exodites</pawnsPlural>
+    <categoryTag>Exodite</categoryTag>
+    <listOrderPriority>20</listOrderPriority>
+    <settlementGenerationWeight>0.75</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canStageAttacks>true</canStageAttacks>
+    <factionIconPath>World/WorldObjects/Expanding/Village</factionIconPath>
+    <techLevel>Medieval</techLevel>
+    <factionNameMaker>NamerFactionTribal</factionNameMaker>
+    <settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
+    <allowedCultures><li>Corunan</li></allowedCultures>
+    <disallowedMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+    </disallowedMemes>
+    <disallowedPrecepts>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_CoveringAnythingButGroinDisapproved</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_CoveringAnythingButGroinDisapproved</li>
+    </disallowedPrecepts>
+    <structureMemeWeights>
+      <Structure_Animist MayRequire="Ludeon.RimWorld.Ideology">10</Structure_Animist>
+      <Structure_TheistEmbodied MayRequire="Ludeon.RimWorld.Ideology">1</Structure_TheistEmbodied>
+      <Structure_TheistAbstract MayRequire="Ludeon.RimWorld.Ideology">1</Structure_TheistAbstract>
+      <Structure_Archist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Archist>
+      <Structure_OriginChristian MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginChristian>
+      <Structure_OriginIslamic MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginIslamic>
+      <Structure_OriginHindu MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginHindu>
+      <Structure_OriginBuddhist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginBuddhist>
+    </structureMemeWeights>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>ExoditeCivil</li>
+		  <li>ExoditeMage</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <leaderTitle>high priest</leaderTitle>
+    <caravanTraderKinds>
+      <li>Caravan_Exodite_BulkGoods</li>
+      <li>Caravan_Exodite_WarMerchant</li>
+	  <li>Caravan_Exodite_Animals</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>Visitor_Exodite_Standard</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Exodite_Standard</li>
+    </baseTraderKinds>
+    <allowedArrivalTemperatureRange>-35~40</allowedArrivalTemperatureRange>
+    <raidCommonalityFromPointsCurve>
+      <points>
+        <li>(0, 1)</li>
+		<li>(800,0.8)</li>
+		<li>(10000,0.1)</li>
+      </points>
+    </raidCommonalityFromPointsCurve>
+    <raidLootMaker>TribeRaidLootMaker</raidLootMaker>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,100000)</li>
+        <li>(70, 100000)</li>
+        <li>(800, 100000)</li>
+        <li>(1300, 100000)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <!-- Normal fights, ranged with melee mix-ins -->
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <Exodite_Warrior>20</Exodite_Warrior>
+          <Exodite_Hunter>20</Exodite_Hunter>
+          <Exodite_GreatHunterWithBow>6</Exodite_GreatHunterWithBow>
+		  <Exodite_GreatHunterWithGun>3</Exodite_GreatHunterWithGun>
+          <Exodite_GreatWarrior>6</Exodite_GreatWarrior>
+		  <Exodite_Warlock>3</Exodite_Warlock>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, ranged only -->
+        <kindDef>Combat</kindDef>
+        <commonality>60</commonality>
+        <options>
+          <Exodite_Hunter>20</Exodite_Hunter>
+          <Exodite_GreatHunterWithBow>10</Exodite_GreatHunterWithBow>
+		  <Exodite_GreatHunterWithGun>6</Exodite_GreatHunterWithGun>
+		  <Exodite_Warlock>3</Exodite_Warlock>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, melee only -->
+        <kindDef>Combat</kindDef>
+        <commonality>60</commonality>
+        <options>
+          <Exodite_Warrior>20</Exodite_Warrior>
+		  <Exodite_GreatWarrior>6</Exodite_GreatWarrior>
+		  <Exodite_Warlock>3</Exodite_Warlock>
+        </options>
+      </li>
+      <li>
+        <!-- breach-capable fights, breachers plus ranged with melee mix-ins -->
+        <kindDef>Combat</kindDef>
+        <commonality>5</commonality>
+        <options>
+          <Exodite_Breacher>5</Exodite_Breacher>
+		  <Exodite_Warrior>10</Exodite_Warrior>
+          <Exodite_Hunter>10</Exodite_Hunter>
+          <Exodite_GreatHunterWithBow>10</Exodite_GreatHunterWithBow>
+		  <Exodite_GreatHunterWithGun>6</Exodite_GreatHunterWithGun>
+          <Exodite_GreatWarrior>10</Exodite_GreatWarrior>
+		  <Exodite_Warlock>3</Exodite_Warlock>
+		</options>
+      </li>
+	  <li>
+        <!-- leader... Он как бы не должен появляться в бою, но иначе я сделать не смог -->
+        <kindDef>Combat</kindDef>
+        <commonality>0</commonality>
+        <options>
+          <Exodite_GreatHunterWithBow>10</Exodite_GreatHunterWithBow>
+		  <Exodite_GreatHunterWithGun>6</Exodite_GreatHunterWithGun>
+          <Exodite_GreatWarrior>10</Exodite_GreatWarrior>
+		  <Exodite_Leader>1</Exodite_Leader>
+		</options>
+      </li>
+      <li>
+        <!-- Peaceful -->
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <Exodite_Child MayRequire="Ludeon.RimWorld.Biotech">5</Exodite_Child>
+          <Exodite_Warrior>8</Exodite_Warrior>
+          <Exodite_Hunter>8</Exodite_Hunter>
+          <Exodite_Villager>12</Exodite_Villager>
+          <Exodite_GreatHunterWithBow>2</Exodite_GreatHunterWithBow>
+          <Exodite_GreatWarrior>2</Exodite_GreatWarrior>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <Exodite_Trader>1</Exodite_Trader>
+        </traders>
+        <carriers>
+          <Muffalo>6</Muffalo>
+          <Dromedary>5</Dromedary>
+          <Alpaca>2.5</Alpaca>
+          <Elephant>2</Elephant>
+        </carriers>
+        <guards>
+          <Exodite_Warrior>10</Exodite_Warrior>
+          <Exodite_Hunter>10</Exodite_Hunter>
+          <Exodite_Villager>3</Exodite_Villager>
+          <Exodite_GreatHunterWithBow>2</Exodite_GreatHunterWithBow>
+          <Exodite_GreatWarrior>2</Exodite_GreatWarrior>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <Exodite_Warrior>10</Exodite_Warrior>
+          <Exodite_GreatWarrior>5</Exodite_GreatWarrior>
+		  
+          <Exodite_Hunter>10</Exodite_Hunter>
+          <Exodite_GreatHunterWithBow>5</Exodite_GreatHunterWithBow>
+          <Exodite_GreatHunterWithGun>3</Exodite_GreatHunterWithGun>
+		  
+          <Exodite_Warlock>2</Exodite_Warlock>
+        </options>
+      </li>
+      <li>
+        <kindDef>Settlement_RangedOnly</kindDef>
+        <options>
+          <Exodite_Hunter>10</Exodite_Hunter>
+          <Exodite_GreatHunterWithBow>5</Exodite_GreatHunterWithBow>
+          <Exodite_GreatHunterWithGun>3</Exodite_GreatHunterWithGun>
+          <Exodite_Warlock>2</Exodite_Warlock>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Miners</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <Exodite_Miner>7</Exodite_Miner>
+		  <Exodite_Villager>1</Exodite_Villager>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Hunters</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <Exodite_Hunter>7</Exodite_Hunter>
+		  <Exodite_Villager>1</Exodite_Villager>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Loggers</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <Exodite_Logger>7</Exodite_Logger>
+		  <Exodite_Villager>1</Exodite_Villager>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Farmers</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <Exodite_Farmer>7</Exodite_Farmer>
+		  <Exodite_Villager>1</Exodite_Villager>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>World/WorldObjects/TribalSettlement</settlementTexturePath>
+	<apparelStuffFilter>
+		<stuffCategoriesToAllow>
+			<li>Metallic</li>
+			<li>Fabric</li>
+			<li>Leathery</li>
+        </stuffCategoriesToAllow>
+		<disallowedThingDefs>
+			<li>Plasteel</li>
+			<li>Synthread</li>
+			<!--<li>DevilstrandCloth</li>-->
+			<li>Hyperweave</li>
+		</disallowedThingDefs>
+	</apparelStuffFilter>
+	
+	<melaninRange>0~0.5</melaninRange>
+  </FactionDef>
+  
+  <FactionDef ParentName="ExoditeTribeBase">
+    <defName>ExoditeCivil</defName>
+    <label>gentle tribe</label>
+    <description>These aeldari have lived here for very long time. The technology that brought them into this world is deliberately not being used. They usually work with simple tools and defend themselves with swords and bows.\n\nThey are concerned with the practical matters of trade, trust, and survival.\n\nThis tribe holds civil behavior in high regard, even the mon-keys.</description>
+	<colorSpectrum>
+      <li>(0.85, 0.85, 0.9)</li>
+      <li>(0.8, 0.8, 0.8)</li>
+    </colorSpectrum>
+    <disallowedMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+    </disallowedMemes>
+	
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>30</configurationListOrderPriority>
+  </FactionDef>
+  
+  <FactionDef ParentName="ExoditeTribeBase" Name="ExoditeRoughBase" Abstract="True">
+    <naturalEnemy>true</naturalEnemy>
+    <disallowedMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+    </disallowedMemes>
+    <colorSpectrum>
+	  <li>(0.6, 0.9, 0.7)</li>
+      <li>(0.7, 0.85, 0.78)</li>
+    </colorSpectrum>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>40</configurationListOrderPriority>
+  </FactionDef>
+
+  <FactionDef ParentName="ExoditeRoughBase">
+    <defName>ExoditeRough</defName>
+    <label>fierce tribe</label>
+    <description>These aeldari have lived here for very long time. The technology that brought them into this world is deliberately not being used. They usually work with simple tools and defend themselves with swords and bows.\n\nThey are concerned with the practical matters of trade, trust, and survival.\n\nThis tribe has a streak of barbarity in them.</description>
+    <factionIconPath>World/WorldObjects/Expanding/VillageRough</factionIconPath>
+  </FactionDef>
+</Defs>

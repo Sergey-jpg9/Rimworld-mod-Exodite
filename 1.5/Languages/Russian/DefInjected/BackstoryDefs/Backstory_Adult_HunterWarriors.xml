@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: [PAWN_nameDef] tracked, trapped and killed animals for their meat and leather.\n\n[PAWN_nameDef] used both ranged and melee weapons. Sometimes, [PAWN_pronoun] hunted alongside animals. -->
+  <Ex_Hunter.description>{PAWN_nameDef} {PAWN_gender ? выслеживал : выслеживала}, {PAWN_gender ? ловил : ловила} и {PAWN_gender ? убивал : убивала} животных ради их кожи и мяса.\n\n{PAWN_nameDef} {PAWN_gender ? пользовался : пользовалась} оружием как ближнего, так и дальнего боя. Иногда {PAWN_pronoun} {PAWN_gender ? охотился: охотилась} с ловчими животными.</Ex_Hunter.description>
+  <!-- EN: hunter -->
+  <Ex_Hunter.title>охотник</Ex_Hunter.title>
+  <Ex_Hunter.titleFemale>охотница</Ex_Hunter.titleFemale>
+  <!-- EN: hunter -->
+  <Ex_Hunter.titleShort>охотник</Ex_Hunter.titleShort>
+  <Ex_Hunter.titleShortFemale>охотница</Ex_Hunter.titleShortFemale>
+  
+  <!-- EN: [PAWN_nameDef] was a fearsome warrior, proficient with many weapons. [PAWN_pronoun] participated in many battles. -->
+  <Ex_Warrior.description>{PAWN_nameDef} {PAWN_gender ? был бесстрашным воином : была бесстрашной воительницей}. {PAWN_pronoun} умело {PAWN_gender ? обращался : обращалась} с самыми разными видами оружия и {PAWN_gender ? участвовал : участвовала} во многих сражениях.</Ex_Warrior.description>
+  <!-- EN: warrior -->
+  <Ex_Warrior.title>воитель</Ex_Warrior.title>
+  <Ex_Warrior.titleFemale>воительница</Ex_Warrior.titleFemale>
+  <!-- EN: warrior -->
+  <Ex_Warrior.titleShort>воин</Ex_Warrior.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] fought for [PAWN_possessive] tribe. [PAWN_pronoun] and specialized in the use of bows, pila, and other ranged weapons. -->
+  <Ex_Archer.description>{PAWN_nameDef} {PAWN_gender ? сражался : сражалась} за своё племя. {PAWN_pronoun} специалист в стрельбе из лука, метании пилума и другом дальнобойном оружии.</Ex_Archer.description>
+  <!-- EN: archer -->
+  <Ex_Archer.title>лучник</Ex_Archer.title>
+  <Ex_Archer.titleFemale>лучница</Ex_Archer.titleFemale>
+  <!-- EN: archer -->
+  <Ex_Archer.titleShort>лучник</Ex_Archer.titleShort>
+  <Ex_Archer.titleShortFemale>лучница</Ex_Archer.titleShortFemale>
+  
+    <!-- EN: [PAWN_nameDef] wielded ikwa, axes, clubs, and other close-ranged weapons in battles for [PAWN_possessive] tribe. -->
+  <Ex_Brave.description>{PAWN_nameDef} мастерски {PAWN_gender ? управлялся : управлялась} топорами, дубинами, иклва и другим холодным оружием в битвах за своё племя.</Ex_Brave.description>
+  <!-- EN: brave -->
+  <Ex_Brave.title>храбрый воитель</Ex_Brave.title>
+  <Ex_Brave.titleFemale>храбрая воительница</Ex_Brave.titleFemale>
+  <!-- EN: brave -->
+  <Ex_Brave.titleShort>воитель</Ex_Brave.titleShort>
+  <Ex_Brave.titleShortFemale>воительница</Ex_Brave.titleShortFemale>
+  
+  <!-- EN: Following the death of a close friend by animal attack, [PAWN_nameDef] hunted the beast responsible. [PAWN_pronoun] tracked it to a nearby village, only to find one of the villagers wearing its pelt. -->
+  <Ex_VengefulHunter.description>После того как дикий зверь убил {PAWN_possessive} друга, {PAWN_nameDef} {PAWN_gender ? начал : начала} на него охоту. {PAWN_pronoun} {PAWN_gender ? выследил : выследила} животное до соседней деревни, но {PAWN_gender ? нашёл : нашла} лишь его шкуру, которую уже носил на себе один из местных жителей.</Ex_VengefulHunter.description>
+  <!-- EN: vengeful hunter -->
+  <Ex_VengefulHunter.title>мстительный охотник</Ex_VengefulHunter.title>
+  <Ex_VengefulHunter.titleFemale>мстительная охотница</Ex_VengefulHunter.titleFemale>
+  <!-- EN: vengeful -->
+  <Ex_VengefulHunter.titleShort>охотник</Ex_VengefulHunter.titleShort>
+  <Ex_VengefulHunter.titleShortFemale>охотница</Ex_VengefulHunter.titleShortFemale>
+  
+  <!-- EN: Since [PAWN_possessive] tribe made contact with local outlanders, [PAWN_nameDef] contracted [PAWN_possessive] services out as a guide. Frequent contact with ancient technology made [PAWN_objective] comfortable with the lost machines. -->
+  <Ex_Scout.description>С тех пор, как {PAWN_possessive} племя наладило отношения с чужеземцами неподалёку, {PAWN_nameDef} {PAWN_gender ? предлагал : предлагала} свои услуги в качестве проводника по местности. Частые контакты с артефактами древности многому научили {PAWN_objective} о давно забытых технологиях.</Ex_Scout.description>
+  <!-- EN: scout -->
+  <Ex_Scout.title>разведчик</Ex_Scout.title>
+  <Ex_Scout.titleFemale>разведчица</Ex_Scout.titleFemale>
+  <!-- EN: scout -->
+  <Ex_Scout.titleShort>разведчик</Ex_Scout.titleShort>
+  <Ex_Scout.titleShortFemale>разведчица</Ex_Scout.titleShortFemale>
+  
+  <!-- EN: Since {PAWN_nameDef} and his comrades stand guard at the gates of the web, a portal to a large transport network connecting remote places. Usually {PAWN_nameDef} greets guests or hunts, but sometimes it is required to shoot at what comes out of the gate. -->
+  <Ex_Guardian.description>{PAWN_nameDef} с товарищами стоят на страже врат паутины - портала в большую транспортную сеть, соединяющую удаленые места. Обычно {PAWN_nameDef} встречает гостей или охотится, но иногда требуется стрелять в то, что выходит из врат.</Ex_Guardian.description>
+  <!-- EN: guardian -->
+  <Ex_Guardian.title>стражник</Ex_Guardian.title>
+  <Ex_Guardian.titleFemale>стражница</Ex_Guardian.titleFemale>
+  <!-- EN: guard -->
+  <Ex_Guardian.titleShort>страж</Ex_Guardian.titleShort>
+</LanguageData>

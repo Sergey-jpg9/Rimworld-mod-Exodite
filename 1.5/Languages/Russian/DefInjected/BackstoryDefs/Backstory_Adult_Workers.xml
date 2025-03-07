@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- Logger & Farmers (Plants) -->
+  <!-- EN: [PAWN_nameDef] chopped trees and hauled their lumber back to the tribe. [PAWN_pronoun] wielded [PAWN_possessive] axe with the finesse of an artist and the force of a charging muffalo. -->
+  <Ex_Logger.description>{PAWN_nameDef} {PAWN_gender ? валил : валила} лес и {PAWN_gender ? обеспечивал : обеспечивала} древесиной своё племя. {PAWN_pronoun} {PAWN_gender ? управлялся : управлялась} топором с изяществом художника и мощью разъярённого муффало.</Ex_Logger.description>
+  <!-- EN: logger -->
+  <Ex_Logger.title>лесоруб</Ex_Logger.title>
+  <!-- EN: logger -->
+  <Ex_Logger.titleShort>лесоруб</Ex_Logger.titleShort>
+  
+  <!-- EN: Using [PAWN_possessive] knowledge of plants, roots, and berries, [PAWN_nameDef] could find food in even the most barren landscapes. [PAWN_pronoun] stayed away from animals. -->
+  <Ex_Gatherer.description>Благодаря своим знаниям о растениях, съедобных корнях и ягодах, {PAWN_nameDef} {PAWN_gender ? мог : могла} найти еду в самых бесплодных местах. Но от животных {PAWN_pronoun} {PAWN_gender ? предпочитал : предпочитала} держаться подальше.</Ex_Gatherer.description>
+  <!-- EN: gatherer -->
+  <Ex_Gatherer.title>собиратель</Ex_Gatherer.title>
+  <Ex_Gatherer.titleFemale>собирательница</Ex_Gatherer.titleFemale>
+  <!-- EN: gatherer -->
+  <Ex_Gatherer.titleShort>собиратель</Ex_Gatherer.titleShort>
+  <Ex_Gatherer.titleShortFemale>собирательница</Ex_Gatherer.titleShortFemale>
+  
+  <!-- EN: [PAWN_nameDef] never much liked the tribal council or the yearly festivals. [PAWN_pronoun] preferred the open plain and the whistle of wind through the rocks.\n\n[PAWN_pronoun] visited [PAWN_possessive] tribe from time to time, but mostly took care of [PAWN_objective]self using [PAWN_possessive] own survival skills. -->
+  <Ex_Loner.description>Посещению совета племени и ежегодных празднеств {PAWN_nameDef} {PAWN_gender ? предпочитал : предпочитала} открытую равнину и одинокий свист ветра в скалах.\n\n{PAWN_pronoun} время от времени {PAWN_gender ? наведывался : наведывалась} в своё племя, но в основном самостоятельно {PAWN_gender ? заботился : заботилась} о себе, пользуясь своими навыками выживания.</Ex_Loner.description>
+  <!-- EN: loner -->
+  <Ex_Loner.title>одиночка</Ex_Loner.title>
+  <!-- EN: loner -->
+  <Ex_Loner.titleShort>бирюк</Ex_Loner.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]'s tribe banished [PAWN_objective] following a bloody dispute. [PAWN_pronoun] survived in the wilds alone for a long time. -->
+  <Ex_Banished.description>Племя {PAWN_nameDef} изгнало {PAWN_possessive} после кровавого конфликта. {PAWN_pronoun} {PAWN_gender ? был вынужден : была вынуждена} долгие годы выживать в глуши, полагаясь только на себя.</Ex_Banished.description>
+  <!-- EN: banished -->
+  <Ex_Banished.title>изгнанник</Ex_Banished.title>
+  <Ex_Banished.titleFemale>изгнанница</Ex_Banished.titleFemale>
+  <!-- EN: banished -->
+  <Ex_Banished.titleShort>изгнанник</Ex_Banished.titleShort>
+  <Ex_Banished.titleShortFemale>изгнанница</Ex_Banished.titleShortFemale>
+  
+  <!-- EN: [PAWN_nameDef] built houses among, and sometimes suspended in, the trees for [PAWN_possessive] people to use while traveling or foraging. [PAWN_nameDef] learned how to best find and use wild plants, and how to fight off wild animals. -->
+  <Ex_TreehouseBuilder.description>{PAWN_nameDef} {PAWN_gender ? строил : строила} жилища среди, а иногда и внутри деревьев, чтобы {PAWN_possessive} племя могло ими пользоваться во время путешествий или поиска пищи. {PAWN_nameDef} {PAWN_gender ? научился : научилась} находить и использовать дикие растения, а также отбиваться от хищников.</Ex_TreehouseBuilder.description>
+  <!-- EN: treehouse builder -->
+  <Ex_TreehouseBuilder.title>строитель хижин</Ex_TreehouseBuilder.title>
+  <!-- EN: treehouse builder -->
+  <Ex_TreehouseBuilder.titleShort>строитель хижин</Ex_TreehouseBuilder.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] helped [PAWN_possessive] tribe build huge wooden structures by cutting trees into sturdy planks. [PAWN_nameDef] developed a fine understanding of how wood grows and splits. -->
+  <Ex_PlankCutter.description>{PAWN_nameDef} {PAWN_gender ? помогал : помогала} своему племени строить огромные деревянные сооружения, распиливая деревья на прочные доски. {PAWN_nameDef} хорошо {PAWN_gender ? изучил : изучила} особенности роста и обработки древесины.</Ex_PlankCutter.description>
+  <!-- EN: plank cutter -->
+  <Ex_PlankCutter.title>распиловщик</Ex_PlankCutter.title>
+  <!-- EN: plank cutter -->
+  <Ex_PlankCutter.titleShort>распиловщик</Ex_PlankCutter.titleShort>
+  <!-- Logger & Farmers (Plants) -->
+  
+  <!-- Framers (Construction) -->
+  <!-- EN: [PAWN_nameDef] was responsible for erecting structures of stone for [PAWN_possessive] fellow tribespeople. Strong foundations and walls, altars and temples during construction required {PAWN_nameDef} to make some calculations and adjust the shape of stone bricks. -->
+  <Ex_Bricklayer.description>{PAWN_nameDef} {PAWN_gender ? отвечал : отвечала} за возведение каменных сооружений для своего племени. Прочные фундаменты и стены, алтари и храмы при строительстве требовали от {PAWN_nameDef} некоторых расчетов и подгонки формы каменных кирпичей.</Ex_Bricklayer.description>
+  <!-- EN: bricklayer -->
+  <Ex_Bricklayer.title>каменщик</Ex_Bricklayer.title>
+  <!-- EN: bricklayer -->
+  <Ex_Bricklayer.titleShort>каменщик</Ex_Bricklayer.titleShort>
+  
+  <Ex_Framer.description>{PAWN_nameDef} {PAWN_gender ? отвечал : отвечала} за возведение жилых сооружений для своего племени, в том числе временных жилищ для путешествий и постоянных — для поселений. Одной из важных задач в этой работе был сбор и использование местных растений в качестве строительных материалов.</Ex_Framer.description>
+  <!-- EN: framer -->
+  <Ex_Framer.title>строитель</Ex_Framer.title>
+  <!-- EN: framer -->
+  <Ex_Framer.titleShort>строитель</Ex_Framer.titleShort>
+  <!-- Framers (Construction) -->
+  
+  <!-- Miners (Mining) -->
+  <!-- EN: [PAWN_nameDef] labored in mines and caves, digging out spaces for storing items and hiding from threats. [PAWN_possessive] work provided hiding spots for [PAWN_possessive] friends on many occasions. -->
+  <Ex_Miner.description>{PAWN_nameDef} {PAWN_gender ? трудился : трудилась} в шахтах и пещерах, выкапывая места для хранения имущества и укрытия от опасностей. {PAWN_possessive} работа помогла спасти немало жизней.</Ex_Miner.description>
+  <!-- EN: digger -->
+  <Ex_Miner.title>копатель</Ex_Miner.title>
+  <!-- EN: digger -->
+  <Ex_Miner.titleShort>копатель</Ex_Miner.titleShort>
+  <!-- Miners (Mining) -->
+  
+  <!-- Cookers (Cooking) -->
+  <!-- EN: [PAWN_nameDef]'s main job in the hunting party was the butchering of animals. [PAWN_pronoun] became a master with the knife, able to extract every bit of value from a carcass in a short time. -->
+  <Ex_Butcher.description>В своём охотничьем отряде {PAWN_nameDef} в основном {PAWN_gender ? занимался : занималась} разделкой животных. {PAWN_pronoun} {PAWN_gender ? стал : стала} мастером в обращении с ножом и {PAWN_gender ? способен : способна} за короткое время извлечь из туши каждый ценный кусочек.</Ex_Butcher.description>
+  <!-- EN: butcher -->
+  <Ex_Butcher.title>мясник</Ex_Butcher.title>
+  <!-- EN: butcher -->
+  <Ex_Butcher.titleShort>мясник</Ex_Butcher.titleShort>
+  
+  <!-- EN: While the others were out hunting and foraging, [PAWN_nameDef] would stay at home to cook and take care of the young and sick. -->
+  <Ex_HearthTender.description>Пока остальные охотились и занимались собирательством, {PAWN_nameDef} {PAWN_gender ? оставался : оставалась} дома, готовя еду и ухаживая за больными и детьми.</Ex_HearthTender.description>
+  <!-- EN: hearth tender -->
+  <Ex_HearthTender.title>пещерная сиделка</Ex_HearthTender.title>
+  <!-- EN: tender -->
+  <Ex_HearthTender.titleShort>сиделка</Ex_HearthTender.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] prepared meals from the plants and animals brought in by gatherers, farmers, and hunters of [PAWN_possessive] tribe. [PAWN_pronoun] had to make sure it was calorie-efficient, long-lasting, and healthy. [PAWN_pronoun] often processed and sometime gathered plants [PAWN_objective]self. -->
+  <Ex_StewKeeper.description>{PAWN_nameDef} {PAWN_gender ? готовил : готовила} еду из растений и животных, принесённых собирателями, земледельцами и охотниками {PAWN_possessive} племени. {PAWN_pronoun} {PAWN_gender ? следил : следила}, чтобы пища была сытной, здоровой и хорошо хранилась. {PAWN_nameDef} регулярно {PAWN_gender ? обрабатывал : обрабатывала}, а порой и {PAWN_gender ? сам : сама} {PAWN_gender ? собирал : собирала} растения.</Ex_StewKeeper.description>
+  <!-- EN: stew keeper -->
+  <Ex_StewKeeper.title>кухарь</Ex_StewKeeper.title>
+  <Ex_StewKeeper.titleFemale>кухарка</Ex_StewKeeper.titleFemale>
+  <!-- EN: stewkeeper -->
+  <Ex_StewKeeper.titleShort>кухарь</Ex_StewKeeper.titleShort>
+  <Ex_StewKeeper.titleShortFemale>кухарка</Ex_StewKeeper.titleShortFemale>
+  <!-- Cookers (Cooking) -->
+  
+  <!-- aaa (Animals) -->
+  <!-- EN: [PAWN_nameDef]'s role in [PAWN_possessive] tribe was to connect with the natural world around - especially the world of animals. In addition to fulfilling a spiritual role, [PAWN_pronoun] also tamed wild beasts and cared for them as they served the tribe. -->
+  <Ex_Tamer.description>В своём племени {PAWN_nameDef} {PAWN_gender ? отвечал : отвечала} за единение с миром природы — особенно с животными. {PAWN_pronoun} не только {PAWN_gender ? исполнял : исполняла} свою духовную роль, но также {PAWN_gender ? приручал : приручала} диких зверей для работы в племени и {PAWN_gender ? заботился : заботилась} о них.</Ex_Tamer.description>
+  <!-- EN: tamer -->
+  <Ex_Tamer.title>укротитель</Ex_Tamer.title>
+  <Ex_Tamer.titleFemale>укротительница</Ex_Tamer.titleFemale>
+  <!-- EN: tamer -->
+  <Ex_Tamer.titleShort>укротитель</Ex_Tamer.titleShort>
+  <Ex_Tamer.titleShortFemale>укротительница</Ex_Tamer.titleShortFemale>
+  
+  <!-- EN: [PAWN_nameDef] herded a variety of animals to help feed and clothe [PAWN_possessive] tribe while on the move. [PAWN_nameDef] learned how to calm and direct the beasts, and how to hunt [PAWN_possessive] own meals on the trail. -->
+  <Ex_Herder.description>{PAWN_nameDef} {PAWN_gender ? пас : пасла} стада животных, помогая кормить и одевать своё племя во время кочевания. {PAWN_nameDef} {PAWN_gender ? научился : научилась} успокаивать и приручать зверей, а также охотой добывать еду в пути.</Ex_Herder.description>
+  <!-- EN: herder -->
+  <Ex_Herder.title>пастух</Ex_Herder.title>
+  <!-- EN: herder -->
+  <Ex_Herder.titleShort>пастух</Ex_Herder.titleShort>
+  <!-- aaa (Animals) -->
+  
+  <!-- Craftmans (Crafting) -->
+  <!-- EN: [PAWN_nameDef] was an expert at working wool, plant fibers and natural dyes into beautiful clothing for [PAWN_possessive] kin. [PAWN_possessive] handicrafts were traded frequently with other settlements. -->
+  <Ex_Weaver.description>{PAWN_nameDef} {PAWN_gender ? был : была} экспертом по превращению шерсти животных, растительных волокон и натуральных красителей в прекрасную одежду для своей родни. {PAWN_possessive} творениями часто торговали с соседними племенами.</Ex_Weaver.description>
+  <!-- EN: weaver -->
+  <Ex_Weaver.title>ткач</Ex_Weaver.title>
+  <Ex_Weaver.titleFemale>ткачиха</Ex_Weaver.titleFemale>
+  <!-- EN: weaver -->
+  <Ex_Weaver.titleShort>ткач</Ex_Weaver.titleShort>
+  <Ex_Weaver.titleShortFemale>ткачиха</Ex_Weaver.titleShortFemale>
+  
+  <!-- EN: As a smith [PAWN_nameDef] gained a reputation for the high quality of [PAWN_possessive] work. [PAWN_pronoun] wasn't bad at using the swords [PAWN_pronoun] forged either. -->
+  <Ex_Blacksmith.description>Будучи кузнецом, {PAWN_nameDef} {PAWN_gender ? получил : получила} заслуженную репутацию мастера своего дела. {PAWN_pronoun} также неплохо {PAWN_gender ? умел : умела} применять выкованные мечи по прямому назначению.</Ex_Blacksmith.description>
+  <!-- EN: blacksmith -->
+  <Ex_Blacksmith.title>кузнец</Ex_Blacksmith.title>
+  <!-- EN: blacksmith -->
+  <Ex_Blacksmith.titleShort>кузнец</Ex_Blacksmith.titleShort>
+  <!-- Craftmans (Crafting) -->
+  
+  <!-- Healers (Medicine) -->
+  <!-- EN: After [PAWN_possessive] tribe's elder healer was killed in a raid, [PAWN_nameDef] took on the role. [PAWN_pronoun] spent [PAWN_possessive] days scrounging up herbs and mineral compounds from the nearby area to use in surprisingly effective remedies. -->
+  <Ex_Healer.description>После того как во время очередного налёта бандиты убили племенного лекаря, {PAWN_nameDef} {PAWN_gender ? занял : заняла} его место. {PAWN_pronoun} {PAWN_gender ? проводил : проводила} дни, собирая травы и минералы, из которых получались на удивление эффективные снадобья.</Ex_Healer.description>
+  <!-- EN: healer -->
+  <Ex_Healer.title>знахарь</Ex_Healer.title>
+  <Ex_Healer.titleFemale>знахарка</Ex_Healer.titleFemale>
+  <!-- EN: healer -->
+  <Ex_Healer.titleShort>знахарь</Ex_Healer.titleShort>
+  <Ex_Healer.titleShortFemale>знахарка</Ex_Healer.titleShortFemale>
+  <!-- Healers (Medicine) -->
+  
+  <!-- ASI (Artistic, Social, Intellectual) -->
+  <!-- EN: [PAWN_nameDef] carved artworks for [PAWN_possessive] tribe from wood, stone, and occasionally, more exotic materials. The work was sometimes sold, and sometimes kept to beautify settlements and provide a focus for rituals. -->
+  <Ex_Carver.description>{PAWN_nameDef} {PAWN_gender ? вырезал : вырезала} для своего племени скульптуры из дерева, камня, а порой и из более экзотических материалов. Что-то из {PAWN_possessive} работ продавалось, что-то — хранилось поселенцами в ритуальных целях и просто для красоты.</Ex_Carver.description>
+  <!-- EN: carver -->
+  <Ex_Carver.title>резчик</Ex_Carver.title>
+  <Ex_Carver.titleFemale>резчица</Ex_Carver.titleFemale>
+  <!-- EN: carver -->
+  <Ex_Carver.titleShort>резчик</Ex_Carver.titleShort>
+  <Ex_Carver.titleShortFemale>резчица</Ex_Carver.titleShortFemale>
+  
+  <!-- EN: [PAWN_nameDef] was one of a long line of lore keepers in [PAWN_possessive] tribe. Every night around the fire, [PAWN_pronoun] would pass on ancient knowledge and helpful wisdom through stories. -->
+  <Ex_LoreKeeper.description>{PAWN_nameDef} {PAWN_gender ? продолжал : продолжала} древний род хранителей сказаний в своём племени. Каждую ночь, когда все собирались у огня, {PAWN_pronoun} {PAWN_gender ? рассказывал : рассказывала} истории, передавая тем самым древние знания и мудрость.</Ex_LoreKeeper.description>
+  <!-- EN: lore keeper -->
+  <Ex_LoreKeeper.title>хранитель легенд</Ex_LoreKeeper.title>
+  <Ex_LoreKeeper.titleFemale>хранительница легенд</Ex_LoreKeeper.titleFemale>
+  <!-- EN: keeper -->
+  <Ex_LoreKeeper.titleShort>сказитель</Ex_LoreKeeper.titleShort>
+  <Ex_LoreKeeper.titleShortFemale>сказительница</Ex_LoreKeeper.titleShortFemale>
+  
+  <!-- EN: [PAWN_nameDef] often feigned sickness in order to avoid [PAWN_possessive] responsibilities. While resting in the sick hut, [PAWN_pronoun] told stories to the children. -->
+  <Ex_Malingerer.description>{PAWN_nameDef} часто {PAWN_gender ? придумывал : придумывала} себе всякие болезни, чтобы избегать работы. Отдыхая в хижине для больных, {PAWN_pronoun} {PAWN_gender ? рассказывал : рассказывала} разные истории детишкам.</Ex_Malingerer.description>
+  <!-- EN: malingerer -->
+  <Ex_Malingerer.title>симулянт</Ex_Malingerer.title>
+  <Ex_Malingerer.titleFemale>симулянтка</Ex_Malingerer.titleFemale>
+  <!-- EN: malingerer -->
+  <Ex_Malingerer.titleShort>симулянт</Ex_Malingerer.titleShort>
+  <Ex_Malingerer.titleShortFemale>симулянтка</Ex_Malingerer.titleShortFemale>
+  <!-- ASI (Artistic, Social, Intellectual) -->
+
+</LanguageData>

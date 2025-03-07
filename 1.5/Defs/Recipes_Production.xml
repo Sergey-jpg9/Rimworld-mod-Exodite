@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef Class="Exodites.PsyhicRecipeDef">
+    <defName>Make_MagicRune</defName>
+    <label>make magic rune</label>
+    <description>Make a magic rune.\Price:\nAll psy-heating - 12000.\nConcentration loss - 5%\nMin bonesinger level - 1\nMin concentration - 20%</description>
+    <jobString>Making magic rune.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>4000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+	<ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PsybonePlates</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+	<fixedIngredientFilter>
+      <thingDefs>
+        <li>PsybonePlates</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Apparel_MagicRune>1</Apparel_MagicRune>
+    </products>
+    <skillRequirements>
+      <Crafting>1</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <displayPriority>0</displayPriority>
+	<researchPrerequisite>Tech_MagicRune</researchPrerequisite>
+	
+	<EntropyPer60Tick>3</EntropyPer60Tick>
+	<PsyfocusPerTick>-0.0000125</PsyfocusPerTick>
+	<minBonesingerLevel>1</minBonesingerLevel>
+	<minPsyfocusNeed>0.2</minPsyfocusNeed>
+  </RecipeDef>
+  
+  <RecipeDef Class="Exodites.PsyhicRecipeDef">
+    <defName>Make_HealerRune</defName>
+    <label>make healer rune</label>
+    <description>Make a healer rune.\Price:\nAll psy-heating - 12000.\nConcentration loss - 5%\nMin bonesinger level - 1\nMin concentration - 20%</description>
+    <jobString>Making healer rune.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>4000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+	<ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PsybonePlates</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+	<fixedIngredientFilter>
+      <thingDefs>
+        <li>PsybonePlates</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Apparel_HealerRune>1</Apparel_HealerRune>
+    </products>
+    <skillRequirements>
+      <Crafting>1</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <displayPriority>0</displayPriority>
+	<researchPrerequisite>Tech_HealerRune</researchPrerequisite>
+	
+	<EntropyPer60Tick>3</EntropyPer60Tick>
+	<PsyfocusPerTick>-0.0000125</PsyfocusPerTick>
+	<minBonesingerLevel>1</minBonesingerLevel>
+	<minPsyfocusNeed>0.2</minPsyfocusNeed>
+  </RecipeDef>
+  
+  <RecipeDef Class="Exodites.PsyhicRecipeDef">
+    <defName>Make_HunterRune</defName>
+    <label>make hunter rune</label>
+    <description>Make a hunter rune.\Price:\nAll psy-heating - 12000.\nConcentration loss - 5%\nMin bonesinger level - 1\nMin concentration - 20%</description>
+    <jobString>Making hunter rune.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>4000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+	<ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PsybonePlates</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+	<fixedIngredientFilter>
+      <thingDefs>
+        <li>PsybonePlates</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Apparel_HuntersRune>1</Apparel_HuntersRune>
+    </products>
+    <skillRequirements>
+      <Crafting>1</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <displayPriority>0</displayPriority>
+	
+	<EntropyPer60Tick>2</EntropyPer60Tick>
+	<PsyfocusPerTick>-0.0000125</PsyfocusPerTick>
+	<minBonesingerLevel>1</minBonesingerLevel>
+	<minPsyfocusNeed>0.2</minPsyfocusNeed>
+  </RecipeDef>
+  
+  <RecipeDef Class="Exodites.PsyhicRecipeDef">
+    <defName>Make_BoneSpear</defName>
+    <label>make bone spear</label>
+    <description>Make a bone spear.\Price:\nAll psy-heating - 27000.\nConcentration loss - 40%\nMin bonesinger level - 2\nMin concentration - 20%</description>
+    <jobString>Making a bone spear.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>9000</workAmount>
+    <unfinishedThingDef>UnfinishedWeapon_E</unfinishedThingDef>
+	<ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WoodLog</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Exodite_MeleeWeapon_BoneSpear>1</Exodite_MeleeWeapon_BoneSpear>
+    </products>
+    <skillRequirements>
+      <Crafting>2</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <displayPriority>0</displayPriority>
+	<researchPrerequisite>Tech_WraithboneWeapons</researchPrerequisite>
+	
+	<EntropyPer60Tick>3</EntropyPer60Tick>
+	<PsyfocusPerTick>-0.0000444</PsyfocusPerTick>
+	<minBonesingerLevel>2</minBonesingerLevel>
+	<minPsyfocusNeed>0.2</minPsyfocusNeed>
+  </RecipeDef>
+  
+  <RecipeDef Class="Exodites.PsyhicRecipeDef">
+    <defName>Make_BonesingerInstrument</defName>
+    <label>bonesinger's instrument</label>
+    <description>make a bonesinger's instrument.\Price:\nAll psy-heating - 9600.\nConcentration loss - 50%\nMin bonesinger level - 1\nMin concentration - 30%</description>
+    <jobString>Making a bonesinger's instrument.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>1200</workAmount>
+    <unfinishedThingDef>UnfinishedWeapon_E</unfinishedThingDef>
+	<ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>60</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WoodLog</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <BonesingerInstrument>1</BonesingerInstrument>
+    </products>
+    <skillRequirements>
+      <Crafting>2</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <displayPriority>0</displayPriority>
+	
+	<EntropyPer60Tick>8</EntropyPer60Tick>
+	<PsyfocusPerTick>-0.000416</PsyfocusPerTick>
+	<minBonesingerLevel>1</minBonesingerLevel>
+	<minPsyfocusNeed>0.3</minPsyfocusNeed>
+  </RecipeDef>
+  
+  <RecipeDef Class="Exodites.PsyhicRecipeDef">
+    <defName>Make_ExoditeBow</defName>
+    <label>make exodite bow</label>
+    <description>make a exodite's bow.\Price:\nAll psy-heating - 27000.\nConcentration loss - 40%\nMin bonesinger level - 2\nMin concentration - 20%</description>
+    <jobString>Making a exodite's bow.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>9000</workAmount>
+    <unfinishedThingDef>UnfinishedWeapon_E</unfinishedThingDef>
+	<ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WoodLog</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Bow_Exodte>1</Bow_Exodte>
+    </products>
+    <skillRequirements>
+      <Crafting>2</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <displayPriority>0</displayPriority>
+	<researchPrerequisite>Tech_WraithboneWeapons</researchPrerequisite>
+	
+	<EntropyPer60Tick>3</EntropyPer60Tick>
+	<PsyfocusPerTick>-0.0000444</PsyfocusPerTick>
+	<minBonesingerLevel>2</minBonesingerLevel>
+	<minPsyfocusNeed>0.2</minPsyfocusNeed>
+  </RecipeDef>
+  
+  <RecipeDef Class="Exodites.PsyhicRecipeDef">
+    <defName>Make_ShurikenCatapult</defName>
+    <label>make shuriken catapult</label>
+    <description>Make a shuriken catapult.\Price:\nAll psy-heating - 60000.\nConcentration loss - 100%\nMin bonesinger level - 4\nMin concentration - 30%</description>
+    <jobString>Making a shuriken catapult.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>15000</workAmount>
+    <unfinishedThingDef>UnfinishedWeapon_E</unfinishedThingDef>
+    <products>
+      <Gun_ShurikenCatapult>1</Gun_ShurikenCatapult>
+    </products>
+    <skillRequirements>
+      <Crafting>4</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <displayPriority>0</displayPriority>
+	<researchPrerequisite>Tech_ShurikenCatapult</researchPrerequisite>
+	
+	<EntropyPer60Tick>4</EntropyPer60Tick>
+	<PsyfocusPerTick>-0.0000666</PsyfocusPerTick>
+	<minBonesingerLevel>4</minBonesingerLevel>
+	<minPsyfocusNeed>0.3</minPsyfocusNeed>
+  </RecipeDef>
+  
+  <RecipeDef Class="Exodites.PsyhicRecipeDef">
+    <defName>Make_BonesingerHelmet</defName>
+    <label>make bonesinger's helmet</label>
+    <description>Make a bonesinger's helmet.\Price:\nAll psy-heating - 48000.\nConcentration loss - 80%\nMin bonesinger level - 3\nMin concentration - 30%</description>
+    <jobString>Making a bonesinger's helmet.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>12000</workAmount>
+    <unfinishedThingDef>UnfinishedWeapon_E</unfinishedThingDef>
+    <products>
+      <Apparel_BonesingerHelmet>1</Apparel_BonesingerHelmet>
+    </products>
+    <skillRequirements>
+      <Crafting>4</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <displayPriority>0</displayPriority>
+	<researchPrerequisite>Tech_WraithboneArmor</researchPrerequisite>
+	
+	<EntropyPer60Tick>4</EntropyPer60Tick>
+	<PsyfocusPerTick>-0.0000666</PsyfocusPerTick>
+	<minBonesingerLevel>3</minBonesingerLevel>
+	<minPsyfocusNeed>0.3</minPsyfocusNeed>
+  </RecipeDef>
+  
+  <RecipeDef Class="Exodites.PsyhicRecipeDef">
+    <defName>Make_SimpleHelmet</defName>
+    <label>simple helmet</label>
+    <description>Make a simple helmet.\Price:\nAll psy-heating - 48000.\nConcentration loss - 80%\nMin bonesinger level - 3\nMin concentration - 30%</description>
+    <jobString>Making a simple helmet.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>12000</workAmount>
+    <unfinishedThingDef>UnfinishedWeapon_E</unfinishedThingDef>
+    <products>
+      <Apparel_ExSimpleHelmet>1</Apparel_ExSimpleHelmet>
+    </products>
+    <skillRequirements>
+      <Crafting>4</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <displayPriority>0</displayPriority>
+	<researchPrerequisite>Tech_WraithboneArmor</researchPrerequisite>
+	
+	<EntropyPer60Tick>4</EntropyPer60Tick>
+	<PsyfocusPerTick>-0.0000666</PsyfocusPerTick>
+	<minBonesingerLevel>3</minBonesingerLevel>
+	<minPsyfocusNeed>0.3</minPsyfocusNeed>
+  </RecipeDef>
+  
+  <RecipeDef Class="Exodites.PsyhicRecipeDef">
+    <defName>Make_PsyplasticCloth</defName>
+    <label>wove psyplastic cloth</label>
+    <description>wove a psyplastic cloth.\Price:\nAll psy-heating - 3000.\nConcentration loss - 4%\nMin bonesinger level - 2\nMin concentration - 10%</description>
+    <jobString>Wove psyplastic cloth.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>1000</workAmount>
+    <unfinishedThingDef>UnfinishedApparel_E</unfinishedThingDef>
+    <products>
+      <PsyplasticCloth>10</PsyplasticCloth>
+    </products>
+    <skillRequirements>
+      <Crafting>1</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <displayPriority>0</displayPriority>
+	
+	<EntropyPer60Tick>3</EntropyPer60Tick>
+	<PsyfocusPerTick>-0.00004</PsyfocusPerTick>
+	<minBonesingerLevel>2</minBonesingerLevel>
+	<minPsyfocusNeed>0.1</minPsyfocusNeed>
+  </RecipeDef>
+  
+  <RecipeDef Class="Exodites.PsyhicRecipeDef">
+    <defName>Make_PsybonePlates</defName>
+    <label>make psybone plates</label>
+    <description>Make psybone plates.\Price:\nAll psy-heating - 3000.\nConcentration loss - 4%\nMin bonesinger level - 1\nMin concentration - 10%</description>
+    <jobString>Making a psybone plates.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>1000</workAmount>
+    <unfinishedThingDef>UnfinishedApparel_E</unfinishedThingDef>
+    <products>
+      <PsybonePlates>5</PsybonePlates>
+    </products>
+    <skillRequirements>
+      <Crafting>1</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <displayPriority>0</displayPriority>
+	
+	<EntropyPer60Tick>3</EntropyPer60Tick>
+	<PsyfocusPerTick>-0.00004</PsyfocusPerTick>
+	<minBonesingerLevel>1</minBonesingerLevel>
+	<minPsyfocusNeed>0.1</minPsyfocusNeed>
+  </RecipeDef>
+  
+  <ThingDef ParentName="UnfinishedBase">
+    <defName>UnfinishedApparel_E</defName>
+    <label>unfinished apparel</label>
+    <description>An unfinished apparel.</description>
+    <statBases>
+      <Flammability>0.5</Flammability>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Item/Unfinished/UnfinishedApparel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stuffCategories Inherit="false" />
+  </ThingDef>
+  
+  <ThingDef ParentName="UnfinishedBase">
+    <defName>UnfinishedWeapon_E</defName>
+    <label>unfinished weapon</label>
+    <description>An unfinished component.</description>
+    <statBases>
+      <Flammability>0.5</Flammability>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Item/Unfinished/UnfinishedWeapon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stuffCategories Inherit="false" />
+  </ThingDef>
+  
+  <ThingDef ParentName="UnfinishedBase">
+    <defName>UnfinishedSculpture_E</defName>
+    <label>unfinished sculpture</label>
+    <description>An unfinished component.</description>
+    <statBases>
+      <Flammability>0.5</Flammability>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Item/Unfinished/UnfinishedSculpture</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stuffCategories Inherit="false" />
+  </ThingDef>
+</Defs>

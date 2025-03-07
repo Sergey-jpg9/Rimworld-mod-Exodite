@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <HediffDef>
+    <defName>KhaineMaskEffect</defName>
+    <label>Warmask</label>
+    <labelNoun>Warmask</labelNoun>
+    <description>The watmask is a special state of consciousness during which the wearer assumes the personality of Khaine, the god of war.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <maxSeverity>1</maxSeverity>
+    <stages>
+	  <li>
+	    <minSeverity>0</minSeverity>
+	    <capMods>
+		  <li>
+            <capacity>Moving</capacity>
+            <offset>0.04</offset>
+		  </li>
+		</capMods>
+		<hungerRateFactor>1</hungerRateFactor>
+      </li>
+      <li>
+	    <minSeverity>0.5</minSeverity>
+	    <capMods>
+		  <li>
+            <capacity>Moving</capacity>
+            <offset>0.12</offset>
+		  </li>
+		</capMods>
+		<totalBleedFactor>0.9</totalBleedFactor>
+		<painFactor>0.9</painFactor>
+		<hungerRateFactor>2</hungerRateFactor>
+      </li>
+	  <li>
+	    <minSeverity>0.9</minSeverity>
+	    <capMods>
+		  <li>
+            <capacity>Moving</capacity>
+            <offset>0.2</offset>
+		  </li>
+		  <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.2</offset>
+		  </li>
+		</capMods>
+		<totalBleedFactor>0.81</totalBleedFactor>
+		<painFactor>0.81</painFactor>
+		<hungerRateFactor>2</hungerRateFactor>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>10000~10000</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+	  <li Class="Exodites.HediffCompProperties_KhaineMask"></li>
+    </comps>
+  </HediffDef>
+  
+  <HediffDef ParentName = "PsycastHediffBase">
+    <defName>PsychicHeal</defName>
+    <label>psychic healing</label>
+    <description>Psychically-induced pain insensitivity.</description>
+    <isBad>false</isBad>
+    <stages>
+      <li>
+        <totalBleedFactor>0</totalBleedFactor>
+		<naturalHealingFactor>8</naturalHealingFactor>
+		<restFallFactor>4</restFallFactor>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <HediffDef>
+    <defName>PsychicBloodFilter</defName>
+    <label>psychic blood filter</label>
+    <description>It will disperse the blood in your veins, making it flow faster. It helps the patient's liver to work. It also significantly accelerates the release of blood from open wounds. It's painful.</description>
+	<hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <stages>
+      <li>
+	    <painOffset>0.1</painOffset>
+	    <capMods>
+		  <li>
+            <capacity>BloodFiltration</capacity>
+            <offset>0.5</offset>
+		  </li>
+		  <li>
+            <capacity>BloodPumping</capacity>
+            <offset>0.2</offset>
+		  </li>
+		</capMods>
+		<totalBleedFactor>2.5</totalBleedFactor>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>3600~3601</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+	</comps>
+  </HediffDef>
+  
+  <HediffDef>
+    <defName>MutationLimbInjury</defName>
+    <label>limb injury</label>
+    <description>This part of the body was severely damaged by warp impact. It can be amputated or cured with luciferium.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <initialSeverity>0</initialSeverity>
+	<maxSeverity>1</maxSeverity>
+	<chronic>true</chronic>
+    <stages>
+      <li>
+        <label>minor</label>
+        <partEfficiencyOffset>-0.33</partEfficiencyOffset>
+        <painOffset>0.03</painOffset>
+      </li>
+      <li>
+        <minSeverity>0.1</minSeverity>
+        <label>usual</label>
+        <partEfficiencyOffset>-0.4</partEfficiencyOffset>
+        <painOffset>0.05</painOffset>
+      </li>
+      <li>
+        <minSeverity>0.3</minSeverity>
+        <label>damage</label>
+        <partEfficiencyOffset>-0.5</partEfficiencyOffset>
+        <painOffset>0</painOffset>
+      </li>
+	  <li>
+        <minSeverity>0.6</minSeverity>
+        <label>major</label>
+        <partEfficiencyOffset>-0.67</partEfficiencyOffset>
+        <painOffset>0.06</painOffset>
+      </li>
+      <li>
+        <minSeverity>0.8</minSeverity>
+        <label>painful</label>
+        <partEfficiencyOffset>-0.8</partEfficiencyOffset>
+        <painOffset>0.12</painOffset>
+      </li>
+	  <li>
+        <minSeverity>0.9</minSeverity>
+        <label>very</label>
+        <partEfficiencyOffset>-0.95</partEfficiencyOffset>
+        <painOffset>0.09</painOffset>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <HediffDef ParentName="ChronicDiseaseBase">
+    <defName>Crystallisation_1stage</defName>
+    <label>crystallisation 1 stage</label>
+    <labelNoun>a crystallisation 1 stage</labelNoun>
+    <description>A body part slowly became a crystall.</description>
+    <initialSeverity>0.02</initialSeverity>
+    <minSeverity>0.001</minSeverity>
+    <maxSeverity>1</maxSeverity>
+    <tendable>true</tendable>
+    <cureAllAtOnceIfCuredByItem>true</cureAllAtOnceIfCuredByItem>
+    <comps>
+      <li Class="HediffCompProperties_Immunizable">
+        <severityPerDayNotImmune>0.5</severityPerDayNotImmune>
+      </li>
+      <li Class="HediffCompProperties_TendDuration">
+        <baseTendDurationHours>96</baseTendDurationHours>
+        <tendAllAtOnce>true</tendAllAtOnce>
+        <severityPerDayTended>-0.2</severityPerDayTended>
+      </li>
+	  <li Class="Exodites.HediffCompProperties_GiveHediffOnSevLevel">
+		<severityLevel>0.98</severityLevel>
+		<hediff>Crystallisation_2stage</hediff>
+	  </li>
+    </comps>
+    <stages>
+      <li>
+        <label>minor</label>
+        <partEfficiencyOffset>-0.03</partEfficiencyOffset>
+        <painOffset>0.01</painOffset>
+      </li>
+      <li>
+        <minSeverity>0.1</minSeverity>
+        <label>minor</label>
+        <partEfficiencyOffset>-0.1</partEfficiencyOffset>
+        <painOffset>0.01</painOffset>
+      </li>
+	  <li>
+        <minSeverity>0.25</minSeverity>
+        <label>minor</label>
+        <partEfficiencyOffset>-0.15</partEfficiencyOffset>
+        <painOffset>0.02</painOffset>
+      </li>
+      <li>
+        <minSeverity>0.4</minSeverity>
+        <label>major</label>
+        <partEfficiencyOffset>-0.2</partEfficiencyOffset>
+        <painOffset>0.02</painOffset>
+      </li>
+      <li>
+        <minSeverity>0.6</minSeverity>
+        <label>major</label>
+        <partEfficiencyOffset>-0.3</partEfficiencyOffset>
+        <painOffset>0.03</painOffset>
+      </li>
+      <li>
+        <minSeverity>0.8</minSeverity>
+        <label>extreme</label>
+        <partEfficiencyOffset>-0.33</partEfficiencyOffset>
+        <painOffset>0.04</painOffset>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  
+  <HediffDef ParentName="ChronicDiseaseBase">
+    <defName>Crystallisation_2stage</defName>
+    <label>crystallisation 2 stage</label>
+    <labelNoun>a crystallisation 2 stage</labelNoun>
+    <description>A body part fast became a crystall.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <initialSeverity>0.02</initialSeverity>
+    <tendable>true</tendable>
+    <removeOnQuestLodgers>true</removeOnQuestLodgers>
+    <stages>
+      <li>
+        <label>minor</label>
+        <partEfficiencyOffset>-0.33</partEfficiencyOffset>
+        <painOffset>0.03</painOffset>
+      </li>
+      <li>
+        <minSeverity>0.1</minSeverity>
+        <label>minor</label>
+        <partEfficiencyOffset>-0.4</partEfficiencyOffset>
+        <painOffset>0.06</painOffset>
+      </li>
+	  <li>
+        <minSeverity>0.25</minSeverity>
+        <label>minor</label>
+        <partEfficiencyOffset>-0.45</partEfficiencyOffset>
+        <painOffset>0.06</painOffset>
+      </li>
+      <li>
+        <minSeverity>0.4</minSeverity>
+        <label>major</label>
+        <partEfficiencyOffset>-0.5</partEfficiencyOffset>
+        <painOffset>0.09</painOffset>
+		<hediffGivers>
+          <li Class="HediffGiver_Random">
+            <hediff>Crystallisation_1stage</hediff>
+            <mtbDays>10</mtbDays>
+            <canAffectAnyLivePart>true</canAffectAnyLivePart>
+          </li>
+        </hediffGivers>
+      </li>
+      <li>
+        <minSeverity>0.6</minSeverity>
+        <label>major</label>
+        <partEfficiencyOffset>-0.75</partEfficiencyOffset>
+        <painOffset>0.09</painOffset>
+		<hediffGivers>
+		  <li Class="HediffGiver_Random">
+            <hediff>Crystallisation_1stage</hediff>
+            <mtbDays>5</mtbDays>
+            <canAffectAnyLivePart>true</canAffectAnyLivePart>
+          </li>
+		</hediffGivers>
+      </li>
+      <li>
+        <minSeverity>0.8</minSeverity>
+        <label>extreme</label>
+        <partEfficiencyOffset>-0.9</partEfficiencyOffset>
+        <painOffset>0.25</painOffset>
+		<hediffGivers>
+		  <li Class="HediffGiver_Random">
+            <hediff>Crystallisation_1stage</hediff>
+            <mtbDays>1</mtbDays>
+            <canAffectAnyLivePart>true</canAffectAnyLivePart>
+          </li>
+		</hediffGivers>
+      </li>
+      <li>
+        <minSeverity>1</minSeverity>
+        <label>extreme</label>
+        <partEfficiencyOffset>-1.0</partEfficiencyOffset>
+        <painOffset>0.01</painOffset>
+        <destroyPart>true</destroyPart>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>0.333</severityPerDay>
+      </li>
+    </comps>
+  </HediffDef>
+  
+  <HediffDef>
+	<defName>SynchronizeWeapon_Ranged</defName>
+	<hediffClass>HediffWithComps</hediffClass>
+	<label>Synchronization</label>
+	<description>Weapon psyhic synchronized with owner and guide him to target.</description>
+	<stages>
+		<li>
+			<becomeVisible>false</becomeVisible>
+			<label>Synchronize</label>
+			<statOffsets>
+				<ShootingAccuracyPawn>4</ShootingAccuracyPawn>
+			</statOffsets>
+			<statOffsetEffectMultiplier>PsychicSensitivity</statOffsetEffectMultiplier>
+		</li>
+	</stages>
+  </HediffDef>
+  
+  <HediffDef>
+	<defName>SynchronizeWeapon_Melee</defName>
+	<hediffClass>HediffWithComps</hediffClass>
+	<label>Synchronization</label>
+	<description>Weapon psyhic synchronized with owner and guide him to target.</description>
+	<stages>
+		<li>
+			<becomeVisible>false</becomeVisible>
+			<label>Synchronize</label>
+			<statOffsets>
+				<MeleeHitChance>5</MeleeHitChance>
+			</statOffsets>
+			<statOffsetEffectMultiplier>PsychicSensitivity</statOffsetEffectMultiplier>
+		</li>
+	</stages>
+  </HediffDef>
+  
+  <HediffDef>
+	<defName>HunterRuneHediff</defName>
+	<hediffClass>HediffWithComps</hediffClass>
+	<label>hunter rune effect</label>
+	<description>Increases accuracy and speed, but runes are destroyed over time.</description>
+	<stages>
+		<li>
+			<becomeVisible>true</becomeVisible>
+			<statOffsets>
+				<MoveSpeed>0.4</MoveSpeed>
+				<ShootingAccuracyPawn>4</ShootingAccuracyPawn>
+			</statOffsets>
+		</li>
+	</stages>
+	<comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-60000</severityPerDay>
+      </li>
+    </comps>
+  </HediffDef>
+  
+  <HediffDef>
+    <defName>Sleeping</defName>
+    <label>sleeping</label>
+    <description>Sleeping.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <maxSeverity>1</maxSeverity>
+    <stages>
+      <li>
+	    <capMods>
+		  <li>
+            <capacity>Moving</capacity>
+            <offset>-2</offset>
+		  </li>
+		</capMods>
+      </li>
+    </stages>
+    <!--<comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>3600~3600</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+	</comps>-->
+  </HediffDef>
+  
+  <HediffDef>
+    <defName>DragonArmor_Dakotaraptor</defName>
+    <label>wraithbone armor(Dakotaraptor)</label>
+    <description>Wraithbone armor for your dinosaur.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+	<initialSeverity>1</initialSeverity>
+    <maxSeverity>1</maxSeverity>
+    <stages>
+      <li>
+	    <statOffsets>
+			<ArmorRating_Sharp>0.45</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+			<ArmorRating_Heat> 0.25</ArmorRating_Heat>
+		</statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <HediffDef>
+    <defName>DragonArmor_Utahraptor</defName>
+    <label>wraithbone armor(Utahraptor)</label>
+    <description>Wraithbone armor for your dinosaur.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+	<initialSeverity>1</initialSeverity>
+    <maxSeverity>1</maxSeverity>
+    <stages>
+      <li>
+	    <statOffsets>
+			<ArmorRating_Sharp>0.6</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+			<ArmorRating_Heat> 0.25</ArmorRating_Heat>
+		</statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <HediffDef>
+    <defName>GyrinxEffect</defName>
+    <label>gyrinx effect</label>
+    <description>Gyrinx helps his two-legged comrade to do better magic.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <maxSeverity>3</maxSeverity>
+    <stages>
+      <li>
+	    <label>0</label>
+		<minSeverity>0</minSeverity>
+	    <statFactors>
+			<PsychicSensitivity>1.0</PsychicSensitivity>
+		</statFactors>
+		<statOffsets>
+			<PsychicEntropyMax>5</PsychicEntropyMax>
+		</statOffsets>
+      </li>
+	  <li>
+	    <label>1</label>
+		<minSeverity>0.25</minSeverity>
+	    <statFactors>
+			<PsychicSensitivity>1.04</PsychicSensitivity>
+		</statFactors>
+		<statOffsets>
+			<PsychicEntropyMax>10</PsychicEntropyMax>
+		</statOffsets>
+      </li>
+	  <li>
+	    <label>2</label>
+		<minSeverity>0.5</minSeverity>
+	    <statFactors>
+			<PsychicSensitivity>1.08</PsychicSensitivity>
+		</statFactors>
+		<statOffsets>
+			<PsychicEntropyMax>15</PsychicEntropyMax>
+		</statOffsets>
+      </li>
+	  <li>
+	    <label>3</label>
+		<minSeverity>0.75</minSeverity>
+	    <statFactors>
+			<PsychicSensitivity>1.12</PsychicSensitivity>
+		</statFactors>
+		<statOffsets>
+			<PsychicEntropyMax>20</PsychicEntropyMax>
+		</statOffsets>
+      </li>
+	  <li>
+	    <label>4</label>
+		<minSeverity>1.0</minSeverity>
+	    <statFactors>
+			<PsychicSensitivity>1.16</PsychicSensitivity>
+		</statFactors>
+		<statOffsets>
+			<PsychicEntropyMax>25</PsychicEntropyMax>
+		</statOffsets>
+      </li>
+	  <li>
+	    <label>5</label>
+		<minSeverity>1.25</minSeverity>
+	    <statFactors>
+			<PsychicSensitivity>1.20</PsychicSensitivity>
+		</statFactors>
+		<statOffsets>
+			<PsychicEntropyMax>30</PsychicEntropyMax>
+		</statOffsets>
+      </li>
+	  <li>
+	    <label>6</label>
+		<minSeverity>1.5</minSeverity>
+	    <statFactors>
+			<PsychicSensitivity>1.24</PsychicSensitivity>
+		</statFactors>
+		<statOffsets>
+			<PsychicEntropyMax>35</PsychicEntropyMax>
+		</statOffsets>
+      </li>
+	  <li>
+	    <label>7</label>
+		<minSeverity>1.75</minSeverity>
+	    <statFactors>
+			<PsychicSensitivity>1.28</PsychicSensitivity>
+		</statFactors>
+		<statOffsets>
+			<PsychicEntropyMax>40</PsychicEntropyMax>
+		</statOffsets>
+      </li>
+	  <li>
+	    <label>8</label>
+		<minSeverity>2</minSeverity>
+	    <statFactors>
+			<PsychicSensitivity>1.32</PsychicSensitivity>
+		</statFactors>
+		<statOffsets>
+			<PsychicEntropyMax>45</PsychicEntropyMax>
+		</statOffsets>
+      </li>
+	  
+	  <li>
+	    <label>9</label> <!-- If gyrinx is old -->
+		<minSeverity>2.1</minSeverity>
+	    <statFactors>
+			<PsychicSensitivity>1.36</PsychicSensitivity>
+		</statFactors>
+		<statOffsets>
+			<PsychicEntropyMax>50</PsychicEntropyMax>
+		</statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+</Defs>

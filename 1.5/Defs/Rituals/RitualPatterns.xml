@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RitualPatternDef>
+    <defName>MainRune_Pattern_Psylink</defName>
+    <ritualOnlyForIdeoMembers>false</ritualOnlyForIdeoMembers>
+    <ritualBehavior>MainRuneLinking_Behaviors</ritualBehavior>            
+    <ritualTargetFilter>SelectedThing</ritualTargetFilter> 
+    <ritualObligationTargetFilter>MainRune_Psylink</ritualObligationTargetFilter> 
+    <ritualOutcomeEffect>MainRune_Outcome_Psylink</ritualOutcomeEffect>      
+    <playsIdeoMusic>false</playsIdeoMusic>
+    <alwaysStartAnytime>true</alwaysStartAnytime>
+  </RitualPatternDef>
+  
+  <RitualPatternDef>
+    <defName>MainRune_Pattern_Warlock</defName>
+    <ritualOnlyForIdeoMembers>false</ritualOnlyForIdeoMembers>
+    <ritualBehavior>MainRune_Behaviors_Warlock</ritualBehavior>            
+    <ritualTargetFilter>SelectedThing</ritualTargetFilter> 
+    <ritualObligationTargetFilter>MainRune_Magic_Warlock</ritualObligationTargetFilter> 
+    <ritualOutcomeEffect>MainRune_Outcome_Warlock</ritualOutcomeEffect>      
+    <playsIdeoMusic>false</playsIdeoMusic>
+    <alwaysStartAnytime>true</alwaysStartAnytime>
+  </RitualPatternDef>
+  
+  <RitualPatternDef>
+    <defName>MainRune_Pattern_Bonesinger</defName>
+    <ritualOnlyForIdeoMembers>false</ritualOnlyForIdeoMembers>
+    <ritualBehavior>MainRune_Behaviors_Bonesinger</ritualBehavior>            
+    <ritualTargetFilter>SelectedThing</ritualTargetFilter> 
+    <ritualObligationTargetFilter>MainRune_Magic_Bonesinger</ritualObligationTargetFilter> 
+    <ritualOutcomeEffect>MainRune_Outcome_Bonesinger</ritualOutcomeEffect>      
+    <playsIdeoMusic>false</playsIdeoMusic>
+    <alwaysStartAnytime>true</alwaysStartAnytime>
+  </RitualPatternDef>
+  
+  <RitualPatternDef>
+    <defName>MainRune_Pattern_Doctor</defName>
+    <ritualOnlyForIdeoMembers>false</ritualOnlyForIdeoMembers>
+    <ritualBehavior>MainRune_Behaviors_Doctor</ritualBehavior>            
+    <ritualTargetFilter>SelectedThing</ritualTargetFilter> 
+    <ritualObligationTargetFilter>MainRune_Magic_Doctor</ritualObligationTargetFilter> 
+    <ritualOutcomeEffect>MainRune_Outcome_Doctor</ritualOutcomeEffect>      
+    <playsIdeoMusic>false</playsIdeoMusic>
+    <alwaysStartAnytime>true</alwaysStartAnytime>
+  </RitualPatternDef>
+  
+  <RitualPatternDef>
+    <defName>MainRune_Pattern_RemoveMagic</defName>
+    <ritualOnlyForIdeoMembers>false</ritualOnlyForIdeoMembers>
+    <ritualBehavior>MainRune_Behaviors_RemoveMagic</ritualBehavior>            
+    <ritualTargetFilter>SelectedThing</ritualTargetFilter> 
+    <ritualObligationTargetFilter>MainRune_Remove</ritualObligationTargetFilter> 
+    <ritualOutcomeEffect>MainRune_Outcome_RemoveMagic</ritualOutcomeEffect>      
+    <playsIdeoMusic>false</playsIdeoMusic>
+    <alwaysStartAnytime>true</alwaysStartAnytime>
+  </RitualPatternDef>
+  
+  <RitualPatternDef>
+    <defName>MainRune_Pattern_UpgradeMagic</defName>
+    <ritualOnlyForIdeoMembers>false</ritualOnlyForIdeoMembers>
+    <ritualBehavior>MainRune_Behaviors_UpgradeMagic</ritualBehavior>            
+    <ritualTargetFilter>SelectedThing</ritualTargetFilter> 
+    <ritualObligationTargetFilter>MainRune_Upgrade</ritualObligationTargetFilter> 
+    <ritualOutcomeEffect>MainRune_Outcome_UpgradeMagic</ritualOutcomeEffect>      
+    <playsIdeoMusic>false</playsIdeoMusic>
+    <alwaysStartAnytime>true</alwaysStartAnytime>
+  </RitualPatternDef>
+  
+  <RitualPatternDef>
+    <defName>MainRune_Pattern_AshToPlants</defName>
+    <ritualOnlyForIdeoMembers>false</ritualOnlyForIdeoMembers>
+    <ritualBehavior>MainRune_Behaviors_AshToPlants</ritualBehavior>            
+    <ritualTargetFilter>SelectedThing</ritualTargetFilter> 
+    <ritualObligationTargetFilter>MainRune_AshToPlants</ritualObligationTargetFilter> 
+    <ritualOutcomeEffect>MainRune_Outcome_AshToPlants</ritualOutcomeEffect>      
+    <playsIdeoMusic>false</playsIdeoMusic>
+    <alwaysStartAnytime>true</alwaysStartAnytime>
+  </RitualPatternDef>
+  
+  <RitualPatternDef>
+    <defName>MainRune_Pattern_RegrowthBodypart</defName>
+    <ritualOnlyForIdeoMembers>false</ritualOnlyForIdeoMembers>
+    <ritualBehavior>MainRune_Behaviors_RegrowthBodypart</ritualBehavior>            
+    <ritualTargetFilter>SelectedThing</ritualTargetFilter> 
+    <ritualObligationTargetFilter>MainRune_RegrowthBodypart</ritualObligationTargetFilter> 
+    <ritualOutcomeEffect>MainRune_Outcome_RegrowthBodypart</ritualOutcomeEffect>      
+    <playsIdeoMusic>false</playsIdeoMusic>
+    <alwaysStartAnytime>true</alwaysStartAnytime>
+  </RitualPatternDef>
+  
+  <RitualPatternDef>
+    <defName>MainRune_Pattern_Warmask</defName>
+    <ritualOnlyForIdeoMembers>false</ritualOnlyForIdeoMembers>
+    <ritualBehavior>MainRune_Behaviors_Warmask</ritualBehavior>            
+    <ritualTargetFilter>SelectedThing</ritualTargetFilter> 
+    <ritualObligationTargetFilter>MainRune_Warmask</ritualObligationTargetFilter> 
+    <ritualOutcomeEffect>MainRune_Outcome_Warmask</ritualOutcomeEffect>      
+    <playsIdeoMusic>false</playsIdeoMusic>
+    <alwaysStartAnytime>true</alwaysStartAnytime>
+  </RitualPatternDef>
+</Defs>

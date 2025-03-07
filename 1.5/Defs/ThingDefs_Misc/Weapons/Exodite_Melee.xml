@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef Abstract="True" Name="MeleeWeaponExodite" ParentName="BaseWeapon">
+    <techLevel>Neolitic</techLevel>
+    <comps>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>NamerArtWeaponMelee</nameMaker>
+        <descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
+        <minQualityForArtistic>Excellent</minQualityForArtistic>
+      </li>
+      <li Class="CompProperties_Biocodable"/>
+	  <li Class="Exodites.CompProperties_HediffGiverOnEquip">
+        <hediff>SynchronizeWeapon_Melee</hediff>
+		<partsToAffect>
+			<li>Brain</li>
+		</partsToAffect>
+		<countToAffect>1</countToAffect>
+      </li>
+    </comps>
+    <smeltable>false</smeltable>
+    <burnableByRecipe>false</burnableByRecipe>
+    <thingCategories>
+      <li>WeaponsMelee</li>
+    </thingCategories>
+    <!--<weaponTags>
+      <li>UltratechMelee</li>
+    </weaponTags>
+    <tradeTags>
+      <li>WeaponMelee</li>
+    </tradeTags>-->
+    <weaponClasses>
+      <li>Melee</li>
+    </weaponClasses>
+    <!--<thingSetMakerTags>
+      <li>RewardStandardMidFreq</li>
+    </thingSetMakerTags>-->
+	<equippedStatOffsets>
+      <MeleeHitChance>-5</MeleeHitChance>
+    </equippedStatOffsets>
+  </ThingDef>
+  
+  <ThingDef ParentName="MeleeWeaponExodite">
+    <defName>Exodite_MeleeWeapon_BoneSpear</defName>
+    <label>bone spear</label>
+    <description>A spear made of psychocity, known for being used by dragonriders. Light, long and durable, this weapon is capable of piercing heavy armor.</description>
+    <graphicData>
+      <texPath>Things/Weapons/BoneSpear</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Neolithic</techLevel>
+    <weaponTags>
+      <li>ExoditeSpear</li>
+    </weaponTags>
+    <weaponClasses>
+      <li>Neolithic</li>
+    </weaponClasses>
+    <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
+	<statBases>
+      <MarketValue>500</MarketValue>
+      <Mass>1.2</Mass>
+    </statBases>
+    <equippedAngleOffset>-25</equippedAngleOffset>
+    <tools>
+      <li>
+        <label>shaft</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2.25</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>27</power>
+        <armorPenetration>0.8</armorPenetration>
+        <cooldownTime>2.25</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<DoPsyhicBill.reportString>делает необходимое для TargetA</DoPsyhicBill.reportString>
+	
+	<Bonesinger_Build.reportString>строит TargetA</Bonesinger_Build.reportString>
+	
+	<WebwayDistanceBuild.reportString>строит TargetA</WebwayDistanceBuild.reportString>
+	
+	<UseWebwayPortal.reportString>идет к TargetA</UseWebwayPortal.reportString>
+	
+	<PsyhicRefuel.reportString>заряжает TargetA</PsyhicRefuel.reportString>
+	
+	<MakeMagicArmor.reportString>создает броню для TargetA</MakeMagicArmor.reportString>
+	
+	<LinkMainRune.reportString>связывается с TargetA</LinkMainRune.reportString>
+	
+	<GiveMagic_MainRune.reportString>связывается с TargetA</GiveMagic_MainRune.reportString>
+	
+	<RemoveUpgradeMagic_MainRune.reportString>связывается с TargetA</RemoveUpgradeMagic_MainRune.reportString>
+	
+	<Patient_MainRune.reportString>связывается с TargetA</Patient_MainRune.reportString>
+	
+	<Doctor_MainRune.reportString>связывается с TargetA</Doctor_MainRune.reportString>
+</LanguageData>

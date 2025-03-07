@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <KhaineMaskGiver.label>Боевая маска</KhaineMaskGiver.label>
+  <KhaineMaskGiver.description>Колдун может на время наложить на существо другую, более агрессивную личность, известную как "боевая маска". В таком состоянии существо гораздо легче переносит травмирующие события и более кровожадно. Редко используется ушедшими, но крайне распространено среди воинств миров-кораблей.</KhaineMaskGiver.description>
+  
+  <Flashstrike.label>удар молнии</Flashstrike.label>
+  <Flashstrike.description>Колдун запускает молнию из рук.</Flashstrike.description>
+  
+  <Healing2x.label>Лечение</Healing2x.label>
+  <Healing2x.description>Заживляет раны живых существ, но не отращивает конечности.</Healing2x.description>
+  
+  <PlantsHealing.label>Лечение растений</PlantsHealing.label>
+  <PlantsHealing.description>Жрец Иши может лечить болезни растений.</PlantsHealing.description>
+  
+  <PsychicBloodFilter.label>Фильтр крови</PsychicBloodFilter.label>
+  <PsychicBloodFilter.description>Заклинание, разработанное для лечения болезней.</PsychicBloodFilter.description>
+  
+</LanguageData>

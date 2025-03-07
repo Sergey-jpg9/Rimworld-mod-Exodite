@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!-- ========== Spear ========== -->
+
+	<!-- Patch stats -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Exodite_MeleeWeapon_BoneSpear"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>shaft</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>7</power>
+					<cooldownTime>1.35</cooldownTime>
+					<chanceFactor>0.15</chanceFactor>
+					<armorPenetrationBlunt>2.25</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Shaft</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>shaft</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>4</power>
+					<cooldownTime>1.78</cooldownTime>
+					<chanceFactor>0.05</chanceFactor>
+					<armorPenetrationBlunt>1</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities>
+						<li>Stab</li>
+					</capacities>
+					<power>24</power>
+					<cooldownTime>1.12</cooldownTime>
+					<armorPenetrationBlunt>3</armorPenetrationBlunt>
+					<armorPenetrationSharp>22.5</armorPenetrationSharp>
+					<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Exodite_MeleeWeapon_BoneSpear"]/statBases</xpath>
+		<value>
+			<Bulk>10</Bulk>
+			<MeleeCounterParryBonus>1.68</MeleeCounterParryBonus>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Exodite_MeleeWeapon_BoneSpear"]</xpath>
+		<value>
+			<equippedStatOffsets>
+				<MeleeCritChance>0.17</MeleeCritChance>
+				<MeleeParryChance>1.45</MeleeParryChance>
+				<MeleeDodgeChance>0.9</MeleeDodgeChance>
+			</equippedStatOffsets>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="Exodite_MeleeWeapon_BoneSpear"]/equippedStatOffsets</xpath>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Exodite_MeleeWeapon_BoneSpear"]</xpath>
+		<value>
+			<equippedStatOffsets>
+				<MeleeHitChance>-1</MeleeHitChance>
+			</equippedStatOffsets>
+		</value>
+	</Operation>
+	
+	<!-- Bonesinger's instrument -->
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BonesingerInstrument"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>4</power>
+					<chanceFactor>0.33</chanceFactor>
+					<cooldownTime>1.78</cooldownTime>
+					<armorPenetrationBlunt>1</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>10</power>
+					<cooldownTime>3.48</cooldownTime>
+					<armorPenetrationBlunt>3.5</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="BonesingerInstrument"]/statBases</xpath>
+		<value>
+			<Bulk>6</Bulk>
+			<MeleeCounterParryBonus>0.12</MeleeCounterParryBonus>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="BonesingerInstrument"]</xpath>
+		<value>
+			<equippedStatOffsets>
+				<MeleeCritChance>0.47</MeleeCritChance>
+				<MeleeParryChance>0.12</MeleeParryChance>
+				<MeleeDodgeChance>0.16</MeleeDodgeChance>
+			</equippedStatOffsets>
+		</value>
+	</Operation>
+</Patch>

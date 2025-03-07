@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Dakotaraptor"]/race</xpath>
+		<value>
+			<renderTree>Animal_WithArmor</renderTree>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Dakotaraptor"]/comps</xpath>
+		<value>
+	      <li Class="Exodites.CompProperties_ExoditeDragonArmor">
+		    <hediff>DragonArmor_Dakotaraptor</hediff>
+		    <baseWorkSpeed>0.000001</baseWorkSpeed>
+		    <texturePath>DinosauriaCompabilityPatch/DakotaraptorArmor/DakotaraptorArmor</texturePath>
+		  </li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Utahraptor"]/race</xpath>
+		<value>
+			<renderTree>Animal_WithArmor</renderTree>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Utahraptor"]/comps</xpath>
+		<value>
+	      <li Class="Exodites.CompProperties_ExoditeDragonArmor">
+		    <hediff>DragonArmor_Utahraptor</hediff>
+		    <baseWorkSpeed>0.000001</baseWorkSpeed>
+		    <texturePath>DinosauriaCompabilityPatch/UtaraptorArmor/UtaraptorArmor</texturePath>
+		  </li>
+		</value>
+	</Operation>
+</Patch>

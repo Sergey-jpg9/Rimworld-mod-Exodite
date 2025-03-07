@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+ <Defs>
+  <ThingDef ParentName="BuildingBase">
+    <defName>MagicTrap</defName>
+    <label>magic trap</label>
+    <description>A cruel trap, the creation of which dates back to the myths about the collaboration of Khaine and Kurnous. A rune painted on the surface can be charged by a psyker to unleash the energy of the Sea of Souls on its victim. It is not approved by Isha!\nIt discharges over time.</description>
+    <thingClass>Exodites.Building_MagicTrap</thingClass>
+    <graphicData>
+      <texPath>Buildings/RuneTrap/RuneTrap</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <damageData>
+        <rect>(0,0,1,0.15)</rect>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <rotatable>false</rotatable>
+    <tickerType>Normal</tickerType>
+    <stealable>false</stealable>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <uiOrder>30</uiOrder>
+    <thingCategories>
+      <li>BuildingsSecurity</li>
+    </thingCategories>
+    <statBases>
+      <Mass>0.05</Mass>
+	  <MarketValue>200</MarketValue>
+      <MaxHitPoints>10</MaxHitPoints>
+      <WorkToBuild>3200</WorkToBuild>
+      <Flammability>1</Flammability>
+      <Beauty>-18</Beauty>
+      <Cleanliness>-5</Cleanliness>
+      <TrapMeleeDamage>40</TrapMeleeDamage>
+      <TrapSpringChance>1.0</TrapSpringChance>
+    </statBases>
+    <designationCategory>Security</designationCategory>
+    <designationHotKey>Misc6</designationHotKey>
+    <building>
+      <isTrap>true</isTrap>
+      <trapDestroyOnSpring>true</trapDestroyOnSpring>
+      <trapDamageCategory>Heat</trapDamageCategory>
+      <expandHomeArea>false</expandHomeArea>
+      <ai_chillDestination>false</ai_chillDestination>
+    </building>
+    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+    <placeWorkers>
+      <li>PlaceWorker_NeverAdjacentTrap</li>
+    </placeWorkers>
+	<comps>
+	  <li Class="Exodites.CompProperties_PsyhicRefuelable">
+        <fuelConsumptionRate>3.0</fuelConsumptionRate>
+        <fuelCapacity>60.0</fuelCapacity>
+		<Koef_EntropyToFuel>4</Koef_EntropyToFuel>
+        <!--<fuelConsumptionPerTickInRain>0.0006</fuelConsumptionPerTickInRain>-->
+		<initialConfigurableTargetFuelLevel>60.0</initialConfigurableTargetFuelLevel>
+        <initialFuelPercent>0</initialFuelPercent>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+      </li>
+	</comps>
+	<researchPrerequisites>
+      <li>Tech_MagicTrap</li>
+    </researchPrerequisites>
+  </ThingDef>
+  
+  
+ </Defs>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<loadFolders>
+  <v1.5>
+   <li>/</li>
+   <li>1.5</li>
+   <li IfModActive="CETeam.CombatExtended">1.5/CE</li>
+   <li IfModActive="spincrus.dinosauria">1.5/Dinosauria</li>
+ </v1.5>
+</loadFolders>

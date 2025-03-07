@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WorldObjectDef>
+    <defName>WebwayGateWO</defName>
+    <label>webway portal</label>
+    <description>A webway portal.</description>
+	<worldObjectClass>Exodites.WebwayGate_WorldObject</worldObjectClass>
+    <texture>World/WebwayGate</texture>
+	<expandingIcon>true</expandingIcon>
+    <expandingIconPriority>90</expandingIconPriority>
+  </WorldObjectDef>
+</Defs>

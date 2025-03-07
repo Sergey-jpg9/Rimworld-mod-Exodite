@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <BonesingerTable.label>Простой стол костопева</BonesingerTable.label>
+  <BonesingerTable.description>Стол, позволяющий производить простейшие вещи.</BonesingerTable.description>
+  
+  <RuneTable.label>Рунный стол</RuneTable.label>
+  <RuneTable.description>Стол, позволяющий создавать руны.</RuneTable.description>
+  
+  <ToolTable.label>Стол для инструментов</ToolTable.label>
+  <ToolTable.description>Стол, позволяющий производить броню, оружие и инструменты.</ToolTable.description>
+  
+  <StoneAbelisk.label>Каменный обелиск</StoneAbelisk.label>
+  <StoneAbelisk.description>Магический обелиск. Увеличивает скорость работы главной руны и некоторых столов.</StoneAbelisk.description>
+  
+  <MainRune.label>Главная руна</MainRune.label>
+  <MainRune.description>Строение, которое выдает магические способности.</MainRune.description>
+  
+  <Webway_Portal.label>Врата паутины</Webway_Portal.label>
+  <Webway_Portal.description>Это строение является входом в Паутину. Паутина - гигантская сеть магических тоннелей различных длины и размера, созданная древними аэльдари. Она позволяет очень быстро перемещаться между входами в нее.</Webway_Portal.description>
+  
+  <Wraithbone_Column.label>Колонна из призрачной кости</Wraithbone_Column.label>
+  <Wraithbone_Column.description>Колонна, способная поддерживать крышу. Не препятствует движению или обзору и выглядит красиво.</Wraithbone_Column.description>
+  
+  <Wraithbone_Wall.label>Стена из призрачной кости</Wraithbone_Wall.label>
+  <Wraithbone_Wall.description>Непроходимая стена. Способна поддерживать крышу.</Wraithbone_Wall.description>
+  
+  <MagicTrap.label>Магическая ловушка</MagicTrap.label>
+  <MagicTrap.description>Жестокая ловушка, создание которой восходит к мифам о сотрудничестве Кхейна и Курноуса. Нарисованная на поверхности руна может быть заряжена псайкером, чтобы выплеснуть энергию Моря душ на свою жертву. Не одобряется Ишей!\nРазряжается со временем.</MagicTrap.description>
+
+  <MagicLamp.label>Магическая лампа</MagicLamp.label>
+  <MagicLamp.description>Лампа для освещения помещения. Людям нужен свет, чтобы двигаться и работать на полной скорости. Может автоматически заправляться псайкером. Потребляет небольшое количество тепла.</MagicLamp.description>
+  
+  <MagicCooler.label>Магический охладитель</MagicCooler.label>
+  <MagicCooler.description>Традиционный холодильник без электропитания, работающий за счет маленькой дыры в Море душ, поглощающей тепло. Его необходимо регулярно заправлять. Он достаточно эффективен для охлаждения продуктов.</MagicCooler.description>
+</LanguageData>

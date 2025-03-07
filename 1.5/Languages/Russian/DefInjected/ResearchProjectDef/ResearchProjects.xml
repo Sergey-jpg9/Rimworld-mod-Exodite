@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<EldarTechStart.label>Начальная технология</EldarTechStart.label>
+	<EldarTechStart.description>Начальная технология. Открывает возможность строить главную руну.</EldarTechStart.description>
+	
+	<Tech_Warlock.label>Колдун</Tech_Warlock.label>
+	<Tech_Warlock.description>Технология открывает ритуал, с помощью которого вы можете сделать одну из пешек колдуном - боевым магом поддержки.</Tech_Warlock.description>
+	
+	<Tech_Doctor.label>Жрец Иши</Tech_Doctor.label>
+	<Tech_Doctor.description>Технология открывает ритуал, с помощью которого вы можете сделать одну из пешек жрецом - лекарем аэльдари.</Tech_Doctor.description>
+	
+	<Tech_Bonesinger.label>Костопев</Tech_Bonesinger.label>
+	<Tech_Bonesinger.description>Технология открывает ритуал, с помощью которого вы можете сделать одну из пешек костопевом - ремесленником, использующим свои магические силы для создания вещей.</Tech_Bonesinger.description>
+
+	<Tech_BonesingerTable.label>Стол костопева</Tech_BonesingerTable.label>
+	<Tech_BonesingerTable.description>Стол, который использует костопев для создания магических вещей.</Tech_BonesingerTable.description>
+	
+	<Tech_MagicTrap.label>Магические ловушки</Tech_MagicTrap.label>
+	<Tech_MagicTrap.description>Жестокая ловушка, создание которой восходит к мифам о сотрудничестве Кхейна и Курноуса. Нарисованная на поверхности руна может быть заряжена псайкером, чтобы выплеснуть энергию Моря душ на свою жертву. Не одобряется Ишей!</Tech_MagicTrap.description>
+	
+	<Tech_WarlockRitual.label>Ритуал "Боевая маска"</Tech_WarlockRitual.label>
+	<Tech_WarlockRitual.description>Технология открывает ритуал, с помощью которого колдун может быстро и без потери концентрации наложить собравшимся боевую маску.</Tech_WarlockRitual.description>
+
+	<Tech1_DoctorRitual.label>Ритуал "Пепел в растения"</Tech1_DoctorRitual.label>
+	<Tech1_DoctorRitual.description>Технология открывает ритуал, с помощью которого жрец Иши превратить весь пепел на карте в растения. Посадите на пепел свои растения и проведите ритуал.</Tech1_DoctorRitual.description>
+	
+	<Tech_WraithboneConstruction.label>Строительнство из призрачной кости</Tech_WraithboneConstruction.label>
+	<Tech_WraithboneConstruction.description>Костопевы способны вызывать из Моря Душ удивительно прочный материал - призрачную кость. Создание призрачной кости не требует ничего, кроме времени и усилий костопева. С данной технологией вы сможете создавать полы, стены и колонны из этого материала.\nПримечание. 
+	Данные строения могут строить только пешки с хедифом "Костопев". Также не надо пугаться требуемому значению навыка строительства(100), костопев все равно это построит. На скорость строительства влияют "Скорость строительства" и "Скорость работы костопева".</Tech_WraithboneConstruction.description>
+	
+	<Tech_RuneTable.label>Магические руны</Tech_RuneTable.label>
+	<Tech_RuneTable.description>Открывает магические руны.</Tech_RuneTable.description>
+
+	<Tech_InstrumentaryTable.label>Вещи из психопластиков</Tech_InstrumentaryTable.label>
+	<Tech_InstrumentaryTable.description>Открывает вещи из психопластика - легких и твердых материала.</Tech_InstrumentaryTable.description>
+	
+	<Tech2_DoctorRitual.label>Ритуал "Отрастить конечность"</Tech2_DoctorRitual.label>
+	<Tech2_DoctorRitual.description>Технология открывает ритуал, с помощью которого жрец Иши может помочь больным.</Tech2_DoctorRitual.description>
+
+	<Tech_WraithboneWeapons.label>Оружие из призрачной кости</Tech_WraithboneWeapons.label>
+	<Tech_WraithboneWeapons.description>Открывает оружие из психокости.</Tech_WraithboneWeapons.description>
+	
+	<Tech_WraithboneArmor.label>Броня из призрачной кости</Tech_WraithboneArmor.label>
+	<Tech_WraithboneArmor.description>Открывает броню из психокости.</Tech_WraithboneArmor.description>
+	
+	<Tech_MagicRune.label>Руна мага</Tech_MagicRune.label>
+	<Tech_MagicRune.description>Открывает создание руны мага. Она помогает магу рассеивать пси-нагрев.</Tech_MagicRune.description>
+	
+	<Tech_HealerRune.label>Руна лекаря</Tech_HealerRune.label>
+	<Tech_HealerRune.description>Открывает создание руны лекаря. Она помогает носителю быстрее лечить, либо лечит носителя сама.</Tech_HealerRune.description>
+	
+	<Tech_PlanetaryWebway.label>Создание врат Паутины</Tech_PlanetaryWebway.label>
+	<Tech_PlanetaryWebway.description>Паутина - гигантская сеть магических тоннелей различных длины и размера, созданная древними аэльдари. Она позволяет очень быстро перемещаться между ее входами. Создание тоннелей Паутины, связывающих разные места на одной отдельно взятой планете, относительно не трудоемко и по силам даже экзодитам. 
+	\nПримечание. Тоннель слишком мал для любых транспортных средств. Для перемещения караванов зайдите на объект врат на карте мира караваном, в итоге появятся кнопки с названиями других врат. Если вы создадите поселение на плитке с вратами, то на новой карте сгенерируются врата.</Tech_PlanetaryWebway.description>
+	
+	<Tech_DragonArmor.label>Броня для динозавра</Tech_DragonArmor.label>
+	<Tech_DragonArmor.description>Открывает создание брони из призрачной кости для ваших динозавров.</Tech_DragonArmor.description>
+	
+	<Tech_ShurikenCatapult.label>Сюрикеновая катапульта</Tech_ShurikenCatapult.label>
+	<Tech_ShurikenCatapult.description>Базовое оружие войск миров-кораблей. Выпускает поток сюрикенов, смертельный для любых целей на коротких дистанциях. Экзодиты редко сами изготавливают это оружие, полагаясь на поставки с ближайшего мира-корабля.</Tech_ShurikenCatapult.description>
+</LanguageData>

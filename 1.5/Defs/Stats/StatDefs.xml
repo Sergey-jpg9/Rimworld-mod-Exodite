@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <StatDef>
+    <defName>RangedDodge</defName>
+    <label>dodge</label>
+    <description>The ability to dodge bullets, arrows and other projectiles due to its speed and agility. Increases with increasing movement speed, agility trait and various devices.</description>
+    <category>PawnCombat</category>
+    <defaultBaseValue>0</defaultBaseValue>
+    <toStringStyle>PercentZero</toStringStyle>
+    <showOnAnimals>false</showOnAnimals>
+    <minValue>0</minValue>
+    <displayPriorityInCategory>1500</displayPriorityInCategory>
+    <scenarioRandomizable>true</scenarioRandomizable>
+	<capacityOffsets>
+      <li>
+        <capacity>Moving</capacity>
+        <scale>0.1</scale>
+		<max>2</max>
+      </li>
+    </capacityOffsets>
+	<hideAtValue>0</hideAtValue>
+    <parts>
+      <!--<li Class="StatPart_ApparelStatOffset">
+        <apparelStat>RangedDodgeOffset</apparelStat>
+        <includeWeapon>true</includeWeapon>
+      </li>-->
+      <li Class="StatPart_Quality">
+        <factorAwful>0.8</factorAwful>
+        <factorPoor>0.9</factorPoor>
+        <factorNormal>1</factorNormal>
+        <factorGood>1.05</factorGood>
+        <factorExcellent>1.1</factorExcellent>
+        <factorMasterwork>1.15</factorMasterwork>
+        <factorLegendary>1.2</factorLegendary>
+        <applyToNegativeValues>true</applyToNegativeValues>
+      </li>
+    </parts>
+    <cacheable>true</cacheable>
+  </StatDef>
+
+
+  <!--<StatDef>
+    <defName>RangedDodgeOffset</defName>
+    <label>ranged dodge offset</label>
+    <description>An offset applied to the user's ranged dodge.</description>
+    <category>Basics</category>
+    <defaultBaseValue>0</defaultBaseValue>
+    <toStringStyle>PercentZero</toStringStyle>
+    <showOnAnimals>false</showOnAnimals>
+    <displayPriorityInCategory>3500</displayPriorityInCategory>
+    <showIfUndefined>false</showIfUndefined>
+    <showOnPawns>false</showOnPawns>
+    <parts>
+      <li Class="StatPart_Quality">
+        <factorAwful>0.8</factorAwful>
+        <factorPoor>0.9</factorPoor>
+        <factorNormal>1</factorNormal>
+        <factorGood>1.05</factorGood>
+        <factorExcellent>1.1</factorExcellent>
+        <factorMasterwork>1.15</factorMasterwork>
+        <factorLegendary>1.2</factorLegendary>
+        <applyToNegativeValues>true</applyToNegativeValues>
+      </li>
+    </parts>
+    <cacheable>true</cacheable>
+  </StatDef>-->
+  
+  <StatDef>
+    <defName>BonesingerWorkSpeed</defName>
+    <label>bonesinger work speed</label>
+    <description>The speed of bonesinger's work. If there is a special tool, multiply by 3.</description>
+    <category>PawnWork</category>
+    <defaultBaseValue>1</defaultBaseValue>
+    <minValue>0.1</minValue>
+    <toStringStyle>PercentZero</toStringStyle>
+    <statFactors>
+      <li>WorkSpeedGlobal</li>
+	  <li>PsychicSensitivity</li>
+    </statFactors>
+    <!--<skillNeedFactors>
+      <li Class="SkillNeed_BaseBonus">
+        <skill>Mining</skill>
+        <baseValue>0.04</baseValue>
+        <bonusPerLevel>0.12</bonusPerLevel>
+      </li>
+    </skillNeedFactors>-->
+    <capacityFactors>
+      <li>
+        <capacity>Consciousness</capacity>
+        <weight>1</weight>
+      </li>
+      <li>
+        <capacity>Sight</capacity>
+        <weight>0.25</weight>
+        <max>1</max>
+      </li>
+    </capacityFactors>
+    <scenarioRandomizable>true</scenarioRandomizable>
+    <displayPriorityInCategory>900</displayPriorityInCategory>
+  </StatDef>
+  
+  <StatDef>
+    <defName>RuneCraftingSpeedFactor</defName>
+    <label>rune crafting speed factor</label>
+    <description>The speed at which people do rune crafting is multiplied by this value.</description>
+    <category>Building</category>
+    <defaultBaseValue>1</defaultBaseValue>
+    <minValue>0.25</minValue>
+    <toStringStyle>PercentZero</toStringStyle>
+    <showIfUndefined>false</showIfUndefined>
+    <parts>
+      <li Class="StatPart_Outdoors">
+        <factorIndoors>1.00</factorIndoors>
+        <factorOutdoors>0.75</factorOutdoors>
+      </li>
+      <li Class="StatPart_WorkTableTemperature" />
+      <!--<li Class="StatPart_RoomStat">
+        <roomStat>ResearchSpeedFactor</roomStat>
+        <customLabel>Room cleanliness</customLabel>
+      </li>-->
+      <li Class="StatPart_RoomStat">
+        <roomStat>ReadingBonus</roomStat>
+        <customLabel>Reading bonus</customLabel>
+      </li>
+    </parts>
+    <displayPriorityInCategory>1000</displayPriorityInCategory>
+  </StatDef>
+</Defs>

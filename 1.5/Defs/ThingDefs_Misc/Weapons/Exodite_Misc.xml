@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="BaseWeapon">
+    <defName>BonesingerInstrument</defName>
+    <label>bonesinger instrument</label>
+    <description>Bonesinger can do his job without his tool, but he will do it much longer. The device is used as a psyfocus and fuse during witchcraft, allowing you to safely draw more energy to work.</description>
+    <graphicData>
+      <texPath>Things/Weapons/BonesingerInstrument</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>0.75</drawSize>
+    </graphicData>
+    <uiIconScale>0.8</uiIconScale>
+    <techLevel>Neolithic</techLevel>
+    <weaponTags>
+      <li>BonesingerInstrument</li>
+    </weaponTags>
+    <weaponClasses>
+      <li>Neolithic</li>
+	  <li>Melee</li>
+    </weaponClasses>
+	<tickerType>Normal</tickerType>
+    <statBases>
+      <Mass>2</Mass>
+    </statBases>
+    <equippedAngleOffset>-45</equippedAngleOffset>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+	<soundPlayInstrument>Harp_Play</soundPlayInstrument>
+	<building>
+      <instrumentRange>9</instrumentRange>
+    </building>
+	<comps>
+	  <li Class="Exodites.CompProperties_BonesingerInstrument">  <!-- значительный кусок скопирован из CompProperties_ThrownFleckEmitter и приклеен сюда -->
+		<SpeedMultiplier_Crafting>3</SpeedMultiplier_Crafting>
+		<SpeedMultiplier_Building>3</SpeedMultiplier_Building>
+		
+		<fleck>Music</fleck>
+        <offsetMin>(-0.6,0,0.3)</offsetMin>
+        <offsetMax>(0.6,0,0.5)</offsetMax>
+        <emissionInterval>100</emissionInterval>
+        <scale>0.6~0.9</scale>
+        <rotationRate>-15~15</rotationRate>
+        <velocityX>0.3~0.7</velocityX>
+        <velocityY>0.7~1.0</velocityY>
+	  </li>
+	</comps>
+    <thingCategories>
+      <li>WeaponsMelee</li>
+    </thingCategories>
+    <relicChance>0</relicChance>
+    <inspectorTabs>
+      <li>ITab_Art</li>
+    </inspectorTabs>
+  </ThingDef>
+</Defs>

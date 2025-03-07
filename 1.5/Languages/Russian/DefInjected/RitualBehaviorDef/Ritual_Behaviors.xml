@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <MainRuneLinking_Behaviors.roles.0.label>связующий</MainRuneLinking_Behaviors.roles.0.label>
+  <!-- EN: Only adults can link with an anima tree. -->
+  <MainRuneLinking_Behaviors.roles.0.customChildDisallowMessage>С главной руной могут связываться только взрослые.</MainRuneLinking_Behaviors.roles.0.customChildDisallowMessage>
+  <MainRuneLinking_Behaviors.spectatorFilter.description>Должен быть доступен вид медитации «руны»</MainRuneLinking_Behaviors.spectatorFilter.description>
+  <!-- EN: Need a colonist with the natural meditation focus type who is below maximum psylink level and not psychically deaf. -->
+  <MainRuneLinking_Behaviors.roles.0.noCandidatesGizmoDesc>Требуется поселенец с видом медитации «руны», без пси-связи и без психической глухоты.</MainRuneLinking_Behaviors.roles.0.noCandidatesGizmoDesc>
+  <MainRuneLinking_Behaviors.spectatorGerund>участвовать</MainRuneLinking_Behaviors.spectatorGerund>
+  <MainRuneLinking_Behaviors.spectatorsLabel>Участники</MainRuneLinking_Behaviors.spectatorsLabel>
+  
+  <MainRune_Behaviors_Warlock.roles.0.label>будущий колдун</MainRune_Behaviors_Warlock.roles.0.label>
+  <!-- EN: Only adults can link with an anima tree. -->
+  <MainRune_Behaviors_Warlock.roles.0.customChildDisallowMessage>С главной руной могут связываться только взрослые.</MainRune_Behaviors_Warlock.roles.0.customChildDisallowMessage>
+  <MainRune_Behaviors_Warlock.spectatorFilter.description>Должен быть доступен вид медитации «руны»</MainRune_Behaviors_Warlock.spectatorFilter.description>
+  <!-- EN: Need a colonist with the natural meditation focus type who is below maximum psylink level and not psychically deaf. -->
+  <MainRune_Behaviors_Warlock.roles.0.noCandidatesGizmoDesc>Требуется поселенец с видом медитации «руны» и с пси-связью.</MainRune_Behaviors_Warlock.roles.0.noCandidatesGizmoDesc>
+  <MainRune_Behaviors_Warlock.spectatorGerund>участвовать</MainRune_Behaviors_Warlock.spectatorGerund>
+  <MainRune_Behaviors_Warlock.spectatorsLabel>Участники</MainRune_Behaviors_Warlock.spectatorsLabel>
+  
+  <MainRune_Behaviors_Bonesinger.roles.0.label>будущий костопев</MainRune_Behaviors_Bonesinger.roles.0.label>
+  <!-- EN: Only adults can link with an anima tree. -->
+  <MainRune_Behaviors_Bonesinger.roles.0.customChildDisallowMessage>С главной руной могут связываться только взрослые.</MainRune_Behaviors_Bonesinger.roles.0.customChildDisallowMessage>
+  <MainRune_Behaviors_Bonesinger.spectatorFilter.description>Должен быть доступен вид медитации «руны»</MainRune_Behaviors_Bonesinger.spectatorFilter.description>
+  <!-- EN: Need a colonist with the natural meditation focus type who is below maximum psylink level and not psychically deaf. -->
+  <MainRune_Behaviors_Bonesinger.roles.0.noCandidatesGizmoDesc>Требуется поселенец с видом медитации «руны» и с пси-связью.</MainRune_Behaviors_Bonesinger.roles.0.noCandidatesGizmoDesc>
+  <MainRune_Behaviors_Bonesinger.spectatorGerund>участвовать</MainRune_Behaviors_Bonesinger.spectatorGerund>
+  <MainRune_Behaviors_Bonesinger.spectatorsLabel>Участники</MainRune_Behaviors_Bonesinger.spectatorsLabel>
+  
+  <MainRune_Behaviors_Doctor.roles.0.label>будущий жрец</MainRune_Behaviors_Doctor.roles.0.label>
+  <!-- EN: Only adults can link with an anima tree. -->
+  <MainRune_Behaviors_Doctor.roles.0.customChildDisallowMessage>С главной руной могут связываться только взрослые.</MainRune_Behaviors_Doctor.roles.0.customChildDisallowMessage>
+  <MainRune_Behaviors_Doctor.spectatorFilter.description>Должен быть доступен вид медитации «руны»</MainRune_Behaviors_Doctor.spectatorFilter.description>
+  <!-- EN: Need a colonist with the natural meditation focus type who is below maximum psylink level and not psychically deaf. -->
+  <MainRune_Behaviors_Doctor.roles.0.noCandidatesGizmoDesc>Требуется поселенец с видом медитации «руны» и с пси-связью.</MainRune_Behaviors_Doctor.roles.0.noCandidatesGizmoDesc>
+  <MainRune_Behaviors_Doctor.spectatorGerund>участвовать</MainRune_Behaviors_Doctor.spectatorGerund>
+  <MainRune_Behaviors_Doctor.spectatorsLabel>Участники</MainRune_Behaviors_Doctor.spectatorsLabel>
+  
+  <MainRune_Behaviors_RemoveMagic.roles.0.label>организатор</MainRune_Behaviors_RemoveMagic.roles.0.label>
+  <!-- EN: Only adults can link with an anima tree. -->
+  <MainRune_Behaviors_RemoveMagic.roles.0.customChildDisallowMessage>С главной руной могут связываться только взрослые.</MainRune_Behaviors_RemoveMagic.roles.0.customChildDisallowMessage>
+  <MainRune_Behaviors_RemoveMagic.spectatorFilter.description>Должен быть доступен вид медитации «руны»</MainRune_Behaviors_RemoveMagic.spectatorFilter.description>
+  <!-- EN: Need a colonist with the natural meditation focus type who is below maximum psylink level and not psychically deaf. -->
+  <MainRune_Behaviors_RemoveMagic.roles.0.noCandidatesGizmoDesc>Требуется поселенец с видом медитации «руны» и способностями колдуна, жреца или костопева.</MainRune_Behaviors_RemoveMagic.roles.0.noCandidatesGizmoDesc>
+  <MainRune_Behaviors_RemoveMagic.spectatorGerund>участвовать</MainRune_Behaviors_RemoveMagic.spectatorGerund>
+  <MainRune_Behaviors_RemoveMagic.spectatorsLabel>Участники</MainRune_Behaviors_RemoveMagic.spectatorsLabel>
+  
+  <MainRune_Behaviors_UpgradeMagic.roles.0.label>организатор</MainRune_Behaviors_RemoveMagic.roles.0.label>
+  <!-- EN: Only adults can link with an anima tree. -->
+  <MainRune_Behaviors_UpgradeMagic.roles.0.customChildDisallowMessage>С главной руной могут связываться только взрослые.</MainRune_Behaviors_UpgradeMagic.roles.0.customChildDisallowMessage>
+  <MainRune_Behaviors_UpgradeMagic.spectatorFilter.description>Должен быть доступен вид медитации «руны»</MainRune_Behaviors_UpgradeMagic.spectatorFilter.description>
+  <!-- EN: Need a colonist with the natural meditation focus type who is below maximum psylink level and not psychically deaf. -->
+  <MainRune_Behaviors_UpgradeMagic.roles.0.noCandidatesGizmoDesc>Требуется поселенец с видом медитации «руны» и способностями колдуна, жреца или костопева.</MainRune_Behaviors_UpgradeMagic.roles.0.noCandidatesGizmoDesc>
+  <MainRune_Behaviors_UpgradeMagic.spectatorGerund>участвовать</MainRune_Behaviors_UpgradeMagic.spectatorGerund>
+  <MainRune_Behaviors_UpgradeMagic.spectatorsLabel>Участники</MainRune_Behaviors_UpgradeMagic.spectatorsLabel>
+  
+  <MainRune_Behaviors_AshToPlants.roles.0.label>жрец</MainRune_Behaviors_AshToPlants.roles.0.label>
+  <!-- EN: Only adults can link with an anima tree. -->
+  <MainRune_Behaviors_AshToPlants.roles.0.customChildDisallowMessage>С главной руной могут связываться только взрослые.</MainRune_Behaviors_AshToPlants.roles.0.customChildDisallowMessage>
+  <MainRune_Behaviors_AshToPlants.spectatorFilter.description>Должен быть доступен вид медитации «руны»</MainRune_Behaviors_AshToPlants.spectatorFilter.description>
+  <!-- EN: Need a colonist with the natural meditation focus type who is below maximum psylink level and not psychically deaf. -->
+  <MainRune_Behaviors_AshToPlants.roles.0.noCandidatesGizmoDesc>Требуется поселенец со способностями жреца.</MainRune_Behaviors_AshToPlants.roles.0.noCandidatesGizmoDesc>
+  <MainRune_Behaviors_AshToPlants.spectatorGerund>участвовать</MainRune_Behaviors_AshToPlants.spectatorGerund>
+  <MainRune_Behaviors_AshToPlants.spectatorsLabel>Участники</MainRune_Behaviors_AshToPlants.spectatorsLabel>
+  
+  <MainRune_Behaviors_RegrowthBodypart.roles.0.label>жрец</MainRune_Behaviors_RegrowthBodypart.roles.0.label>
+  <MainRune_Behaviors_RegrowthBodypart.roles.1.label>пациент</MainRune_Behaviors_RegrowthBodypart.roles.1.label>
+  <!-- EN: Only adults can link with an anima tree. -->
+  <MainRune_Behaviors_RegrowthBodypart.roles.0.customChildDisallowMessage>С главной руной могут связываться только взрослые.</MainRune_Behaviors_RegrowthBodypart.roles.0.customChildDisallowMessage>
+  <MainRune_Behaviors_RegrowthBodypart.spectatorFilter.description>Должен быть доступен вид медитации «руны»</MainRune_Behaviors_RegrowthBodypart.spectatorFilter.description>
+  <!-- EN: Need a colonist with the natural meditation focus type who is below maximum psylink level and not psychically deaf. -->
+  <MainRune_Behaviors_RegrowthBodypart.roles.0.noCandidatesGizmoDesc>Требуется поселенец со способностями жреца.</MainRune_Behaviors_RegrowthBodypart.roles.0.noCandidatesGizmoDesc>
+  <MainRune_Behaviors_RegrowthBodypart.spectatorGerund>участвовать</MainRune_Behaviors_RegrowthBodypart.spectatorGerund>
+  <MainRune_Behaviors_RegrowthBodypart.spectatorsLabel>Участники</MainRune_Behaviors_RegrowthBodypart.spectatorsLabel>
+  
+  <MainRune_Behaviors_Warmask.roles.0.label>колдун</MainRune_Behaviors_RemoveMagic.roles.0.label>
+  <!-- EN: Only adults can link with an anima tree. -->
+  <MainRune_Behaviors_Warmask.roles.0.customChildDisallowMessage>С главной руной могут связываться только взрослые.</MainRune_Behaviors_Warmask.roles.0.customChildDisallowMessage>
+  <MainRune_Behaviors_Warmask.spectatorFilter.description>Должен быть доступен вид медитации «руны»</MainRune_Behaviors_Warmask.spectatorFilter.description>
+  <!-- EN: Need a colonist with the natural meditation focus type who is below maximum psylink level and not psychically deaf. -->
+  <MainRune_Behaviors_Warmask.roles.0.noCandidatesGizmoDesc>Требуется поселенец со способностями колдуна.</MainRune_Behaviors_Warmask.roles.0.noCandidatesGizmoDesc>
+  <MainRune_Behaviors_Warmask.spectatorGerund>участвовать</MainRune_Behaviors_Warmask.spectatorGerund>
+  <MainRune_Behaviors_Warmask.spectatorsLabel>Воины</MainRune_Behaviors_Warmask.spectatorsLabel>
+  
+</LanguageData>

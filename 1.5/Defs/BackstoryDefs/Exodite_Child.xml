@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <AlienRace.AlienBackstoryDef>
+    <defName>ExoditeChild1</defName>
+    <title>tribe child</title>
+    <titleShort>tribal</titleShort>
+    <baseDesc>[PAWN_nameDef] grew up in a tribe, running around the village, moving with the muffalo herds, learning essential skills from [PAWN_possessive] parents.\n\n[PAWN_pronoun] never learned to read and never saw a other aeldari cultures or xenoraces.</baseDesc>
+    <skillGains>
+      <Plants>2</Plants>
+      <Melee>2</Melee>
+      <Shooting>2</Shooting>
+      <Intellectual>-3</Intellectual>
+    </skillGains>
+    <slot>Childhood</slot>
+	<forcedHediffs>
+      <li>AeldariHediffGiver</li>
+    </forcedHediffs>
+	<spawnCategories><li>ExoditeCivil</li></spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+  <AlienRace.AlienBackstoryDef>
+    <defName>ExoditeChild2</defName>
+    <title>abandoned child</title>
+    <titleShort>abandoned</titleShort>
+    <baseDesc>[PAWN_nameDef] was born sickly. Thinking that [PAWN_pronoun] would only burden the tribe, [PAWN_possessive] parents exposed [PAWN_objective] to the elements. Somehow, [PAWN_pronoun] survived.</baseDesc>
+    <skillGains>
+      <Melee>3</Melee>
+      <Crafting>3</Crafting>
+      <Social>-2</Social>
+    </skillGains>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+	<slot>Childhood</slot>
+	<forcedHediffs>
+      <li>AeldariHediffGiver</li>
+    </forcedHediffs>
+	<spawnCategories><li>ExoditeCivil</li></spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+  <AlienRace.AlienBackstoryDef>
+    <defName>ExoditeChild3</defName>
+    <title>reclusive child</title>
+    <titleShort>reclusive</titleShort>
+    <baseDesc>[PAWN_nameDef] didn't learn to speak until [PAWN_pronoun] was nearly five years old. Even then [PAWN_pronoun] preferred to keep to [PAWN_objective]self.
+\nTo the chagrin of [PAWN_possessive] caretakers, [PAWN_pronoun] made a habit of wandering off to live in the wilderness for weeks at a time.</baseDesc>
+    <workDisables>
+      <li>Social</li>
+    </workDisables>
+    <skillGains>
+      <Melee>4</Melee>
+      <Crafting>3</Crafting>
+    </skillGains>
+	<slot>Childhood</slot>
+	<forcedHediffs>
+      <li>AeldariHediffGiver</li>
+    </forcedHediffs>
+	<spawnCategories><li>ExoditeCivil</li></spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+  <AlienRace.AlienBackstoryDef>
+    <defName>ExoditeChild4</defName>
+    <title>herder</title>
+    <titleShort>herder</titleShort>
+    <baseDesc>[PAWN_nameDef] tended the muffalo herds, keeping them safe from predators and treating sick animals. It was quiet work, but [PAWN_pronoun] enjoyed being away from people.</baseDesc>
+    <skillGains>
+      <Animals>3</Animals>
+      <Melee>3</Melee>
+      <Social>-2</Social>
+    </skillGains>
+	<slot>Childhood</slot>
+	<forcedHediffs>
+      <li>AeldariHediffGiver</li>
+    </forcedHediffs>
+	<spawnCategories><li>ExoditeCivil</li></spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+  <AlienRace.AlienBackstoryDef>
+    <defName>ExoditeChild5</defName>
+    <title>scavenger</title>
+    <titleShort>scavenger</titleShort>
+    <baseDesc>[PAWN_nameDef] spent [PAWN_possessive] childhood escaping grunt work to go digging through ruins for treasures. [PAWN_possessive] natural curiosity got [PAWN_objective] into a lot of trouble, but it also yielded many interesting finds.</baseDesc>
+    <workDisables>
+      <li>ManualDumb</li>
+    </workDisables>
+    <skillGains>
+      <Mining>3</Mining>
+      <Intellectual>3</Intellectual>
+    </skillGains>
+	<slot>Childhood</slot>
+	<forcedHediffs>
+      <li>AeldariHediffGiver</li>
+    </forcedHediffs>
+	<spawnCategories><li>ExoditeCivil</li></spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+  <AlienRace.AlienBackstoryDef>
+    <defName>ExoditeChild6</defName>
+    <title>vengeful child</title>
+    <titleShort>vengeful</titleShort>
+    <baseDesc>As a child, [PAWN_nameDef] returned to [PAWN_possessive] village to find that it had been wiped out by drukhari. [PAWN_pronoun] swore revenge on the attackers and began a violent rampage across the wilderness.</baseDesc>
+    <workDisables>
+      <li>Caring</li>
+    </workDisables>
+    <skillGains>
+      <Melee>3</Melee>
+      <Shooting>3</Shooting>
+    </skillGains>
+	<slot>Childhood</slot>
+	<forcedHediffs>
+      <li>AeldariHediffGiver</li>
+    </forcedHediffs>
+	<spawnCategories><li>ExoditeCivil</li></spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+  <AlienRace.AlienBackstoryDef>
+    <defName>ExoditeChild7</defName> 
+    <title>fire keeper</title>
+    <titleShort>firekeep</titleShort>
+    <baseDesc>[PAWN_nameDef] was responsible for keeping the tribe's fire going. [PAWN_pronoun] took this responsibility very seriously.</baseDesc>
+    <skillGains>
+      <Crafting>2</Crafting>
+      <Cooking>2</Cooking>
+    </skillGains>
+	<slot>Childhood</slot>
+	<forcedHediffs>
+      <li>AeldariHediffGiver</li>
+    </forcedHediffs>
+	<spawnCategories><li>ExoditeCivil</li></spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+  <AlienRace.AlienBackstoryDef>
+    <defName>ExoditeChild8</defName>
+    <title>hideaway</title>
+    <titleShort>hideaway</titleShort>
+    <baseDesc>[PAWN_nameDef]'s overprotective parents encouraged [PAWN_objective] to stay at home nearly every day. Though [PAWN_pronoun] had a lot of time to read and pursue crafting hobbies, [PAWN_pronoun] never developed normal social skills.</baseDesc>
+    <skillGains>
+      <Intellectual>3</Intellectual>
+      <Crafting>3</Crafting>
+      <Social>-2</Social>
+    </skillGains>
+	<slot>Childhood</slot>
+	<forcedHediffs>
+      <li>AeldariHediffGiver</li>
+    </forcedHediffs>
+	<spawnCategories><li>ExoditeCivil</li></spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+  <AlienRace.AlienBackstoryDef>
+    <defName>ExoditeChild9</defName>
+    <title>budding artist</title>
+    <titleShort>artist</titleShort>
+    <baseDesc>[PAWN_nameDef] had a knack for art. Traders and collectors from many different societies sought to buy [PAWN_possessive] creations.</baseDesc>
+    <skillGains>
+      <Artistic>5</Artistic>
+    </skillGains>
+	<slot>Childhood</slot>
+	<forcedHediffs>
+      <li>AeldariHediffGiver</li>
+    </forcedHediffs>
+	<spawnCategories><li>ExoditeCivil</li></spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+  <AlienRace.AlienBackstoryDef>
+    <defName>ExoditeChild10</defName>
+    <title>bully</title>
+    <titleShort>bully</titleShort>
+    <baseDesc>[PAWN_nameDef] tormented other children for fun. To keep [PAWN_objective] busy, an elder assigned [PAWN_objective] to a hunting party at an early age.</baseDesc>
+    <workDisables>
+      <li>Caring</li>
+    </workDisables>
+    <skillGains>
+      <Melee>2</Melee>
+      <Shooting>3</Shooting>
+    </skillGains>
+    <slot>Childhood</slot>
+	<forcedHediffs>
+      <li>AeldariHediffGiver</li>
+    </forcedHediffs>
+	<spawnCategories><li>ExoditeCivil</li></spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+  <AlienRace.AlienBackstoryDef>
+    <defName>ExoditeChild11</defName>
+    <title>bookworm</title>
+    <titleShort>bookworm</titleShort>
+    <baseDesc>Rather than socialize with the other children, [PAWN_nameDef] preferred to get lost in literature. [PAWN_pronoun] taught [PAWN_objective]self to read at an early age with books bought from passing traders.</baseDesc>
+    <workDisables>
+      <li>ManualDumb</li>
+    </workDisables>
+    <skillGains>
+      <Intellectual>6</Intellectual>
+      <Artistic>2</Artistic>
+      <Social>-3</Social>
+    </skillGains>
+	<slot>Childhood</slot>
+	<forcedHediffs>
+      <li>AeldariHediffGiver</li>
+    </forcedHediffs>
+	<spawnCategories><li>ExoditeCivil</li></spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+  <AlienRace.AlienBackstoryDef>
+    <defName>ExoditeChild12</defName>
+    <title>sole survivor</title>
+    <titleShort>survivor</titleShort>
+    <baseDesc>[PAWN_nameDef]'s entire tribe was wiped out in a raid. Though [PAWN_pronoun] was adopted by another group, [PAWN_pronoun] was emotionally scarred, and preferred to stay near home, cooking and tending crops.</baseDesc>
+    <workDisables>
+      <li>Violent</li>
+    </workDisables>
+    <skillGains>
+      <Plants>3</Plants>
+      <Cooking>3</Cooking>
+    </skillGains>
+	<slot>Childhood</slot>
+	<forcedHediffs>
+      <li>AeldariHediffGiver</li>
+    </forcedHediffs>
+	<spawnCategories><li>ExoditeCivil</li></spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  
+  <!--  Мои штуки-->
+  
+  <AlienRace.AlienBackstoryDef>
+    <defName>ExoditeChild13</defName>
+    <title>bonesinger assistant</title>
+    <titleShort>assistant</titleShort>
+    <baseDesc>[PAWN_nameDef] worked for the bonesinger of {PAWN_possessive} tribe. [PAWN_pronoun] helped in the cutting of psychoplastics, transferred materials and finished products. Because of this, [PAWN_pronoun] worked less in the field.</baseDesc>
+    <skillGains>
+      <Artistic>2</Artistic>
+      <Crafting>3</Crafting>
+	  <Plants>-1</Plants>
+    </skillGains>
+	<slot>Childhood</slot>
+	<forcedHediffs>
+      <li>AeldariHediffGiver</li>
+    </forcedHediffs>
+	<spawnCategories><li>ExoditeCivil</li></spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  
+  <AlienRace.AlienBackstoryDef>
+    <defName>ExoditeChild15</defName>
+    <title>healer's assistant</title>
+    <titleShort>assistant</titleShort>
+    <baseDesc>The [PAWN_nameDef]'s parent was a priest of Isha. The [PAWN_nameDef] communicated with patients and learned how to treat wounds.</baseDesc>
+    <skillGains>
+      <Medicine>2</Medicine>
+	  <Social>2</Social>
+	  <Plants>1</Plants>
+    </skillGains>
+	<slot>Childhood</slot>
+	<forcedHediffs>
+      <li>AeldariHediffGiver</li>
+    </forcedHediffs>
+	<spawnCategories><li>ExoditeCivil</li></spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  
+  <AlienRace.AlienBackstoryDef>
+    <defName>ExoditeChild16</defName>
+    <title>native of craftworld</title>
+    <titleShort>craftworlder</titleShort>  <!-- Он с семьей когда-то приехали сюда из искусственного мира и им удалось интегрироваться в племя. Ребенок вырос в деревне, хотя и был слабее сверстников. -->
+    <baseDesc>[PAWN_nameDef] and {PAWN_possessive} family once came here from the craftworld and they managed to integrate into the tribe. [PAWN_nameDef] grew up in the village, although [PAWN_pronoun] was weaker than his peers.</baseDesc>
+    <skillGains>
+	  <Social>3</Social>
+	  <Intellectual>4</Intellectual>
+	  <Mining>-2</Mining>
+	  <Melee>-2</Melee>
+    </skillGains>
+	<slot>Childhood</slot>
+	<forcedHediffs>
+      <li>AeldariHediffGiver</li>
+    </forcedHediffs>
+	<spawnCategories><li>ExoditeCivil</li></spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  
+  <AlienRace.AlienBackstoryDef>
+    <defName>ExoditeChild17</defName>
+    <title>dreamer</title>
+	<titleShort>dreamer</titleShort>
+    <baseDesc>[PAWN_nameDef] was impressed by the corsairs who came to {PAWN_possessive} village. [PAWN_pronoun] wanted to go to the stars when [PAWN_pronoun] grew up.</baseDesc>
+    <skillGains>
+	  <Shooting>2</Shooting>
+	  <Intellectual>2</Intellectual>
+	  <Melee>1</Melee>
+	  <Plants>1</Plants>
+    </skillGains>
+	<slot>Childhood</slot>
+	<forcedHediffs>
+      <li>AeldariHediffGiver</li>
+    </forcedHediffs>
+	<spawnCategories><li>ExoditeCivil</li></spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+ 
+  <AlienRace.AlienBackstoryDef>
+    <defName>ExoditeChild18</defName>
+    <title>scared child</title>
+	<titleShort>scared</titleShort>
+    <baseDesc>An accident that happened to [PAWN_nameDef] while working with dragons has permanently settled the fear of animals. Because of this, [PAWN_nameDef] rarely left the settlement, working in the garden or helping in construction.</baseDesc>
+    <skillGains>
+	  <Construction>2</Construction>
+	  <Plants>3</Plants>
+    </skillGains>
+	<workDisables>Animals</workDisables>
+	<slot>Childhood</slot>
+	<forcedHediffs>
+      <li>AeldariHediffGiver</li>
+    </forcedHediffs>
+	<spawnCategories><li>ExoditeCivil</li></spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+</Defs>

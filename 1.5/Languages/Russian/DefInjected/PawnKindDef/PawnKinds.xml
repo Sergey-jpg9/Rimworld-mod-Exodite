@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <Exodite_Hunter.label>охотник</Exodite_Hunter.label>
+  <Exodite_Hunter.labelFemale>охотница</Exodite_Hunter.labelFemale>
+  <Exodite_Hunter.labelMale>охотник</Exodite_Hunter.labelMale>
+  <Exodite_Hunter.labelPlural>охотники</Exodite_Hunter.labelPlural>
+  
+  <Exodite_Warrior.label>воин</Exodite_Warrior.label>
+  <Exodite_Warrior.labelFemale>воительница</Exodite_Warrior.labelFemale>
+  <Exodite_Warrior.labelMale>воин</Exodite_Warrior.labelMale>
+  <Exodite_Warrior.labelPlural>воины</Exodite_Warrior.labelPlural>
+  
+  <Exodite_Warlock.label>колдун</Exodite_Warlock.label>
+  <Exodite_Warlock.labelFemale>колдунья</Exodite_Warlock.labelFemale>
+  <Exodite_Warlock.labelMale>колдун</Exodite_Warlock.labelMale>
+  <Exodite_Warlock.labelPlural>колдуны</Exodite_Warlock.labelPlural>
+  
+  <Exodite_GreatHunter.label>охотник</Exodite_GreatHunter.label>
+  <Exodite_GreatHunter.labelFemale>охотница</Exodite_GreatHunter.labelFemale>
+  <Exodite_GreatHunter.labelMale>охотник</Exodite_GreatHunter.labelMale>
+  <Exodite_GreatHunter.labelPlural>охотники</Exodite_GreatHunter.labelPlural>
+  
+  <Exodite_GreatWarrior.label>воин</Exodite_GreatWarrior.label>
+  <Exodite_GreatWarrior.labelFemale>воительница</Exodite_GreatWarrior.labelFemale>
+  <Exodite_GreatWarrior.labelMale>воин</Exodite_GreatWarrior.labelMale>
+  <Exodite_GreatWarrior.labelPlural>воины</Exodite_GreatWarrior.labelPlural>
+  
+  <Exodite_Breacher.label>прорывник</Exodite_Breacher.label>
+  <Exodite_Breacher.labelPlural>прорывники</Exodite_Breacher.labelPlural>
+  
+  <Eldar_Slave.label>раб</Eldar_Slave.label>
+  <Eldar_Slave.labelPlural>рабы</Eldar_Slave.labelPlural>
+  
+  <Exodite_Child.label>ребенок</Exodite_Child.label>
+  <Exodite_Child.labelPlural>дети</Exodite_Child.labelPlural>
+  
+  <Exodite_Farmer.label>фермер</Exodite_Farmer.label>
+  <Exodite_Farmer.labelPlural>фермеры</Exodite_Farmer.labelPlural>
+  
+  <Exodite_Logger.label>лесоруб</Exodite_Logger.label>
+  <Exodite_Logger.labelPlural>лесорубы</Exodite_Logger.labelPlural>
+  
+  <Exodite_Miner.label>шахтер</Exodite_Miner.label>
+  <Exodite_Miner.labelPlural>шахтеры</Exodite_Miner.labelPlural>
+  
+  <Exodite_Villager.label>житель</Exodite_Villager.label>
+  <Exodite_Villager.labelFemale>жительница</Exodite_Villager.labelFemale>
+  <Exodite_Villager.labelMale>житель</Exodite_Villager.labelMale>
+  <Exodite_Villager.labelPlural>жители</Exodite_Villager.labelPlural>
+  
+  <Exodite_Trader.label>торговец</Exodite_Trader.label>
+  <Exodite_Trader.labelFemale>торговка</Exodite_Trader.labelFemale>
+  <Exodite_Trader.labelMale>торговец</Exodite_Trader.labelMale>
+  <Exodite_Trader.labelPlural>торговцы</Exodite_Trader.labelPlural>
+  
+  <Exodite_Bonesinger.label>костопев</Exodite_Bonesinger.label>
+  <Exodite_Bonesinger.labelPlural>костопевы</Exodite_Bonesinger.labelPlural>
+  
+  <Exodite_IshaPriest.label>жрец Иши</Exodite_IshaPriest.label>
+  <Exodite_IshaPriest.labelFemale>жрица Иши</Exodite_IshaPriest.labelFemale>
+  <Exodite_IshaPriest.labelMale>жрец Иши</Exodite_IshaPriest.labelMale>
+  <Exodite_IshaPriest.labelPlural>жрецы Иши</Exodite_IshaPriest.labelPlural>
+  
+  <Exodite_Leader.label>высший жрец</Exodite_Leader.label>
+  <Exodite_Leader.labelFemale>высшая жрица</Exodite_Leader.labelFemale>
+  <Exodite_Leader.labelMale>высший жрец</Exodite_Leader.labelMale>
+  <Exodite_Leader.labelPlural>высшие жрецы</Exodite_Leader.labelPlural>
+</LanguageData>

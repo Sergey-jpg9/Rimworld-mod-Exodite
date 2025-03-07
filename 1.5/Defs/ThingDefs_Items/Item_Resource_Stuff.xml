@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<ThingDef ParentName="ResourceBase">
+    <defName>PsyplasticCloth</defName>
+    <label>psyplastic cloth</label>
+    <description>Cloth woven from psyplastic fibers.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Synthread</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>160</MaxHitPoints>
+      <MarketValue>8</MarketValue>
+      <Mass>0.025</Mass>
+      <Flammability>0.56</Flammability>
+      <DeteriorationRate>3</DeteriorationRate>
+      <StuffPower_Armor_Sharp>1.6</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.4</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>2.30</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>24</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>21</StuffPower_Insulation_Heat>
+    </statBases>
+    <burnableByRecipe>true</burnableByRecipe>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <minRewardCount>30</minRewardCount>
+    <stuffProps>
+      <categories>
+        <li>Fabric</li>
+      </categories>
+      <!--<commonality>0.005</commonality>-->
+      <color>(228,228,228)</color>
+      <statFactors>
+        <Flammability>0.56</Flammability>
+        <MaxHitPoints>1.6</MaxHitPoints>
+        <Beauty>4.7</Beauty>
+      </statFactors>
+    </stuffProps>
+    <thingCategories>
+      <li>Textiles</li>
+    </thingCategories>
+	<comps>
+      <li>
+        <compClass>CompColorable</compClass>
+      </li>
+    </comps>
+    <allowedArchonexusCount>80</allowedArchonexusCount>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>PsybonePlates</defName>
+    <label>psybone plates</label>
+    <description>Plates from psybone, created by bonesinger. They are very strong, but some places were deliberately made soft for ease of processing. Runes are cut from them and armor can be made.</description>
+    <graphicData>
+      <texPath>Things/PsybonePlates</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <statBases>
+      <MarketValue>8</MarketValue>
+      <Mass>0.02</Mass>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>false</smeltable>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <allowedArchonexusCount>80</allowedArchonexusCount>
+  </ThingDef>
+</Defs>

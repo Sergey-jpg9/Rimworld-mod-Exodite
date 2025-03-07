@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RitualBehaviorDef>
+    <defName>MainRuneLinking_Behaviors</defName>
+    <durationTicks>15000</durationTicks>
+    <workerClass>Exodites.RitualBehaviorWorker_MainRune_Psylink</workerClass>
+    <roles>
+      <li Class="Exodites.RitualRoleMainRune_PsyLinker">
+        <label>linker</label>
+        <id>organizer</id>
+        <required>true</required>
+        <maxCount>1</maxCount>
+        <defaultForSelectedColonist>true</defaultForSelectedColonist>
+        <noCandidatesGizmoDesc>Need a colonist with the natural meditation focus type who haven't psylink and not psychically deaf.</noCandidatesGizmoDesc>
+        <allowChild>false</allowChild>
+        <customChildDisallowMessage>Only adults can link with an main rune.</customChildDisallowMessage>
+      </li>
+    </roles>
+    <spectatorFilter Class="Exodites.RitualSpectatorFilter_RunicFocus">
+      <description>Must have runic focus type.</description>
+    </spectatorFilter>
+    <spectatorsLabel>Participants</spectatorsLabel>
+    <spectatorGerund>participate</spectatorGerund>
+    <stages>
+      <li Class="RitualStage_AnimaTreeLinking">               <!-- Это вроде надо поменять, но пока норм-->
+        <defaultDuty>LinkWithMainRuneSecondary</defaultDuty>
+        <endTriggers>
+          <li Class="StageEndTrigger_DurationPercentage">
+            <percentage>1</percentage>
+          </li>
+        </endTriggers>
+        <spectateDistanceOverride>3~4</spectateDistanceOverride>
+        <roleBehaviors>
+          <li>
+            <roleId>organizer</roleId>
+            <dutyDef>LinkWithMainRune</dutyDef>
+            <customPositions>
+              <li Class="Exodites.RitualPosition_MainRuneLinkingSpot" />
+            </customPositions>
+          </li>
+        </roleBehaviors>
+      </li>
+    </stages>
+  </RitualBehaviorDef>
+  
+  <RitualBehaviorDef>
+    <defName>MainRune_Behaviors_Warlock</defName>
+    <durationTicks>15000</durationTicks>
+    <workerClass>Exodites.RitualBehaviorWorker_MainRune_Warlock</workerClass>
+    <roles>
+      <li Class="Exodites.RitualRoleMainRune_Mage">
+        <label>future warlock</label>
+        <id>organizer</id>
+        <required>true</required>
+        <maxCount>1</maxCount>
+        <defaultForSelectedColonist>true</defaultForSelectedColonist>
+        <noCandidatesGizmoDesc>Need a colonist with the natural meditation focus type and with psylink.</noCandidatesGizmoDesc>
+        <allowChild>false</allowChild>
+        <customChildDisallowMessage>Only adults can link with an main rune.</customChildDisallowMessage>
+      </li>
+    </roles>
+    <spectatorFilter Class="Exodites.RitualSpectatorFilter_RunicFocus">
+      <description>Must have runic focus type.</description>
+    </spectatorFilter>
+    <spectatorsLabel>Participants</spectatorsLabel>
+    <spectatorGerund>participate</spectatorGerund>
+    <stages>
+      <li Class="RitualStage_AnimaTreeLinking">               <!-- Это вроде надо поменять, но пока норм-->
+        <defaultDuty>LinkWithMainRuneSecondary</defaultDuty>
+        <endTriggers>
+          <li Class="StageEndTrigger_DurationPercentage">
+            <percentage>1</percentage>
+          </li>
+        </endTriggers>
+		
+        <spectateDistanceOverride>3~4</spectateDistanceOverride>
+        <roleBehaviors>
+          <li>
+            <roleId>organizer</roleId>
+            <dutyDef>MainRuneGiveMagic</dutyDef>
+            <customPositions>
+              <li Class="Exodites.RitualPosition_MainRuneLinkingSpot" />
+            </customPositions>
+          </li>
+        </roleBehaviors>
+      </li>
+    </stages>
+  </RitualBehaviorDef>
+  
+  <RitualBehaviorDef>
+    <defName>MainRune_Behaviors_Bonesinger</defName>
+    <durationTicks>15000</durationTicks>
+    <workerClass>Exodites.RitualBehaviorWorker_MainRune_Bonesinger</workerClass>
+    <roles>
+      <li Class="Exodites.RitualRoleMainRune_Mage">
+        <label>future bonesinger</label>
+        <id>organizer</id>
+        <required>true</required>
+        <maxCount>1</maxCount>
+        <defaultForSelectedColonist>true</defaultForSelectedColonist>
+        <noCandidatesGizmoDesc>Need a colonist with the natural meditation focus type and with psylink.</noCandidatesGizmoDesc>
+        <allowChild>false</allowChild>
+        <customChildDisallowMessage>Only adults can link with an main rune.</customChildDisallowMessage>
+      </li>
+    </roles>
+    <spectatorFilter Class="Exodites.RitualSpectatorFilter_RunicFocus">
+      <description>Must have runic focus type.</description>
+    </spectatorFilter>
+    <spectatorsLabel>Participants</spectatorsLabel>
+    <spectatorGerund>participate</spectatorGerund>
+    <stages>
+      <li Class="RitualStage_AnimaTreeLinking">               <!-- Это вроде надо поменять, но пока норм-->
+        <defaultDuty>LinkWithMainRuneSecondary</defaultDuty>
+        <endTriggers>
+          <li Class="StageEndTrigger_DurationPercentage">
+            <percentage>1</percentage>
+          </li>
+        </endTriggers>
+        <spectateDistanceOverride>3~4</spectateDistanceOverride>
+        <roleBehaviors>
+          <li>
+            <roleId>organizer</roleId>
+            <dutyDef>MainRuneGiveMagic</dutyDef>
+            <customPositions>
+              <li Class="Exodites.RitualPosition_MainRuneLinkingSpot" />
+            </customPositions>
+          </li>
+        </roleBehaviors>
+      </li>
+    </stages>
+  </RitualBehaviorDef>
+  
+  <RitualBehaviorDef>
+    <defName>MainRune_Behaviors_Doctor</defName>
+    <durationTicks>15000</durationTicks>
+    <workerClass>Exodites.RitualBehaviorWorker_MainRune_Doctor</workerClass>
+    <roles>
+      <li Class="Exodites.RitualRoleMainRune_Mage">
+        <label>future priest</label>
+        <id>organizer</id>
+        <required>true</required>
+        <maxCount>1</maxCount>
+        <defaultForSelectedColonist>true</defaultForSelectedColonist>
+        <noCandidatesGizmoDesc>Need a colonist with the natural meditation focus type and with psylink.</noCandidatesGizmoDesc>
+        <allowChild>false</allowChild>
+        <customChildDisallowMessage>Only adults can link with an main rune.</customChildDisallowMessage>
+      </li>
+    </roles>
+    <spectatorFilter Class="Exodites.RitualSpectatorFilter_RunicFocus">
+      <description>Must have runic focus type.</description>
+    </spectatorFilter>
+    <spectatorsLabel>Participants</spectatorsLabel>
+    <spectatorGerund>participate</spectatorGerund>
+    <stages>
+      <li Class="RitualStage_AnimaTreeLinking">               <!-- Это вроде надо поменять, но пока норм-->
+        <defaultDuty>LinkWithMainRuneSecondary</defaultDuty>
+        <endTriggers>
+          <li Class="StageEndTrigger_DurationPercentage">
+            <percentage>1</percentage>
+          </li>
+        </endTriggers>
+        <spectateDistanceOverride>3~4</spectateDistanceOverride>
+        <roleBehaviors>
+          <li>
+            <roleId>organizer</roleId>
+            <dutyDef>MainRuneGiveMagic</dutyDef>
+            <customPositions>
+              <li Class="Exodites.RitualPosition_MainRuneLinkingSpot" />
+            </customPositions>
+          </li>
+        </roleBehaviors>
+      </li>
+    </stages>
+  </RitualBehaviorDef>
+  
+  <RitualBehaviorDef>
+    <defName>MainRune_Behaviors_RemoveMagic</defName>
+    <durationTicks>15000</durationTicks>
+    <workerClass>Exodites.RitualBehaviorWorker_MainRune_RemoveMagic</workerClass>
+    <roles>
+      <li Class="Exodites.RitualRoleMainRune_RemoveUpgrade">
+        <label>organizer</label>
+        <id>organizer</id>
+        <required>true</required>
+        <maxCount>1</maxCount>
+        <defaultForSelectedColonist>true</defaultForSelectedColonist>
+        <noCandidatesGizmoDesc>Need a colonist with the natural meditation focus type who have warlock, priest or bonesinger abilities.</noCandidatesGizmoDesc>
+        <allowChild>false</allowChild>
+        <customChildDisallowMessage>Only adults can link with an main rune.</customChildDisallowMessage>
+      </li>
+    </roles>
+    <spectatorFilter Class="Exodites.RitualSpectatorFilter_RunicFocus">
+      <description>Must have runic focus type.</description>
+    </spectatorFilter>
+    <spectatorsLabel>Participants</spectatorsLabel>
+    <spectatorGerund>participate</spectatorGerund>
+    <stages>
+      <li Class="RitualStage_AnimaTreeLinking">               <!-- Это вроде надо поменять, но пока норм-->
+        <defaultDuty>LinkWithMainRuneSecondary</defaultDuty>
+        <endTriggers>
+          <li Class="StageEndTrigger_DurationPercentage">
+            <percentage>1</percentage>
+          </li>
+        </endTriggers>
+        <spectateDistanceOverride>3~4</spectateDistanceOverride>
+        <roleBehaviors>
+          <li>
+            <roleId>organizer</roleId>
+            <dutyDef>MainRuneRemoveUpgradeMagic</dutyDef>
+            <customPositions>
+              <li Class="Exodites.RitualPosition_MainRuneLinkingSpot" />
+            </customPositions>
+          </li>
+        </roleBehaviors>
+      </li>
+    </stages>
+  </RitualBehaviorDef>
+  
+  <RitualBehaviorDef>
+    <defName>MainRune_Behaviors_UpgradeMagic</defName>
+    <durationTicks>15000</durationTicks>
+    <workerClass>Exodites.RitualBehaviorWorker_MainRune_UpgradeMagic</workerClass>
+    <roles>
+      <li Class="Exodites.RitualRoleMainRune_RemoveUpgrade">
+        <label>organizer</label>
+        <id>organizer</id>
+        <required>true</required>
+        <maxCount>1</maxCount>
+        <defaultForSelectedColonist>true</defaultForSelectedColonist>
+        <noCandidatesGizmoDesc>Need a colonist with the natural meditation focus type who have warlock, priest or bonesinger abilities.</noCandidatesGizmoDesc>
+        <allowChild>false</allowChild>
+        <customChildDisallowMessage>Only adults can link with an main rune.</customChildDisallowMessage>
+      </li>
+    </roles>
+    <spectatorFilter Class="Exodites.RitualSpectatorFilter_RunicFocus">
+      <description>Must have runic focus type.</description>
+    </spectatorFilter>
+    <spectatorsLabel>Participants</spectatorsLabel>
+    <spectatorGerund>participate</spectatorGerund>
+    <stages>
+      <li Class="RitualStage_AnimaTreeLinking">               <!-- Это вроде надо поменять, но пока норм-->
+        <defaultDuty>LinkWithMainRuneSecondary</defaultDuty>
+        <endTriggers>
+          <li Class="StageEndTrigger_DurationPercentage">
+            <percentage>1</percentage>
+          </li>
+        </endTriggers>
+        <spectateDistanceOverride>3~4</spectateDistanceOverride>
+        <roleBehaviors>
+          <li>
+            <roleId>organizer</roleId>
+            <dutyDef>MainRuneRemoveUpgradeMagic</dutyDef>
+            <customPositions>
+              <li Class="Exodites.RitualPosition_MainRuneLinkingSpot" />
+            </customPositions>
+          </li>
+        </roleBehaviors>
+      </li>
+    </stages>
+  </RitualBehaviorDef>
+  
+  <RitualBehaviorDef>
+    <defName>MainRune_Behaviors_AshToPlants</defName>
+    <durationTicks>15000</durationTicks>
+    <workerClass>Exodites.RitualBehaviorWorker_MainRune_AshToPlants</workerClass>
+    <roles>
+      <li Class="Exodites.RitualRoleMainRune_Doctor">
+        <label>priest</label>
+        <id>organizer</id>
+        <required>true</required>
+        <maxCount>1</maxCount>
+        <defaultForSelectedColonist>true</defaultForSelectedColonist>
+        <noCandidatesGizmoDesc>Need a colonist with the priest abilities.</noCandidatesGizmoDesc>
+        <allowChild>false</allowChild>
+        <customChildDisallowMessage>Only adults can link with an main rune.</customChildDisallowMessage>
+      </li>
+    </roles>
+    <spectatorFilter Class="Exodites.RitualSpectatorFilter_RunicFocus">
+      <description>Must have runic focus type.</description>
+    </spectatorFilter>
+    <spectatorsLabel>Participants</spectatorsLabel>
+    <spectatorGerund>participate</spectatorGerund>
+    <stages>
+      <li Class="RitualStage_AnimaTreeLinking">               <!-- Это вроде надо поменять, но пока норм-->
+        <defaultDuty>Spectate</defaultDuty>
+        <endTriggers>
+          <li Class="StageEndTrigger_DurationPercentage">
+            <percentage>1</percentage>
+          </li>
+        </endTriggers>
+        <spectateDistanceOverride>3~4</spectateDistanceOverride>
+		<allowedSpectateSidesOverride>Horizontal</allowedSpectateSidesOverride> <!-- Horizontal 0xA -->
+        <roleBehaviors>
+          <li>
+            <roleId>organizer</roleId>
+            <dutyDef>MainRuneRemoveUpgradeMagic</dutyDef>
+            <customPositions>
+              <li Class="Exodites.RitualPosition_MainRuneLinkingSpot" />
+            </customPositions>
+          </li>
+        </roleBehaviors>
+      </li>
+    </stages>
+  </RitualBehaviorDef>
+  
+  <RitualBehaviorDef>
+    <defName>MainRune_Behaviors_RegrowthBodypart</defName>
+    <durationTicks>15000</durationTicks>
+    <workerClass>Exodites.RitualBehaviorWorker_MainRune_RegrowthBodypart</workerClass>
+    <roles>
+      <li Class="Exodites.RitualRoleMainRune_Doctor">
+        <label>priest</label>
+        <id>doctor</id>
+        <required>true</required>
+        <maxCount>1</maxCount>
+        <defaultForSelectedColonist>false</defaultForSelectedColonist>
+        <noCandidatesGizmoDesc>Need a colonist with the priest abilities.</noCandidatesGizmoDesc>
+        <allowChild>false</allowChild>
+        <customChildDisallowMessage>Only adults can link with an main rune.</customChildDisallowMessage>
+      </li>
+	  <li Class="Exodites.RitualRoleMainRune_Patient">
+        <label>patient</label>
+        <id>patient</id>
+        <required>true</required>
+        <maxCount>1</maxCount>
+        <defaultForSelectedColonist>false</defaultForSelectedColonist>
+        <noCandidatesGizmoDesc>Need a colonist with the priest abilities.</noCandidatesGizmoDesc>
+        <allowChild>true</allowChild>
+      </li>
+    </roles>
+    <spectatorFilter Class="Exodites.RitualSpectatorFilter_RunicFocus">
+      <description>Must have runic focus type.</description>
+    </spectatorFilter>
+    <spectatorsLabel>Participants</spectatorsLabel>
+    <spectatorGerund>participate</spectatorGerund>
+    <stages>
+      <li Class="RitualStage_AnimaTreeLinking">               <!-- Это вроде надо поменять, но пока норм-->
+        <defaultDuty>Spectate</defaultDuty>
+        <endTriggers>
+          <li Class="StageEndTrigger_DurationPercentage">
+            <percentage>1</percentage>
+          </li>
+        </endTriggers>
+        <spectateDistanceOverride>3~4</spectateDistanceOverride>
+		<allowedSpectateSidesOverride>Horizontal</allowedSpectateSidesOverride> <!-- Horizontal 0xA -->
+        <roleBehaviors>
+          <li>
+            <roleId>doctor</roleId>
+            <dutyDef>MainRuneDoctor</dutyDef>
+			<customPositions>
+              <li Class="RitualPosition_BehindThingCenter" />
+            </customPositions>
+            <!--<customPositions>
+              <li Class="Exodites.RitualPosition_MainRuneLinkingSpot" />
+            </customPositions>-->
+          </li>
+		  <li>
+            <roleId>patient</roleId>
+            <dutyDef>MainRunePatient</dutyDef>
+			<customPositions>
+              <li Class="RitualPosition_InFrontThingCenter"/>
+            </customPositions>
+            <!--<customPositions>
+              <li Class="Exodites.RitualPosition_MainRuneLinkingSpot" />
+            </customPositions>-->
+          </li>
+        </roleBehaviors>
+      </li>
+    </stages>
+  </RitualBehaviorDef>
+  
+  <RitualBehaviorDef>
+    <defName>MainRune_Behaviors_Warmask</defName>
+    <durationTicks>1000</durationTicks>
+    <workerClass>Exodites.RitualBehaviorWorker_MainRune_Warmask</workerClass>
+    <roles>
+      <li Class="Exodites.RitualRoleMainRune_Warlock">
+        <label>warlock</label>
+        <id>organizer</id>
+        <required>true</required>
+        <maxCount>1</maxCount>
+        <defaultForSelectedColonist>true</defaultForSelectedColonist>
+        <noCandidatesGizmoDesc>Need a colonist with the warlock abilities.</noCandidatesGizmoDesc>
+        <allowChild>false</allowChild>
+        <customChildDisallowMessage>Only adults can link with an main rune.</customChildDisallowMessage>
+      </li>
+    </roles>
+    <spectatorFilter Class="Exodites.RitualSpectatorFilter_RunicFocus">
+      <description>Must have runic focus type.</description>
+    </spectatorFilter>
+    <spectatorsLabel>Warriors</spectatorsLabel>
+    <spectatorGerund>participate</spectatorGerund>
+    <stages>
+      <li Class="RitualStage_AnimaTreeLinking">               <!-- Это вроде надо поменять, но пока норм-->
+        <defaultDuty>Spectate</defaultDuty>
+        <endTriggers>
+          <li Class="StageEndTrigger_DurationPercentage">
+            <percentage>1</percentage>
+          </li>
+        </endTriggers>
+        <spectateDistanceOverride>1</spectateDistanceOverride>
+		<allowedSpectateSidesOverride>Vertical</allowedSpectateSidesOverride>
+        <roleBehaviors>
+          <li>
+            <roleId>organizer</roleId>
+            <dutyDef>MainRuneRemoveUpgradeMagic</dutyDef>
+            <customPositions>
+              <li Class="RitualPosition_BehindThingCenter" />
+            </customPositions>
+          </li>
+        </roleBehaviors>
+      </li>
+    </stages>
+  </RitualBehaviorDef>
+</Defs>

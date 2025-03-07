@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RitualOutcomeEffectDef>
+    <defName>MainRune_Outcome_Psylink</defName>
+    <workerClass>Exodites.RitualOutcomeEffectWorker_MainRune_Psylink</workerClass>
+    <warnOnLowQuality>false</warnOnLowQuality>
+    <givesDevelopmentPoints>false</givesDevelopmentPoints>
+    <comps>
+      <li Class="RitualOutcomeComp_ParticipantCount">                       <!-- Это надо поменять -->
+        <label>participant count</label>
+        <curve>
+          <points>
+            <li>(1, 0.2)</li>
+            <li>(2, 0.4)</li>
+            <li>(4, 0.6)</li>
+            <li>(6, 0.8)</li>
+            <li>(8, 1)</li>
+          </points>
+        </curve>
+      </li>
+    </comps>
+  </RitualOutcomeEffectDef>
+  
+  <RitualOutcomeEffectDef>
+    <defName>MainRune_Outcome_Warlock</defName>
+    <workerClass>Exodites.RitualOutcomeEffectWorker_MainRune_Warlock</workerClass>
+    <warnOnLowQuality>false</warnOnLowQuality>
+    <givesDevelopmentPoints>false</givesDevelopmentPoints>
+    <comps>
+      <li Class="RitualOutcomeComp_ParticipantCount">                       <!-- Это надо поменять -->
+        <label>participant count</label>
+        <curve>
+          <points>
+            <li>(1, 0.2)</li>
+            <li>(2, 0.4)</li>
+            <li>(4, 0.6)</li>
+            <li>(6, 0.8)</li>
+            <li>(8, 1)</li>
+          </points>
+        </curve>
+      </li>
+    </comps>
+  </RitualOutcomeEffectDef>
+  
+  <RitualOutcomeEffectDef>
+    <defName>MainRune_Outcome_Bonesinger</defName>
+    <workerClass>Exodites.RitualOutcomeEffectWorker_MainRune_Bonesinger</workerClass>
+    <warnOnLowQuality>false</warnOnLowQuality>
+    <givesDevelopmentPoints>false</givesDevelopmentPoints>
+    <comps>
+      <li Class="RitualOutcomeComp_ParticipantCount">                       <!-- Это надо поменять -->
+        <label>participant count</label>
+        <curve>
+          <points>
+            <li>(1, 0.2)</li>
+            <li>(2, 0.4)</li>
+            <li>(4, 0.6)</li>
+            <li>(6, 0.8)</li>
+            <li>(8, 1)</li>
+          </points>
+        </curve>
+      </li>
+    </comps>
+  </RitualOutcomeEffectDef>
+  
+  <RitualOutcomeEffectDef>
+    <defName>MainRune_Outcome_Doctor</defName>
+    <workerClass>Exodites.RitualOutcomeEffectWorker_MainRune_Doctor</workerClass>
+    <warnOnLowQuality>false</warnOnLowQuality>
+    <givesDevelopmentPoints>false</givesDevelopmentPoints>
+    <comps>
+      <li Class="RitualOutcomeComp_ParticipantCount">                       <!-- Это надо поменять -->
+        <label>participant count</label>
+        <curve>
+          <points>
+            <li>(1, 0.2)</li>
+            <li>(2, 0.4)</li>
+            <li>(4, 0.6)</li>
+            <li>(6, 0.8)</li>
+            <li>(8, 1)</li>
+          </points>
+        </curve>
+      </li>
+    </comps>
+  </RitualOutcomeEffectDef>
+  
+  <RitualOutcomeEffectDef>
+    <defName>MainRune_Outcome_RemoveMagic</defName>
+    <workerClass>Exodites.RitualOutcomeEffectWorker_MainRune_RemoveMagic</workerClass>
+    <warnOnLowQuality>false</warnOnLowQuality>
+    <givesDevelopmentPoints>false</givesDevelopmentPoints>
+    <comps>
+      <li Class="RitualOutcomeComp_ParticipantCount">                             <!-- Это надо поменять -->
+        <label>participant count</label>
+        <curve>
+          <points>
+            <li>(1, 0.2)</li>
+            <li>(2, 0.4)</li>
+            <li>(4, 0.6)</li>
+            <li>(6, 0.8)</li>
+            <li>(8, 1)</li>
+          </points>
+        </curve>
+      </li>
+    </comps>
+  </RitualOutcomeEffectDef>
+  
+  <RitualOutcomeEffectDef>
+    <defName>MainRune_Outcome_UpgradeMagic</defName>
+    <workerClass>Exodites.RitualOutcomeEffectWorker_MainRune_UpgradeMagic</workerClass>
+    <warnOnLowQuality>false</warnOnLowQuality>
+    <givesDevelopmentPoints>false</givesDevelopmentPoints>
+    <comps>
+      <li Class="RitualOutcomeComp_ParticipantCount">                             <!-- Это надо поменять -->
+        <label>participant count</label>
+        <curve>
+          <points>
+            <li>(1, 0.2)</li>
+            <li>(2, 0.4)</li>
+            <li>(4, 0.6)</li>
+            <li>(6, 0.8)</li>
+            <li>(8, 1)</li>
+          </points>
+        </curve>
+      </li>
+    </comps>
+  </RitualOutcomeEffectDef>
+  
+  <RitualOutcomeEffectDef>
+    <defName>MainRune_Outcome_AshToPlants</defName>
+    <workerClass>Exodites.RitualOutcomeEffectWorker_MainRune_AshToPlants</workerClass>
+    <warnOnLowQuality>false</warnOnLowQuality>
+    <givesDevelopmentPoints>false</givesDevelopmentPoints>
+    <comps>
+      <li Class="RitualOutcomeComp_ParticipantCount">                             <!-- Это надо поменять -->
+        <label>participant count</label>
+        <curve>
+          <points>
+            <li>(1, 0.2)</li>
+            <li>(2, 0.4)</li>
+            <li>(4, 0.6)</li>
+            <li>(6, 0.8)</li>
+            <li>(8, 1)</li>
+          </points>
+        </curve>
+      </li>
+    </comps>
+  </RitualOutcomeEffectDef>
+  
+  <RitualOutcomeEffectDef>
+    <defName>MainRune_Outcome_RegrowthBodypart</defName>
+    <workerClass>Exodites.RitualOutcomeEffectWorker_MainRune_RegrowthBodypart</workerClass>
+    <warnOnLowQuality>false</warnOnLowQuality>
+    <givesDevelopmentPoints>false</givesDevelopmentPoints>
+    <comps>
+      <li Class="RitualOutcomeComp_ParticipantCount">                             <!-- Это надо поменять -->
+        <label>participant count</label>
+        <curve>
+          <points>
+            <li>(1, 0.2)</li>
+            <li>(2, 0.4)</li>
+            <li>(4, 0.6)</li>
+            <li>(6, 0.8)</li>
+            <li>(8, 1)</li>
+          </points>
+        </curve>
+      </li>
+    </comps>
+  </RitualOutcomeEffectDef>
+  
+  <RitualOutcomeEffectDef>
+    <defName>MainRune_Outcome_Warmask</defName>
+    <workerClass>Exodites.RitualOutcomeEffectWorker_MainRune_Warmask</workerClass>
+    <warnOnLowQuality>false</warnOnLowQuality>
+    <givesDevelopmentPoints>false</givesDevelopmentPoints>
+    <comps>
+      <li Class="RitualOutcomeComp_ParticipantCount">                             <!-- Это надо поменять -->
+        <label>participant count</label>
+        <curve>
+          <points>
+            <li>(1, 0.2)</li>
+            <li>(2, 0.4)</li>
+            <li>(4, 0.6)</li>
+            <li>(6, 0.8)</li>
+            <li>(8, 1)</li>
+          </points>
+        </curve>
+      </li>
+    </comps>
+  </RitualOutcomeEffectDef>
+</Defs>

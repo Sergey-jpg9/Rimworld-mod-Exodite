@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/FactionDef[categoryTag="Exodite"]/pawnGroupMakers/li[1]/options</xpath>
+		<value>
+			<Utahraptor>10</Utahraptor>
+			<Dakotaraptor>10</Dakotaraptor>
+			<Velociraptor>20</Velociraptor>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/FactionDef[categoryTag="Exodite"]/pawnGroupMakers/li[2]/options</xpath>
+		<value>
+			<Utahraptor>10</Utahraptor>
+			<Dakotaraptor>10</Dakotaraptor>
+			<Velociraptor>20</Velociraptor>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/FactionDef[categoryTag="Exodite"]/pawnGroupMakers/li[3]/options</xpath>
+		<value>
+			<Utahraptor>10</Utahraptor>
+			<Dakotaraptor>10</Dakotaraptor>
+			<Velociraptor>20</Velociraptor>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/FactionDef[categoryTag="Exodite"]/pawnGroupMakers/li[4]/options</xpath>
+		<value>
+			<Utahraptor>10</Utahraptor>
+			<Dakotaraptor>10</Dakotaraptor>
+			<Velociraptor>20</Velociraptor>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/FactionDef[categoryTag="Exodite"]/pawnGroupMakers/li[5]/options</xpath>
+		<value>
+			<Utahraptor>10</Utahraptor>
+			<Dakotaraptor>10</Dakotaraptor>
+			<Velociraptor>20</Velociraptor>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/FactionDef[categoryTag="Exodite"]/pawnGroupMakers/li[7]/carriers</xpath>
+		<value>
+			<Ankylosaurus>5</Ankylosaurus>
+			<Magyarosaurus>5</Magyarosaurus>
+			<Stegosaurus>5</Stegosaurus>
+			<Triceratops>5</Triceratops>
+		</value>
+	</Operation>
+</Patch>

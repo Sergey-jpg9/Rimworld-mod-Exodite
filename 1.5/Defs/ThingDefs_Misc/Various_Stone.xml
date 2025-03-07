@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- ================ Psystone ================ -->
+  
+  <!--<ThingDef ParentName="UglyRockBase" Name="SandstoneBase">
+    <defName>Sandstone</defName>
+    <label>sandstone</label>
+    <description>A sedimentary rock composed of sand particles compressed together.</description>
+    <graphicData>
+      <color>(126,104,94)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>400</MaxHitPoints>
+    </statBases>
+    <building>
+      <mineableThing>ChunkSandstone</mineableThing>
+      <mineableDropChance>0.25</mineableDropChance>
+      <smoothedThing>SmoothedSandstone</smoothedThing>
+    </building>
+  </ThingDef>
+
+  <ThingDef ParentName="SandstoneBase">
+    <defName>SmoothedSandstone</defName>
+    <label>smoothed sandstone</label>
+    <description>A sedimentary rock composed of sand particles compressed together. The sand layers have been polished to a flat, smooth surface.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+    </graphicData>
+    <statBases>
+      <Beauty>1</Beauty>
+      <MarketValue>18</MarketValue>
+    </statBases>
+    <building>
+      <isNaturalRock>false</isNaturalRock>
+      <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+      <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+      <paintable>true</paintable>
+      <smoothedThing />
+    </building>
+    <saveCompressible>false</saveCompressible>
+    <repairEffect>Repair</repairEffect>
+  </ThingDef>-->
+  
+  <ThingDef ParentName="ChunkBase">
+    <defName>ChunkPsystone</defName>
+    <label>psystone chunk</label>
+	<description>A chunk of rock. Can be cut into usable stone blocks.</description>
+    <graphicData>
+	  <texPath>Things/Item/Chunk/ChunkStone</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <flipExtraRotation>80</flipExtraRotation>
+      <color>(222,222,222)</color>
+    </graphicData>
+    <statBases>
+      <Mass>16</Mass>
+	  <BeautyOutdoors>0</BeautyOutdoors>
+    </statBases>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <butcherProducts>
+      <BlocksPsystone>20</BlocksPsystone>
+    </butcherProducts>
+    <thingCategories>
+      <li>Chunks</li>
+    </thingCategories>
+  </ThingDef>
+  
+  <ThingDef ParentName="StoneBlocksBase">
+    <defName>BlocksPsystone</defName>
+    <label>psystone blocks</label>
+    <description>Blocks of solid sandstone. Sandstone is a relatively soft rock and chips easily.</description>
+    <graphicData>
+      <color>(222,222,222)</color>
+    </graphicData>
+    <statBases>
+      <Mass>1</Mass>
+      <SharpDamageMultiplier>0.5</SharpDamageMultiplier>
+    </statBases>
+    <stuffProps>
+	  <commonality>0</commonality>
+      <color>(222,222,222)</color>
+      <!--<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>-->
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>sandstone</stuffAdjective>
+      <statFactors>
+        <Beauty>2</Beauty>  
+        <MaxHitPoints>1.8</MaxHitPoints>
+        <WorkToBuild>6.0</WorkToBuild>
+        <WorkToMake>1.6</WorkToMake>
+      </statFactors>
+      <canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+    </stuffProps>
+  </ThingDef>
+
+  <RecipeDef ParentName="MakeStoneBlocksBase">
+    <defName>Make_StoneBlocksPsystone</defName>
+    <label>make psystone blocks</label>
+    <description>Cuts sandstone chunks into usable blocks.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ChunkPsystone</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ChunkPsystone</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <BlocksPsystone>20</BlocksPsystone>
+    </products>
+  </RecipeDef>
+  
+  <RecipeDef Class="Exodites.PsyhicRecipeDef">
+    <defName>Make_PsystoneChunk</defName>
+    <label>make psystone chunk</label>
+    <description>Create sandstone chunks.\nPrice:\nAll psy-heating - 6400.\nConcentration loss - 2%\nMin bonesinger level - 2\nMin concentration - 12,5%</description>
+    <products>
+      <ChunkPsystone>1</ChunkPsystone>
+    </products>
+	<jobString>Cutting stone blocks from chunk?.</jobString>
+    <workAmount>3200</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <targetCountAdjustment>1</targetCountAdjustment>
+	<unfinishedThingDef>UnfinishedSculpture_E</unfinishedThingDef>
+	
+	<EntropyPer60Tick>2</EntropyPer60Tick>
+	<PsyfocusPerTick>-0.0000125</PsyfocusPerTick>
+	<minBonesingerLevel>2</minBonesingerLevel>
+	<minPsyfocusNeed>0.125</minPsyfocusNeed>
+  </RecipeDef>
+  
+</Defs>

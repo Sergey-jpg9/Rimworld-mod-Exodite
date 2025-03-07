@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <PawnKindDef ParentName="BasePlayerPawnKind">
+    <defName>Exoditesperson</defName>
+    <label>member</label>
+    <race>Aeldari</race>
+    <defaultFactionType>PlayerExoditeTribe</defaultFactionType>
+    <chemicalAddictionChance>0</chemicalAddictionChance>
+    <apparelTags>
+      <li>Neolithic</li>
+    </apparelTags>
+    <apparelMoney>200~200</apparelMoney>
+    <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+    <techHediffsMoney>50~50</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+    </techHediffsTags>
+    <techHediffsChance>0.02</techHediffsChance>
+    <initialResistanceRange>9~15</initialResistanceRange>
+  </PawnKindDef>
+</Defs>

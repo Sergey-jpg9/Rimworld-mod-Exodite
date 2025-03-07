@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <DutyDef>
+    <defName>LinkWithMainRune</defName>
+    <socialModeMax>Off</socialModeMax>
+    <thinkNode Class="ThinkNode_Priority">
+      <subNodes>
+        <li Class="Exodites.JobGiver_MainRuneLinking">
+        </li>
+      </subNodes>
+    </thinkNode>
+  </DutyDef>
+  
+  <DutyDef>
+    <defName>MainRuneGiveMagic</defName>
+    <socialModeMax>Off</socialModeMax>
+    <thinkNode Class="ThinkNode_Priority">
+      <subNodes>
+        <li Class="Exodites.JobGiver_MainRune_GiveMage">
+        </li>
+      </subNodes>
+    </thinkNode>
+  </DutyDef>
+  
+  <DutyDef>
+    <defName>MainRuneRemoveUpgradeMagic</defName>
+    <socialModeMax>Off</socialModeMax>
+    <thinkNode Class="ThinkNode_Priority">
+      <subNodes>
+        <li Class="Exodites.JobGiver_MainRune_RemoveUpgradeMagic">
+        </li>
+      </subNodes>
+    </thinkNode>
+  </DutyDef>
+
+  <DutyDef>
+    <defName>LinkWithMainRuneSecondary</defName>
+    <hook>MediumPriority</hook>
+    <socialModeMax>Off</socialModeMax>
+    <thinkNode Class="ThinkNode_Priority">
+      <subNodes>
+        <!-- Spectate -->
+        <li Class="JobGiver_SpectateInCircleDuty" />
+      </subNodes>
+    </thinkNode>
+  </DutyDef>
+  
+  <DutyDef>
+    <defName>MainRunePatient</defName>
+    <socialModeMax>Off</socialModeMax>
+    <thinkNode Class="ThinkNode_Priority">
+      <subNodes>
+        <li Class="Exodites.JobGiver_RitualPatient" />
+      </subNodes>
+    </thinkNode>
+  </DutyDef>
+  
+  <DutyDef>
+    <defName>MainRuneDoctor</defName>
+    <socialModeMax>Off</socialModeMax>
+    <thinkNode Class="ThinkNode_Priority">
+      <subNodes>
+        <li Class="Exodites.JobGiver_RitualDoctor" />
+      </subNodes>
+    </thinkNode>
+  </DutyDef>
+
+</Defs>

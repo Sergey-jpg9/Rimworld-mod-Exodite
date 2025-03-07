@@ -1,0 +1,71 @@
+DefName  ,  стоимость(ткань или сталь) ,  кол-во материала  ,  кол-во работы
+стоимость = (стоимость материала) * (кол-во материала) + константа*(объем работы).
+
+ExoditeCivilApparel
+(
+A_TribalA  ,  90+6  ,  60  ,  1800
+A_Parka  ,  120+6  ,  80  ,  8000
+A_Pants  ,  60+6  ,  40  ,  1600
+A_BasicShirt  ,  60+6  ,  40  ,  1600
+A_CollarShirt  ,  68+6  ,  45  ,  2700
+A_Duster  ,  120+6  ,  80  ,  10000
+A_Jacket  ,  105+6  ,  70  ,  7000
+A_Robe  ,  120+6  ,  80  ,  5000
+A_Tuque  ,  30+6  ,  20  ,  1200
+A_HatHood  ,  75+6  ,  50  ,  6000
+)
+
+ExoditeSpecialCivilApparel
+(
+
+A_RobeRoyal  ,  150+6  ,  100  ,  20000
+)
+
+ExoditeBonesingerApparel
+(
+A_BonesingerHelmet  , 600  ,  ?  ,  12000
+)
+
+ExoditeMilitaryApparel
+(
+
+A_PlateArmor  ,  460(323 по расчетам)  ,  170  ,  38000
+A_SimpleHelmet  ,  (88)76  ,  40  ,  3200
+добавить сюда что-то из VFE - Medieval
+)
+
+ExoditeSpecialMilitaryApparel
+(
+A_ArmoredPants  , 546  ,  40  ,  13000
+A_ArmoredVest  , 546  ,  40  ,  13000
+A_SimpleHelmet  , 600  ,  ?  ,  12000
+)
+
+ExoditeMeleeBasic
+(
+MW_Spear  ,  186(143)  ,  75  ,  12000
+MW_Mace  ,  117(95)  ,  50  ,  6000
+MW_Gladius  ,  138(95)  ,  50  ,  12000
+добавить сюда что-то из VFE - Medieval
+)
+
+ExoditeSpear
+(
+Exodite_MW_BoneSpear  ,  500  ,  40  ,  9000
+)
+
+ExoditeRangedBasic
+(
+Bow_Recurve  ,  66(48)  ,  40  ,  5000
+Bow_Great  ,  104(72)  ,  60  ,  9000
+)
+
+ExoditeHunterBow
+(
+Bow_Exodite  ,  500  ,  40  ,  9000
+)
+
+ShurikenCatapult
+(
+Gun_ShurikenCatapult  ,  2500  ,  ?  ,  1500
+)

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <PlayerExoditeTribe.label>новое племя</PlayerExoditeTribe.label>
+  <PlayerExoditeTribe.description>Небольшое племя.</PlayerExoditeTribe.description>
+  
+  <ExoditeCivil.label>мирные экзодиты</ExoditeCivil.label>
+  <ExoditeCivil.description>Эти аэльдари живут здесь уже очень давно. Технологии, которые привели их сюда, умышленно не используются. В работе они обычно используют простые инструменты, а защищаются мечами и луками.\n\nСфера их интересов — торговля, доверие и выживание.\n\nЭто племя высоко ценит цивилизованное общение, даже с мон-кеями.</ExoditeCivil.description>
+  <ExoditeCivil.pawnSingular>экзодит</ExoditeCivil.pawnSingular>
+  <ExoditeCivil.pawnsPlural>экзодиты</ExoditeCivil.pawnsPlural>
+  <ExoditeCivil.leaderTitle>высший жрец</ExoditeCivil.leaderTitle>
+
+
+  <ExoditeRough.label>воинственные экзодиты</ExoditeRough.label>
+  <ExoditeRough.description>Эти аэльдари живут здесь уже очень давно. Технологии, которые привели их сюда, умышленно не используются. В работе они обычно используют простые инструменты, а защищаются мечами и луками.\n\nСфера их интересов — торговля, доверие и выживание.\n\nЭто племя воинственно и склонно к варварству.</ExoditeRough.description>
+  <ExoditeRough.pawnSingular>экзодит</ExoditeRough.pawnSingular>
+  <ExoditeRough.pawnsPlural>экзодиты</ExoditeRough.pawnsPlural>
+  <ExoditeRough.leaderTitle>высший жрец</ExoditeRough.leaderTitle>
+</LanguageData>

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <!--===== Column 1 ====-->
+  
+  <ResearchProjectDef>
+    <defName>EldarTechStart</defName>
+    <label>Initial technology</label>
+    <description>Initial technology. Open up opportunity to build main rune.</description>
+    <baseCost>5000</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <tags>
+      <li>ExoditeStart</li>
+    </tags>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>3.40</researchViewY>
+	<tab>E_Eldar</tab>
+  </ResearchProjectDef>
+  
+  <!--===== Column 2 ====-->
+  
+  <ResearchProjectDef>
+    <defName>Tech_Warlock</defName>
+    <label>Warlock</label>
+    <description>Technology opens up the ritual by witch you can make one is your pawns a warlock - support battle mage.</description>
+    <baseCost>750</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>0.40</researchViewY>
+	<tab>E_Eldar</tab>
+	<prerequisites>
+      <li>EldarTechStart</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>Tech_Doctor</defName>
+    <label>Isha priest</label>
+    <description>Technology opens up the ritual by witch you can make one is your pawns a priest - healer of aeldari.</description>
+    <baseCost>750</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>1.40</researchViewY>
+	<tab>E_Eldar</tab>
+	<prerequisites>
+      <li>EldarTechStart</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>Tech_Bonesinger</defName>
+    <label>Bonesinger</label>
+    <description>Technology opens up the ritual by witch you can make one is your pawns a bonesinger - craftsman using his magic forces to make things.</description>
+    <baseCost>750</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>2.40</researchViewY>
+	<tab>E_Eldar</tab>
+	<prerequisites>
+      <li>EldarTechStart</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>Tech_BonesingerTable</defName>
+    <label>Bonesinger's table</label>
+    <description>Table using by bonesinger to creating magic things.</description>
+    <baseCost>400</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>4.40</researchViewY>
+	<tab>E_Eldar</tab>
+	<prerequisites>
+	  <li>EldarTechStart</li>
+    </prerequisites>
+  </ResearchProjectDef>
+	
+  <ResearchProjectDef>
+    <defName>Tech_MagicTrap</defName>
+    <label>Magic trap</label>
+    <description>A cruel trap, the creation of which dates back to the myths about the collaboration of Khaine and Kurnous. A rune painted on the surface can be charged by a psyker to unleash the energy of the Sea of Souls on its victim. It is not approved by Isha!</description>
+    <baseCost>400</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>5.40</researchViewY>
+	<tab>E_Eldar</tab>
+	<prerequisites>
+	  <li>EldarTechStart</li>
+    </prerequisites>
+  </ResearchProjectDef>
+	
+  <!--===== Column 3 ====-->
+  
+  <ResearchProjectDef>
+    <defName>Tech_WarlockRitual</defName>
+    <label>"Warmask" ritual</label>
+    <description>Technology opens up the ritual by witch warlock can fast and without concentration loss give warmask to warriors.</description>
+    <baseCost>400</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>0.40</researchViewY>
+	<tab>E_Eldar</tab>
+	<prerequisites>
+      <li>Tech_Warlock</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>Tech1_DoctorRitual</defName>
+    <label>Ritual "Ash to plants"</label>
+    <description>Technology opens up the ritual by witch priest of Isha can turn ash to plants. (Plant your own plants in the ash and make the ritual).</description>
+    <baseCost>600</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>1.40</researchViewY>
+	<tab>E_Eldar</tab>
+	<prerequisites>
+      <li>Tech_Doctor</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>Tech_WraithboneConstruction</defName>
+    <label>Wraithbone construction</label>
+    <description>Bonesinger are able to summon a surprisingly durable material from the Sea of Souls - wraithbone. Creating a wraithbone requires nothing but the time and effort of a bonesinger. With this technology, you can create floors, walls and columns from this material.\nNote. These structures can only be built by pawns with the hediff "Bonesinger". Also, do not be afraid of the required building skill value (100), bonesinger will build it anyway. The speed of construction is influenced by the "Construction speed" and the "Bonesinger's work speed".</description>
+    <baseCost>500</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>2.40</researchViewY>
+	<tab>E_Eldar</tab>
+	<prerequisites>
+      <li>Tech_Bonesinger</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>Tech_RuneTable</defName>
+    <label>Magic runes</label>
+    <description>Open up magic runes.</description>
+    <baseCost>800</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>4.40</researchViewY>
+	<tab>E_Eldar</tab>
+	<prerequisites>
+      <li>Tech_BonesingerTable</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>Tech_InstrumentaryTable</defName>
+    <label>Psyplastic things</label>
+    <description>Open up things maden with psychoplastic - light and hard material.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>5.40</researchViewY>
+	<tab>E_Eldar</tab>
+	<prerequisites>
+      <li>Tech_BonesingerTable</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <!--===== Column 4 ====-->
+  
+  <ResearchProjectDef>
+    <defName>Tech2_DoctorRitual</defName>
+    <label>Ritual "Regrowth bodypart"</label>
+    <description>Technology opens up the ritual by witch priest of Isha can help to sick.</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>1.40</researchViewY>
+	<tab>E_Eldar</tab>
+	<prerequisites>
+      <li>Tech1_DoctorRitual</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>Tech_WraithboneWeapons</defName>
+    <label>Wraithbone weapons</label>
+    <description>Open up wraithbone weapons.</description>
+    <baseCost>400</baseCost>
+    <techLevel>Medieval</techLevel>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>6.40</researchViewY>
+	<tab>E_Eldar</tab>
+	<prerequisites>
+      <li>Tech_InstrumentaryTable</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>Tech_WraithboneArmor</defName>
+    <label>Wraithbone armor</label>
+    <description>Open up wraithbone armor.</description>
+    <baseCost>300</baseCost>
+    <techLevel>Medieval</techLevel>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>5.40</researchViewY>
+	<tab>E_Eldar</tab>
+	<prerequisites>
+      <li>Tech_InstrumentaryTable</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>Tech_MagicRune</defName>
+    <label>Mage's rune</label>
+    <description>Open up mage's rune. It help to mage in psy-entropy dispersion.</description>
+    <baseCost>200</baseCost>
+    <techLevel>Medieval</techLevel>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>4.40</researchViewY>
+	<tab>E_Eldar</tab>
+	<prerequisites>
+      <li>Tech_RuneTable</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>Tech_HealerRune</defName>
+    <label>Healer's rune</label>
+    <description>Open up healer's rune. It help to wearer in healing or heal the wearer.</description>
+    <baseCost>200</baseCost>
+    <techLevel>Medieval</techLevel>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>3.40</researchViewY>
+	<tab>E_Eldar</tab>
+	<prerequisites>
+      <li>Tech_RuneTable</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>Tech_PlanetaryWebway</defName>
+    <label>Planetary webway</label>
+    <description>The Webway is a giant network of magical tunnels of various lengths and sizes created by the ancient Aeldari. It allows you to move very quickly between its entrances. Creating Webway tunnels connecting different places on a single planet is relatively easy and even exodites can do it.\nNote. The tunnel is too small for any vehicles. To move the caravans, go to the gate object on the world map with a caravan, as a result, buttons with the names of other gates will appear. If you create a settlement on a tile with a gate, then a gate will be generated on the new map.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>2.40</researchViewY>
+	<tab>E_Eldar</tab>
+	<prerequisites>
+      <li>Tech_WraithboneConstruction</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <!--===== Column 5 ====-->
+  
+  <ResearchProjectDef>
+    <defName>Tech_DragonArmor</defName>
+    <label>Armor for dinosours</label>
+    <description>Open up wraithbone armor for your dinosours.</description>
+    <baseCost>300</baseCost>
+    <techLevel>Medieval</techLevel>
+    <researchViewX>4.00</researchViewX>
+    <researchViewY>5.40</researchViewY>
+	<tab>E_Eldar</tab>
+	<prerequisites>
+      <li>Tech_WraithboneArmor</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>Tech_ShurikenCatapult</defName>
+    <label>Shuriken catapult</label>
+    <description>The basic weapon of aeldari craftworld. Releases a stream of shurikens, lethal for any short-range targets. The exodites rarely make these weapons themselves, relying on supplies from the nearest craftworld.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <researchViewX>4.00</researchViewX>
+    <researchViewY>6.40</researchViewY>
+	<tab>E_Eldar</tab>
+	<prerequisites>
+      <li>Tech_WraithboneWeapons</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+</Defs>

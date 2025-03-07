@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  
+  <Make_MagicRune.label>Сделать магическую руну</Make_MagicRune.label>
+  <Make_MagicRune.description>Сделать магическую руну.\nЦена:\nОбщий пси-нагрев - 12000.\nПотеря концентрации - 5%\nМинимальный уровень костопева - 1\nМинимальная концентрация - 20%</Make_MagicRune.description>
+  <Make_MagicRune.jobString>Делает магическую руну</Make_MagicRune.jobString>
+  
+  <Make_HealerRune.label>Сделать руну лекаря</Make_HealerRune.label>
+  <Make_HealerRune.description>Сделать руну лекаря.\nЦена:\nОбщий пси-нагрев - 12000.\nПотеря концентрации - 5%\nМинимальный уровень костопева - 1\nМинимальная концентрация - 20%</Make_HealerRune.description>
+  <Make_HealerRune.jobString>Делает  руну лекаря</Make_HealerRune.jobString>
+  
+  <Make_HunterRune.label>Сделать руну охотника</Make_HunterRune.label>
+  <Make_HunterRune.description>Сделать  руну охотника.\nЦена:\nОбщий пси-нагрев - 12000.\nПотеря концентрации - 5%\nМинимальный уровень костопева - 1\nМинимальная концентрация - 20%</Make_HunterRune.description>
+  <Make_HunterRune.jobString>Делает  руну охотника</Make_HunterRune.jobString>
+  
+  <Make_BoneSpear.label>Сделать костяное копье</Make_BoneSpear.label>
+  <Make_BoneSpear.description>Сделать костяное копье.\nЦена:\nОбщий пси-нагрев - 27000.\nПотеря концентрации - 40%\nМинимальный уровень костопева - 2\nМинимальная концентрация - 20%</Make_BoneSpear.description>
+  <Make_BoneSpear.jobString>Делает костяное копье</Make_BoneSpear.jobString>
+  
+  <Make_BonesingerInstrument.label>Сделать инструмент костопева</Make_BonesingerInstrument.label>
+  <Make_BonesingerInstrument.description>Сделать инструмент костопева.\nЦена:\nОбщий пси-нагрев - 9600.\nПотеря концентрации - 50%\nМинимальный уровень костопева - 1\nМинимальная концентрация - 30%</Make_BonesingerInstrument.description>
+  <Make_BonesingerInstrument.jobString>Делает инструмент костопева</Make_BonesingerInstrument.jobString>
+  
+  <Make_ExoditeBow.label>Сделать лук Ушедших</Make_ExoditeBow.label>
+  <Make_ExoditeBow.description>Сделать лук Ушедших.\nЦена:\nОбщий пси-нагрев - 27000.\nПотеря концентрации - 40%\nМинимальный уровень костопева - 2\nМинимальная концентрация - 30%</Make_ExoditeBow.description>
+  <Make_ExoditeBow.jobString>Делает лук Ушедших</Make_ExoditeBow.jobString>
+  
+  <Make_ShurikenCatapult.label>Сделать сюрикеновую катапульту</Make_ShurikenCatapult.label>
+  <Make_ShurikenCatapult.description>Сделать сюрикеновую катапульту.\nЦена:\nОбщий пси-нагрев - 60000.\nПотеря концентрации - 100%\nМинимальный уровень костопева - 4\nМинимальная концентрация - 30%</Make_ShurikenCatapult.description>
+  <Make_ShurikenCatapult.jobString>Делает сюрикеновую катапульту</Make_ShurikenCatapult.jobString>
+  
+  <Make_BonesingerHelmet.label>Сделать шлем костопева</Make_BonesingerHelmet.label>
+  <Make_BonesingerHelmet.description>Сделать шлем костопева.\nЦена:\nОбщий пси-нагрев - 48000.\nПотеря концентрации - 80%\nМинимальный уровень костопева - 3\nМинимальная концентрация - 30%</Make_BonesingerHelmet.description>
+  <Make_BonesingerHelmet.jobString>Делает шлем костопева</Make_BonesingerHelmet.jobString>
+  
+  <Make_SimpleHelmet.label>Сделать простой шлем</Make_SimpleHelmet.label>
+  <Make_SimpleHelmet.description>Сделать простой шлем.\nЦена:\nОбщий пси-нагрев - 48000.\nПотеря концентрации - 80%\nМинимальный уровень костопева - 3\nМинимальная концентрация - 30%</Make_SimpleHelmet.description>
+  <Make_SimpleHelmet.jobString>Делает простой шлем</Make_SimpleHelmet.jobString>
+  
+  <Make_PsyplasticCloth.label>Сшить ткань из психопластика</Make_PsyplasticCloth.label>
+  <Make_PsyplasticCloth.description>Сшить ткань из психопластика.\nЦена:\nОбщий пси-нагрев - 3000.\nПотеря концентрации - 4%\nМинимальный уровень костопева - 2\nМинимальная концентрация - 10%</Make_PsyplasticCloth.description>
+  <Make_PsyplasticCloth.jobString>Шьет ткань из психопластика</Make_PsyplasticCloth.jobString>
+  
+  <Make_PsybonePlates.label>Сделать пластины из психопластика</Make_PsybonePlates.label>
+  <Make_PsybonePlates.description>Сделать пластины из психопластика.\nЦена:\nОбщий пси-нагрев - 3000.\nПотеря концентрации - 4%\nМинимальный уровень костопева - 1\nМинимальная концентрация - 10%</Make_PsybonePlates.description>
+  <Make_PsybonePlates.jobString>Делает пластины из психопластика</Make_PsybonePlates.jobString>
+  
+  <Make_PsystoneChunk.label>Сделать куски психопластика</Make_PsystoneChunk.label>
+  <Make_PsystoneChunk.description>Сделать куски психопластика.\nЦена:\nОбщий пси-нагрев - 6400.\nПотеря концентрации - 4%\nМинимальный уровень костопева - 2\nМинимальная концентрация - 12,5%</Make_PsystoneChunk.description>
+  <Make_PsystoneChunk.jobString>Делает куски психопластика</Make_PsystoneChunk.jobString>
+</LanguageData>

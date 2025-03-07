@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <TerrainDef ParentName="FloorBase">
+    <defName>PsyboneTile</defName>
+    <label>psybone tile</label>
+    <texturePath>Terrain/Surfaces/GenericFloorTile</texturePath>
+    <!--<designatorDropdown>Floor_Tile_Metal</designatorDropdown>-->
+    <constructEffect>ConstructMetal</constructEffect>
+    <isPaintable>true</isPaintable>
+    <researchPrerequisites>
+      <li>Tech_WraithboneConstruction</li>
+    </researchPrerequisites>
+	<renderPrecedence>240</renderPrecedence>
+    <description>Steel tiles, for that spaceship look. They are quick to clean and get a bonus to cleanliness for use in medical settings.</description>
+    <color>(0.8, 0.8, 0.8)</color>
+    <statBases>
+      <WorkToBuild>800</WorkToBuild>
+      <Beauty>0</Beauty>
+      <Cleanliness>0.2</Cleanliness>
+      <CleaningTimeFactor>0.6</CleaningTimeFactor>
+    </statBases>
+    <designationHotKey>Misc10</designationHotKey>
+    <uiOrder>2040</uiOrder>
+    <constructionSkillPrerequisite>100</constructionSkillPrerequisite>
+  </TerrainDef>
+</Defs>

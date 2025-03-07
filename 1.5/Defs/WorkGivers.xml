@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <WorkGiverDef>
+    <defName>DoPsyhicBillsFabricationBench</defName>
+    <label>fabricate things</label>
+    <giverClass>Exodites.WorkGiver_DoPsyhicBill</giverClass>
+    <workType>Smithing</workType>
+    <priorityInType>150</priorityInType>
+    <fixedBillGiverDefs>
+      <li>RuneTable</li>
+	  <li>BonesingerTable</li>
+	  <li>ToolTable</li>
+    </fixedBillGiverDefs>
+    <verb>fabricate</verb>
+    <gerund>fabricating things at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>false</prioritizeSustains>
+  </WorkGiverDef>
+  
+  <WorkGiverDef>
+    <defName>Bonesinger_Construct</defName>
+    <label>construct placed frames</label>
+    <giverClass>Exodites.WorkGiver_BonesingerBuild</giverClass>
+    <workType>Construction</workType>
+    <priorityInType>140</priorityInType>
+    <verb>construct</verb>
+    <gerund>constructing</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <nonColonistsCanDo>true</nonColonistsCanDo>
+    <prioritizeSustains>true</prioritizeSustains>
+    <equivalenceGroup>AssistInConstruction</equivalenceGroup>
+  </WorkGiverDef>
+  
+  <WorkGiverDef>
+    <defName>WebwayDistanceBuild</defName>
+    <label>construct placed frames</label>
+    <giverClass>Exodites.WorkGiver_WebwayDistanceBuild</giverClass>
+    <workType>Construction</workType>
+    <priorityInType>110</priorityInType>
+    <verb>construct</verb>
+    <gerund>constructing</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <nonColonistsCanDo>true</nonColonistsCanDo>
+    <prioritizeSustains>true</prioritizeSustains>
+    <equivalenceGroup>AssistInConstruction</equivalenceGroup>
+  </WorkGiverDef>
+  
+  <WorkGiverDef>
+    <defName>PsyhicRefuel</defName>
+    <label>refuel fuelable buildings</label>
+    <giverClass>Exodites.WorkGiver_PsyhicRefuel</giverClass>
+    <workType>Hauling</workType>
+    <verb>refuel</verb>
+    <gerund>refueling</gerund>
+    <priorityInType>149</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+  
+  <WorkGiverDef>
+    <defName>MakeMagicArmorOnThing</defName>
+    <label>make psybone </label>
+    <giverClass>Exodites.WorkGiver_MakeDragonArmor</giverClass>
+    <workType>Handling</workType>
+    <!--<fixedBillGiverDefs>
+      <li>DDDD</li>
+    </fixedBillGiverDefs>-->
+    <verb>tame</verb>
+    <gerund>taming</gerund>
+    <priorityInType>120</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>false</prioritizeSustains>
+  </WorkGiverDef>
+</Defs>

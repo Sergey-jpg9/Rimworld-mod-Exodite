@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <ThingDef ParentName="BuildingBase">
+    <defName>StoneAbelisk</defName>
+    <label>stone abelisk</label>
+    <description>Magical abelisk.</description>
+    <designationCategory>Misc</designationCategory>
+    <uiOrder>2040</uiOrder>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.25</fillPercent>
+    <pathCost>10</pathCost>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>1800</WorkToBuild>
+      <Mass>20</Mass>
+      <Flammability>0.5</Flammability>
+    </statBases>
+    <stuffCategories>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>75</costStuffCount>
+    <holdsRoof>false</holdsRoof>
+    <canOverlapZones>false</canOverlapZones>
+    <rotatable>false</rotatable>
+    <fertility>0</fertility>
+    <specialDisplayRadius>1.9</specialDisplayRadius> <!-- must be kept in sync with roof hold-up radius -->
+    <building>
+      <paintable>true</paintable>
+	  <destroySound>BuildingDestroyed_Metal_Small</destroySound>
+    </building>
+	<size>(1,1)</size>
+    <graphicData>
+      <drawSize>(1,1)</drawSize>
+      <!--<drawOffset>(0,0,0.2)</drawOffset>-->
+      <texPath>Buildings/StoneAbelisk</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shadowData>
+        <volume>(0.3, 0.5, 0.3)</volume>
+        <offset>(0,0,0)</offset>
+      </shadowData>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <WorkTableWorkSpeedFactor>0.08</WorkTableWorkSpeedFactor>
+        </statOffsets>
+        <maxSimultaneous>4</maxSimultaneous>
+      </li>
+    </comps>
+	<researchPrerequisites>
+      <li>EldarTechStart</li>
+    </researchPrerequisites>
+	<minifiedDef>MinifiedThing</minifiedDef>
+    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+    <thingCategories>
+      <li>BuildingsMisc</li>
+    </thingCategories>
+    <designationHotKey>Misc6</designationHotKey>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+  </ThingDef>
+  
+  <ThingDef ParentName="BuildingBase">
+    <defName>MainRune</defName>
+    <label>main rune</label>
+    <description>Building which can give magic abilities.</description>
+    <uiOrder>2040</uiOrder>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.25</fillPercent>
+    <pathCost>42</pathCost>
+	<statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>1800</WorkToBuild>
+      <Mass>20</Mass>
+      <Flammability>0.5</Flammability>
+    </statBases>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>120</costStuffCount>
+    <canOverlapZones>false</canOverlapZones>
+	<size>(3,3)</size>
+    <rotatable>false</rotatable>
+    <fertility>0</fertility>
+	<interactionCellOffset>(0,0, -2)</interactionCellOffset>
+    <building>
+      <isInert>false</isInert>
+      <ai_chillDestination>false</ai_chillDestination>
+      <paintable>true</paintable>
+    </building>
+	<designationCategory>Misc</designationCategory>
+    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+	<!--<thingCategories>
+      <li>BuildingsMisc</li>
+    </thingCategories>-->
+    <graphicData>
+      <drawSize>(3,3)</drawSize>
+      <drawOffset>(0,0,0.2)</drawOffset>
+      <texPath>Buildings/MainRune</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shadowData>
+        <volume>(0.3, 0.5, 0.3)</volume>
+        <offset>(0,0,-0.23)</offset>
+      </shadowData>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_MeditationFocus">
+        <statDef>MeditationFocusStrength</statDef>
+        <focusTypes>
+          <li>Runic</li>
+        </focusTypes>
+        <offsets>
+          <li Class="FocusStrengthOffset_ArtificialBuildings">
+            <radius>9.9</radius>
+            <curve>
+              <points>
+                <li>(0,   0.0)</li>
+                <li>(5,  -0.08)</li>
+                <li>(10, -0.15)</li>
+                <li>(50, -0.3)</li>
+              </points>
+            </curve>
+          </li>
+          <li Class="FocusStrengthOffset_BuildingDefs">
+            <defs>
+              <StoneAbelisk>0.04</StoneAbelisk>
+              <NatureShrine_Small>0.01</NatureShrine_Small>
+              <NatureShrine_Large>0.01</NatureShrine_Large>
+            </defs>
+            <radius>5.9</radius>
+            <maxBuildings>4</maxBuildings>
+            <explanationKey>MeditationFocusPerAnimusStoneAndShrine</explanationKey>
+            <explanationKeyAbstract>MeditationFocusPerAnimusStoneAndShrineAbstract</explanationKeyAbstract>
+          </li>
+        </offsets>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>3.75</glowRadius>
+        <glowColor>(110,116,125,0)</glowColor>
+      </li>
+      <li Class="CompProperties_SpawnSubplant">
+        <compClass>CompSpawnSubplant</compClass>
+        <subplant>Plant_GrassAnima</subplant>
+        <spawnSound>AnimaTreeProgress</spawnSound>
+      </li>
+      <li Class="Exodites.CompProperties_MainRune">
+		<requiredFocus>Runic</requiredFocus>
+		<linkSound>AnimaTreeLink</linkSound>
+		<psylinkCost>20</psylinkCost>
+		<removeMagicCost>5</removeMagicCost>
+		<ritualCost_AshToPlants>10</ritualCost_AshToPlants>
+		<ritualCost_WarMask>2</ritualCost_WarMask>
+		<ritualCost_RegrowthBodypart>30</ritualCost_RegrowthBodypart>
+	  </li>
+      <li Class="CompProperties_ToggleDrawAffectedMeditationFoci" />
+    </comps>
+	<researchPrerequisites>
+      <li>EldarTechStart</li>
+    </researchPrerequisites>
+  </ThingDef>
+  
+  <ThingDef ParentName="BuildingBase">
+    <defName>Webway_Portal</defName>
+    <label>webway gate</label>
+    <description>This structure is the entrance to the Webway. The Webway is a giant network of magical tunnels of various lengths and sizes created by the ancient Aeldari. It allows you to move very quickly between the entrances to it.</description>
+    <thingClass>Exodites.Building_Bonesinger</thingClass>
+    <graphicData>
+      <texPath>Buildings/WebwayGate/WebwayGate</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3,3)</drawSize>
+	  <drawOffset>(0,0,1)</drawOffset>
+      <damageData>
+        <rect>(0,0,3,1.8)</rect>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+      <shadowData>
+        <volume>(3,0.5,2)</volume>
+      </shadowData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>0</pathCost>
+    <blockWind>false</blockWind>
+    <castEdgeShadows>false</castEdgeShadows>
+    <fillPercent>0.5</fillPercent>
+    <canOverlapZones>false</canOverlapZones>
+    <statBases>
+      <MaxHitPoints>600</MaxHitPoints>
+      <WorkToBuild>100000</WorkToBuild>
+      <Flammability>0.6</Flammability>
+    </statBases>
+    <size>(3,1)</size>
+	<rotatable>false</rotatable>
+    <building>
+	  <blueprintClass>Exodites.Blueprint_Build_Bonesinger</blueprintClass>
+      <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+    </building>
+    <defaultPlacingRot>North</defaultPlacingRot>
+    <interactionCellOffset>(0,0,2)</interactionCellOffset>
+    <hasInteractionCell>false</hasInteractionCell>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <designationCategory>Misc</designationCategory>
+    <uiOrder>2100</uiOrder>
+    <designationHotKey>Misc3</designationHotKey>
+    <placeWorkers>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>Tech_PlanetaryWebway</li>
+    </researchPrerequisites>
+	<comps>
+		<li Class = "Exodites.CompProperties_WebwayPortal" />
+		
+		<li Class = "CompProperties_SelfhealHitpoints">
+		<ticksPerHeal>14000</ticksPerHeal>
+	  </li>
+	</comps>
+	<tickerType>Long</tickerType>
+    <constructionSkillPrerequisite>100</constructionSkillPrerequisite>
+  </ThingDef>
+</Defs>

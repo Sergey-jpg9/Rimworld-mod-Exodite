@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!-- Магические руны ( -->
+	<CommandHealerRune>Лечить</CommandHealerRune>
+	<CommandHealerRuneDesc>Руна быстро обработает все раны, но сильно повредится в процессе</CommandHealerRuneDesc>
+	
+	<CommandMagicRune>Рассеять нагрев</CommandMagicRune>
+	<CommandMagicRuneDesc>Руна быстро рассеит весь пси-нагрев, повредившись в процессе</CommandMagicRuneDesc>
+	
+	<CommandHuntersRune>Включить</CommandHuntersRune>
+	<CommandHuntersRuneDesc>Руна увеличит скорость и точеность стрельбы. Повреждается со временем.</CommandHuntersRuneDesc>
+	<!-- Магические руны ) -->
+	
+	<CommandDragonArmor>Создать броню</CommandDragonArmor>
+	<CommandDragonArmorDesc>На этом динозавре будет создана броня</CommandDragonArmorDesc>
+	
+	<CommandEnterWebway>Пройти к </CommandEnterWebway>
+	<CommandEnterWebwayDesc>Караван мгновенно пройдет к тому месту</CommandEnterWebwayDesc>
+	
+	<DestroyWebwayGate>Разрушить</DestroyWebwayGate>
+	<DestroyWebwayGateDesc>Врата будут забыты, а проход к ним разрушен</DestroyWebwayGateDesc>
+	
+	<CommandMagicShield>Магический щит</CommandMagicShield>
+	<CommandMagicShieldDesc>Включить магический щит. Щит блокирует вражеские снаряды и заклинания.</CommandMagicShieldDesc>
+	
+	<HasWebwayGatesOnMap>Есть врата на загуженной карте</HasWebwayGatesOnMap>
+	<YouCantBuildTwoWebwayAtSameTime>Вы можете строить только одни врата за раз</YouCantBuildTwoWebwayAtSameTime>
+	
+	<ConstructNewWebway>Построить врата</ConstructNewWebway>
+	<ConstructNewWebwayDesc>Построить новые врата в любом месте планеты. Время строительства растет с расстоянием до ближайших врат.</ConstructNewWebwayDesc>
+</LanguageData>

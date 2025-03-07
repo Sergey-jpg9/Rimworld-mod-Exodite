@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <AlienRace.AlienBackstoryDef>
+    <defName>Ex_Bonesinger</defName>
+    <title>bonesinger</title>
+    <titleShort>bonesinger</titleShort>
+    <baseDesc>[PAWN_nameDef] was chosen as bonesinger of his tribe. {PAWN_pronoun} created runes, made tools and things out of psychocity.</baseDesc>
+    <skillGains>
+      <Crafting>6</Crafting>
+      <Intellectual>5</Intellectual>
+    </skillGains>
+    <possessions>
+      <BonesingerInstrument>1</BonesingerInstrument>
+    </possessions>
+	<spawnCategories><li>ExoditeMage</li><li>Exodite_Bonesinger</li></spawnCategories>
+	<slot>Adulthood</slot>
+	<forcedHediffs>
+      <li>BonesingerHediffGiver</li>
+    </forcedHediffs>
+  </AlienRace.AlienBackstoryDef>
+  
+  <AlienRace.AlienBackstoryDef>
+    <defName>Ex_IshaPriest</defName>
+    <title>priest of Isha</title>
+    <titleShort>priest</titleShort>
+    <baseDesc>[PAWN_nameDef] was a priest of Isha within {PAWN_possessive} tribe. The treatment of injuries, both physical and psychological, fell on {PAWN_possessive} shoulders.</baseDesc>
+    <skillGains>
+      <Medicine>6</Medicine>
+	  <Social>5</Social>
+    </skillGains>
+	<spawnCategories><li>ExoditeMage</li><li>Exodite_IshaPriest</li></spawnCategories>
+	<slot>Adulthood</slot>
+	<forcedHediffs>
+      <li>PriestHediffGiver</li>
+    </forcedHediffs>
+  </AlienRace.AlienBackstoryDef>
+  
+  <AlienRace.AlienBackstoryDef>
+    <defName>Ex_Warlock</defName>
+    <title>warlock</title>
+    <titleShort>warlock</titleShort>
+    <baseDesc>Khaine is the god of war and the warlock is his messenger. The [PAWN_nameDef] led detachments of {PAWN_possessive} tribesmen into battle, fighting with sword and magic on a par with other warriors.</baseDesc> 
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <skillGains>
+      <Melee>5</Melee>
+      <Shooting>5</Shooting>
+    </skillGains>
+	<spawnCategories><li>ExoditeMage</li><li>Exodite_Warlock</li></spawnCategories>
+	<slot>Adulthood</slot>
+	<forcedHediffs>
+      <li>WarlockHediffGiver</li>
+    </forcedHediffs>
+  </AlienRace.AlienBackstoryDef>
+
+</Defs>

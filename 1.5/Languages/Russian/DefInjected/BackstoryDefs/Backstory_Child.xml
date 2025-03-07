@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: [PAWN_nameDef] was born sickly. Thinking that [PAWN_pronoun] would only burden the tribe, [PAWN_possessive] parents exposed [PAWN_objective] to the elements. Somehow, [PAWN_pronoun] survived. -->
+  <ExoditeChild2.description>{PAWN_nameDef} {PAWN_gender ? родился : родилась} с очень слабым здоровьем. В {PAWN_possessive} племени решили, что {PAWN_pronoun} будет обузой, и бросили на произвол судьбы. Но {PAWN_nameDef} {PAWN_gender ? выжил : выжила}.</ExoditeChild2.description>
+  <!-- EN: abandoned child -->
+  <ExoditeChild2.title>брошенный мальчик</ExoditeChild2.title>
+  <ExoditeChild2.titleFemale>брошенная девочка</ExoditeChild2.titleFemale>
+  <!-- EN: abandoned -->
+  <ExoditeChild2.titleShort>брошенный</ExoditeChild2.titleShort>
+  <ExoditeChild2.titleShortFemale>брошенная</ExoditeChild2.titleShortFemale>
+  
+  <!-- EN: Rather than socialize with the other children, [PAWN_nameDef] preferred to get lost in literature. [PAWN_pronoun] taught [PAWN_objective]self to read at an early age with books bought from passing traders. -->
+  <ExoditeChild11.description>Общению с другими детьми {PAWN_nameDef} {PAWN_gender ? предпочитал : предпочитала} погружаться в литературу. {PAWN_pronoun} в раннем возрасте самостоятельно {PAWN_gender ? научился : научилась} читать по книгам, купленным у проходящих мимо торговцев.</ExoditeChild11.description>
+  <!-- EN: bookworm -->
+  <ExoditeChild11.title>книжный червь</ExoditeChild11.title>
+  <!-- EN: bookworm -->
+  <ExoditeChild11.titleShort>книжный червь</ExoditeChild11.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] had a knack for art. Traders and collectors from many different societies sought to buy [PAWN_possessive] creations. -->
+  <ExoditeChild9.description>{PAWN_nameDef} {PAWN_gender ? обладал : обладала} выдающимися художественными способностями. Многие торговцы и коллекционеры стремились приобрести {PAWN_possessive} творения.</ExoditeChild9.description>
+  <!-- EN: budding artist -->
+  <ExoditeChild9.title>юный художник</ExoditeChild9.title>
+  <ExoditeChild9.titleFemale>юная художница</ExoditeChild9.titleFemale>
+  <!-- EN: artist -->
+  <ExoditeChild9.titleShort>художник</ExoditeChild9.titleShort>
+  <ExoditeChild9.titleShortFemale>художница</ExoditeChild9.titleShortFemale>
+  
+  <!-- EN: [PAWN_nameDef] tormented other children for fun. To keep [PAWN_objective] busy, an elder assigned [PAWN_objective] to a hunting party at an early age. -->
+  <ExoditeChild10.description>В детстве {PAWN_nameDef} {PAWN_gender ? любил : любила} издеваться над другими детьми забавы ради. Чтобы занять {PAWN_gender ? хулигана : хулиганку} хоть чем-то полезным, старейшина назначил {PAWN_possessive} охотником в раннем возрасте.</ExoditeChild10.description>
+  <!-- EN: bully -->
+  <ExoditeChild10.title>хулиган</ExoditeChild10.title>
+  <ExoditeChild10.titleFemale>хулиганка</ExoditeChild10.titleFemale>
+  <!-- EN: bully -->
+  <ExoditeChild10.titleShort>хулиган</ExoditeChild10.titleShort>
+  <ExoditeChild10.titleShortFemale>хулиганка</ExoditeChild10.titleShortFemale>
+  
+  <!-- EN: [PAWN_nameDef] was responsible for keeping the tribe's fire going. [PAWN_pronoun] took this responsibility very seriously. -->
+  <ExoditeChild7.description>В детстве {PAWN_nameDef} {PAWN_gender ? отвечал : отвечала} за сохранение огня в племенном очаге. {PAWN_pronoun} очень серьёзно {PAWN_gender ? относился : относилась} к своим обязанностям.</ExoditeChild7.description>
+  <!-- EN: fire keeper -->
+  <ExoditeChild7.title>хранитель огня</ExoditeChild7.title>
+  <ExoditeChild7.titleFemale>хранительница огня</ExoditeChild7.titleFemale>
+  <!-- EN: firekeep -->
+  <ExoditeChild7.titleShort>хранитель огня</ExoditeChild7.titleShort>
+  <ExoditeChild7.titleShortFemale>хранительница огня</ExoditeChild7.titleShortFemale>
+  
+  <!-- EN: [PAWN_nameDef] tended the muffalo herds, keeping them safe from predators and treating sick animals. It was quiet work, but [PAWN_pronoun] enjoyed being away from people. -->
+  <ExoditeChild4.description>В детстве {PAWN_nameDef} {PAWN_gender ? пас : пасла} стада муффало своего племени, оберегая их от хищников и выхаживая больных животных. Это была спокойная работа вдали от людей, что {PAWN_objective} вполне нравилось.</ExoditeChild4.description>
+  <!-- EN: herder -->
+  <ExoditeChild4.title>пастух</ExoditeChild4.title>
+  <ExoditeChild4.titleFemale>пастушка</ExoditeChild4.titleFemale>
+  <!-- EN: herder -->
+  <ExoditeChild4.titleShort>пастух</ExoditeChild4.titleShort>
+  <ExoditeChild4.titleShortFemale>пастушка</ExoditeChild4.titleShortFemale>
+  
+  <!-- EN: [PAWN_nameDef]'s overprotective parents encouraged [PAWN_objective] to stay at home nearly every day. Though [PAWN_pronoun] had a lot of time to read and pursue crafting hobbies, [PAWN_pronoun] never developed normal social skills. -->
+  <ExoditeChild8.description>{PAWN_nameDef} {PAWN_gender ? стал : стала} жертвой гиперопеки своих родителей и почти не {PAWN_gender ? выходил : выходила} из дома. И, хотя у н{PAWN_possessive} было много времени для чтения книг и увлечений ремёслами, {PAWN_pronoun} так и не {PAWN_gender ? смог : смогла} развить нормальных социальных навыков.</ExoditeChild8.description>
+  <!-- EN: hideaway -->
+  <ExoditeChild8.title>затворник</ExoditeChild8.title>
+  <ExoditeChild8.titleFemale>затворница</ExoditeChild8.titleFemale>
+  <!-- EN: hideaway -->
+  <ExoditeChild8.titleShort>затворник</ExoditeChild8.titleShort>
+  <ExoditeChild8.titleShortFemale>затворница</ExoditeChild8.titleShortFemale>
+  
+  <!-- EN: [PAWN_nameDef] didn't learn to speak until [PAWN_pronoun] was nearly five years old. Even then [PAWN_pronoun] preferred to keep to [PAWN_objective]self.\n\nTo the chagrin of [PAWN_possessive] caretakers, [PAWN_pronoun] made a habit of wandering off to live in the wilderness for weeks at a time. -->
+  <ExoditeChild3.description>{PAWN_nameDef} не {PAWN_gender ? умел : умела} говорить почти до пяти лет. Даже после этого {PAWN_pronoun} {PAWN_gender ? предпочитал : предпочитала} оставаться наедине с собой. Назло своим попечителям {PAWN_nameDef} {PAWN_gender ? взял : взяла} за привычку уходить из деревни и жить среди природы по нескольку недель.</ExoditeChild3.description>
+  <!-- EN: reclusive child -->
+  <ExoditeChild3.title>замкнутый мальчик</ExoditeChild3.title>
+  <ExoditeChild3.titleFemale>замкнутая девочка</ExoditeChild3.titleFemale>
+  <!-- EN: reclusive -->
+  <ExoditeChild3.titleShort>отшельник</ExoditeChild3.titleShort>
+  <ExoditeChild3.titleShortFemale>отшельница</ExoditeChild3.titleShortFemale>
+  
+  <!-- EN: [PAWN_nameDef] spent [PAWN_possessive] childhood escaping grunt work to go digging through wrecks and ruins for treasures. [PAWN_possessive] natural curiosity got [PAWN_objective] into a lot of trouble, but it also yielded many interesting finds. -->
+  <ExoditeChild5.description>{PAWN_nameDef} {PAWN_gender ? провёл : провела} своё детство, избегая тяжёлой работы для того, чтобы иметь возможность заниматься исследованием руин. {PAWN_possessive} природное любопытство не раз приносило {PAWN_objective} кучу проблем, но вместе с тем дарило множество интересных находок.</ExoditeChild5.description>
+  <!-- EN: scavenger -->
+  <ExoditeChild5.title>мусорщик</ExoditeChild5.title>
+  <ExoditeChild5.titleFemale>мусорщица</ExoditeChild5.titleFemale>
+  <!-- EN: scavenger -->
+  <ExoditeChild5.titleShort>мусорщик</ExoditeChild5.titleShort>
+  <ExoditeChild5.titleShortFemale>мусорщица</ExoditeChild5.titleShortFemale>
+  
+  <!-- EN: [PAWN_nameDef]'s entire tribe was wiped out in a raid. Though [PAWN_pronoun] was adopted by another group, [PAWN_pronoun] was emotionally scarred, and preferred to stay near home, cooking and tending crops. -->
+  <ExoditeChild12.description>{PAWN_nameDef} {PAWN_gender ? пережил : пережила} налёт, в котором погибло всё {PAWN_possessive} племя. Хотя {PAWN_possessive} приняли в другое племя, после такого потрясения {PAWN_pronoun} {PAWN_gender ? предпочитал : предпочитала} оставаться возле дома, занимаясь готовкой и выращиванием урожая.</ExoditeChild12.description>
+  <!-- EN: sole survivor -->
+  <ExoditeChild12.title>оставшийся в живых</ExoditeChild12.title>
+  <ExoditeChild12.titleFemale>оставшаяся в живых</ExoditeChild12.titleFemale>
+  <!-- EN: survivor -->
+  <ExoditeChild12.titleShort>выживший</ExoditeChild12.titleShort>
+  <ExoditeChild12.titleShortFemale>выжившая</ExoditeChild12.titleShortFemale>
+  
+  <!-- EN: [PAWN_nameDef] grew up in a tribe, running around the village, moving with the muffalo herds, learning essential skills from [PAWN_possessive] parents.\n\n[PAWN_pronoun] never learned to read and never saw a other aeldari cultures or xenoraces. -->
+  <ExoditeChild1.description>{PAWN_nameDef} {PAWN_gender ? рос : росла} в племени, бегая по деревне, перегоняя стада муффало и обучаясь у своих родителей всему самому важному.\n\n{PAWN_nameDef} не {PAWN_gender ? был обучен : была обучена} грамоте и никогда не {PAWN_gender ? видел : видела} другие народы аэльдари или иные расы.</ExoditeChild1.description>
+  <!-- EN: tribe child -->
+  <ExoditeChild1.title>мальчик из племени</ExoditeChild1.title>
+  <ExoditeChild1.titleFemale>девочка из племени</ExoditeChild1.titleFemale>
+  <!-- EN: tribal -->
+  <ExoditeChild1.titleShort>абориген</ExoditeChild1.titleShort>
+  <ExoditeChild1.titleShortFemale>аборигенка</ExoditeChild1.titleShortFemale>
+  
+  <!-- EN: As a child, [PAWN_nameDef] returned to [PAWN_possessive] village to find that it had been wiped out by drukhari. [PAWN_pronoun] swore revenge on the attackers and began a violent rampage across the wilderness. -->
+  <ExoditeChild6.description>Однажды возвращаясь в родную деревню, {PAWN_nameDef} {PAWN_gender ? обнаружил : обнаружила}, что та уничтожена друкхари. {PAWN_pronoun} {PAWN_gender ? поклялся : поклялась} отомстить напавшим и {PAWN_gender ? начал : начала} свой жестокий путь в пустошах.</ExoditeChild6.description>
+  <!-- EN: vengeful child -->
+  <ExoditeChild6.title>мстительное дитя</ExoditeChild6.title>
+  <!-- EN: vengeful -->
+  <ExoditeChild6.titleShort>мститель</ExoditeChild6.titleShort>
+  <ExoditeChild6.titleShortFemale>мстительница</ExoditeChild6.titleShortFemale>
+  
+  <!-- EN: [PAWN_nameDef] worked for the bonesinger of {PAWN_possessive} tribe. [PAWN_pronoun] helped in the cutting of psychoplastics, transferred materials and finished products. Because of this, [PAWN_pronoun] worked less in the field. -->
+  <ExoditeChild13.description>{PAWN_nameDef} {PAWN_gender ? работал : работала} у костопева своего племени. {PAWN_gender ? Он помогал : Она помогала} в резке психопластика, {PAWN_gender ? переносил : переносила} материалы и готовую продукцию. Из-за этого {PAWN_gender ? он меньше работал : она меньше работала} в поле.</ExoditeChild13.description>
+  <!-- EN: bonesinger's assistant -->
+  <ExoditeChild13.title>помощник костопева</ExoditeChild13.title>
+  <ExoditeChild13.titleFemale>помощница костопева</ExoditeChild13.titleFemale>
+  <!-- EN: assistant -->
+  <ExoditeChild13.titleShort>помощник</ExoditeChild13.titleShort>
+  <ExoditeChild13.titleShortFemale>помощница</ExoditeChild13.titleShortFemale>
+  
+  <!-- EN: The [PAWN_nameDef]'s parent was a priest of Isha. The [PAWN_nameDef] communicated with patients and learned how to treat wounds. -->
+  <ExoditeChild15.description>Родитель {PAWN_nameDef} был жрецом Иши. {PAWN_nameDef} {PAWN_gender ? общался : общалась} с больными и {PAWN_gender ? учился : училась} лечить раны.</ExoditeChild15.description>
+  <!-- EN: healer's assistant -->
+  <ExoditeChild15.title>помощник лекаря</ExoditeChild15.title>
+  <ExoditeChild15.titleFemale>помощница лераря</ExoditeChild15.titleFemale>
+  <!-- EN: assistant -->
+  <ExoditeChild15.titleShort>помощник</ExoditeChild15.titleShort>
+  <ExoditeChild15.titleShortFemale>помощница</ExoditeChild15.titleShortFemale>
+  
+  <!-- EN: [PAWN_nameDef] and {PAWN_possessive} family once came here from the craftworld and they managed to integrate into the tribe. [PAWN_nameDef] grew up in the village, although [PAWN_pronoun] was weaker than his peers. -->
+  <ExoditeChild16.description>{PAWN_nameDef} с семьей когда-то приехали сюда из искусственного мира и им удалось интегрироваться в племя. {PAWN_nameDef} {PAWN_gender ? вырос : выросла } в деревне, хотя и {PAWN_gender ? был : была} слабее сверстников.</ExoditeChild16.description>
+  <!-- EN: healer's assistant -->
+  <ExoditeChild16.title>выходец мира-корабля</ExoditeChild16.title>
+  <!-- EN: assistant -->
+  <ExoditeChild16.titleShort>корабельник</ExoditeChild16.titleShort>
+  
+   
+   <!-- EN: [PAWN_nameDef] was impressed by the corsairs who came to {PAWN_possessive} village. [PAWN_pronoun] wanted to go to the stars when [PAWN_pronoun] grew up. -->
+  <ExoditeChild17.description>{PAWN_nameDef} {PAWN_gender ? был : была} впечатлен зашедшими в {PAWN_possessive} деревню корсарами. {PAWN_pronoun} {PAWN_gender ? хотел : хотела} отправиться к звездам, когда вырастет.</ExoditeChild17.description>
+  <!-- EN: dreamer -->
+  <ExoditeChild17.title>мечтатель</ExoditeChild17.title>
+  <ExoditeChild17.titleFemale>мечтательница</ExoditeChild17.titleFemale>
+  <!-- EN: dreamer -->
+  <ExoditeChild17.titleShort>мечтатель</ExoditeChild17.titleShort>
+  <ExoditeChild17.titleShortFemale>мечтательница</ExoditeChild17.titleShortFemale>
+  
+  <!-- EN: An accident that happened to [PAWN_nameDef] while working with dragons has permanently settled the fear of animals. Because of this, [PAWN_nameDef] rarely left the settlement, working in the garden or helping in construction. -->
+  <ExoditeChild18.description>Несчастный случай, произошедший с {PAWN_nameDef} при работе с драконами, навсегда поселил страх перед животными. Из-за чего {PAWN_nameDef} редко {PAWN_gender ? выходил : выходила} из поселения, работая в огороде или помогая в строительстве.</ExoditeChild18.description>
+  <!-- EN: scared child-->
+  <ExoditeChild18.title>напуганный мальчик</ExoditeChild18.title>
+  <ExoditeChild18.titleFemale>напуганная девочка</ExoditeChild18.titleFemale>
+  <!-- EN: scared -->
+  <ExoditeChild18.titleShort>напуганный</ExoditeChild18.titleShort>
+  <ExoditeChild18.titleShortFemale>напуганная</ExoditeChild18.titleShortFemale>
+</LanguageData>

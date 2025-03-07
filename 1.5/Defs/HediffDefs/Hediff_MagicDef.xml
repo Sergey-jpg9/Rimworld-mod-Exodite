@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <HediffDef Name="BonesingerDef" Class="Exodites.HediffMagicDef">
+    <defName>BonesingerDef</defName>
+    <hediffClass>Exodites.Hediff_Magic</hediffClass>
+    <descriptionHyperlinks><ThingDef>PsychicAmplifier</ThingDef></descriptionHyperlinks>
+    <label>bonesinger</label>
+    <description>A pawn can use its abilities to create material out of nothing, known as wraithbone. A lot can be made from it - from simple tools and clothes to weapons and buildings. Among the exodites of this group, bonesinger's products are used only when hunting dangerous prey.</description>
+    <descriptionShort>This hediff shows that the pawn is a bonesinger - a magician-craftsman-builder of space elves.</descriptionShort>
+    <defaultLabelColor>(0.6, 0.6, 1.0)</defaultLabelColor>
+    <isBad>false</isBad>
+    <priceImpact>true</priceImpact>
+    <initialSeverity>1</initialSeverity> <!-- Severity is bound to level of implant -->
+    <minSeverity>0</minSeverity>
+    <maxSeverity>4</maxSeverity>
+    <keepOnBodyPartRestoration>True</keepOnBodyPartRestoration>
+    <stages>
+      <li>
+        <minSeverity>1</minSeverity>
+        <statFactors>
+          <PsychicEntropyMax>1.25</PsychicEntropyMax>
+          <PsychicEntropyRecoveryRate>1</PsychicEntropyRecoveryRate>
+		  <BonesingerWorkSpeed>1.0</BonesingerWorkSpeed>
+        </statFactors>
+      </li>
+      <li>
+        <minSeverity>2</minSeverity>
+        <statFactors>
+          <PsychicEntropyMax>1.5</PsychicEntropyMax>
+          <PsychicEntropyRecoveryRate>1.0625</PsychicEntropyRecoveryRate>
+		  <BonesingerWorkSpeed>1.25</BonesingerWorkSpeed>
+        </statFactors>
+      </li>
+      <li>
+        <minSeverity>3</minSeverity>
+        <statFactors>
+          <PsychicEntropyMax>2</PsychicEntropyMax>
+          <PsychicEntropyRecoveryRate>1.125</PsychicEntropyRecoveryRate>
+		  <BonesingerWorkSpeed>1.5</BonesingerWorkSpeed>
+        </statFactors>
+		<capMods>
+		  <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.05</offset>
+		  </li>
+		</capMods>
+      </li>
+      <li>
+        <minSeverity>4</minSeverity>
+        <statFactors>
+          <PsychicEntropyMax>2.5</PsychicEntropyMax>
+          <PsychicEntropyRecoveryRate>1.25</PsychicEntropyRecoveryRate>
+		  <BonesingerWorkSpeed>2</BonesingerWorkSpeed>
+        </statFactors>
+		<capMods>
+		  <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.1</offset>
+		  </li>
+		</capMods>
+      </li>
+    </stages>
+	<costs>
+		<li>20</li>
+		<li>20</li>
+		<li>20</li>
+		<li>20</li>
+	</costs>
+	<abilitiesToGain>
+		<li>Ability_None</li>
+		<li>Ability_None</li>
+		<li>Ability_None</li>
+		<li>Ability_None</li>
+	</abilitiesToGain>
+  </HediffDef>
+  
+  <HediffDef Name="WarlockDef" Class="Exodites.HediffMagicDef">
+    <defName>WarlockDef</defName>
+	<label>Warlock</label>
+    <hediffClass>Exodites.Hediff_Magic_Warlock</hediffClass>
+    <descriptionHyperlinks><ThingDef>PsychicAmplifier</ThingDef></descriptionHyperlinks>
+    <description>The pawn can use its magical powers for combat operations: put a combat mask on allies, strike opponents with lightning and intercept incoming bullets and spells. Among the exodites of this group, warlocks are used only against alien invaders and in civil wars.</description>
+    <descriptionShort>This hediff shows that the pawn is a warlock.</descriptionShort>
+    <defaultLabelColor>(0.6, 0.6, 1.0)</defaultLabelColor>
+    <isBad>false</isBad>
+    <priceImpact>true</priceImpact>
+    <initialSeverity>1</initialSeverity> <!-- Severity is bound to level of implant -->
+    <minSeverity>0</minSeverity>
+    <maxSeverity>4</maxSeverity>
+    <keepOnBodyPartRestoration>True</keepOnBodyPartRestoration>
+    <stages>
+      <li>
+        <minSeverity>1</minSeverity>
+        <statFactors>
+          <PsychicEntropyMax>1.4</PsychicEntropyMax>
+          <PsychicEntropyRecoveryRate>1</PsychicEntropyRecoveryRate>
+        </statFactors>
+      </li>
+      <li>
+        <minSeverity>2</minSeverity>
+        <statFactors>
+          <PsychicEntropyMax>1.8</PsychicEntropyMax>
+          <PsychicEntropyRecoveryRate>1.0625</PsychicEntropyRecoveryRate>
+        </statFactors>
+      </li>
+      <li>
+        <minSeverity>3</minSeverity>
+        <statFactors>
+          <PsychicEntropyMax>2.25</PsychicEntropyMax>
+          <PsychicEntropyRecoveryRate>1.125</PsychicEntropyRecoveryRate>
+        </statFactors>
+		<capMods>
+		  <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.08</offset>
+		  </li>
+		</capMods>
+      </li>
+      <li>
+        <minSeverity>4</minSeverity>
+        <statFactors>
+          <PsychicEntropyMax>2.75</PsychicEntropyMax>
+          <PsychicEntropyRecoveryRate>1.25</PsychicEntropyRecoveryRate>
+        </statFactors>
+		<capMods>
+		  <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.12</offset>
+		  </li>
+		</capMods>
+      </li>
+    </stages>
+	<costs>
+		<li>20</li>
+		<li>20</li>
+		<li>20</li>
+		<li>20</li>
+	</costs>
+	
+	<abilitiesToGain>
+		<li>KhaineMaskGiver</li>
+		<li>Flashstrike</li>
+		<li>Ability_None</li>
+		<li>Ability_None</li>
+	</abilitiesToGain>
+  </HediffDef>
+  
+  <HediffDef Name="DoctorDef" Class="Exodites.HediffMagicDef">
+    <defName>DoctorDef</defName>
+    <hediffClass>Exodites.Hediff_Magic</hediffClass>
+    <descriptionHyperlinks><ThingDef>PsychicAmplifier</ThingDef></descriptionHyperlinks>
+    <label>Priest of Isha</label>
+    <description>A pawn can use its abilities to heal living creatures. Among the exodites of this group, the priests of Isha play a dominant role in the management of the tribe.</description>
+    <descriptionShort>This hediff shows that the pawn is a priest of Isha, a healer who can quickly heal both plants and animals.</descriptionShort>
+    <defaultLabelColor>(0.6, 0.6, 1.0)</defaultLabelColor>
+    <isBad>false</isBad>
+    <priceImpact>true</priceImpact>
+    <initialSeverity>1</initialSeverity> <!-- Severity is bound to level of implant -->
+    <minSeverity>0</minSeverity>
+    <maxSeverity>4</maxSeverity>
+    <keepOnBodyPartRestoration>True</keepOnBodyPartRestoration>
+    <stages>
+      <li>
+        <minSeverity>1</minSeverity>
+        <statFactors>
+          <PsychicEntropyMax>1.25</PsychicEntropyMax>
+          <PsychicEntropyRecoveryRate>1</PsychicEntropyRecoveryRate>
+        </statFactors>
+      </li>
+      <li>
+        <minSeverity>2</minSeverity>
+        <statFactors>
+          <PsychicEntropyMax>1.5</PsychicEntropyMax>
+          <PsychicEntropyRecoveryRate>1.0625</PsychicEntropyRecoveryRate>
+		  <MedicalTendSpeed>1.1</MedicalTendSpeed>
+		  <MedicalTendQuality>1.1</MedicalTendQuality>
+        </statFactors>
+      </li>
+      <li>
+        <minSeverity>3</minSeverity>
+        <statFactors>
+          <PsychicEntropyMax>1.75</PsychicEntropyMax>
+          <PsychicEntropyRecoveryRate>1.125</PsychicEntropyRecoveryRate>
+		  <MedicalTendSpeed>1.15</MedicalTendSpeed>
+		  <MedicalTendQuality>1.15</MedicalTendQuality>
+        </statFactors>
+		<capMods>
+		  <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.05</offset>
+		  </li>
+		</capMods>
+      </li>
+      <li>
+        <minSeverity>4</minSeverity>
+        <statFactors>
+          <PsychicEntropyMax>2</PsychicEntropyMax>
+          <PsychicEntropyRecoveryRate>1.25</PsychicEntropyRecoveryRate>
+		  <MedicalTendSpeed>1.2</MedicalTendSpeed>
+		  <MedicalTendQuality>1.2</MedicalTendQuality>
+        </statFactors>
+		<capMods>
+		  <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.1</offset>
+		  </li>
+		</capMods>
+      </li>
+    </stages>
+	<costs>
+		<li>20</li>
+		<li>20</li>
+		<li>20</li>
+		<li>20</li>
+	</costs>
+	
+	<abilitiesToGain>
+		<li>PsychicBloodFilter</li>
+		<li>PlantsHealing</li>
+		<li>Ability_None</li>
+		<li>Healing2x</li>
+	</abilitiesToGain>
+  </HediffDef>
+</Defs>

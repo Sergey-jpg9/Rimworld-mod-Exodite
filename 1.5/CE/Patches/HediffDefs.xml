@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/HediffDef[defName="EldarEye"]/stages/li[1]</xpath>
+		<value>
+			<statOffsets>
+				<NightVisionEfficiency>0.05</NightVisionEfficiency>
+			</statOffsets>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/HediffDef[defName="KhaineMaskEffect"]/stages/li[2]</xpath>
+		<value>
+			<statOffsets>
+				<Suppressability>-0.25</Suppressability>
+			</statOffsets>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/HediffDef[defName="KhaineMaskEffect"]/stages/li[3]</xpath>
+		<value>
+			<statOffsets>
+				<Suppressability>-0.5</Suppressability>
+			</statOffsets>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/HediffDef[defName="SynchronizeWeapon_Ranged"]/stages/li[1]/statOffsets</xpath>
+		<value>
+			<statOffsets>
+				<AimingAccuracy>0.1</AimingAccuracy>
+			</statOffsets>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/HediffDef[defName="SynchronizeWeapon_Melee"]/stages/li[1]/statOffsets</xpath>
+		<value>
+			<statOffsets>
+				<MeleeHitChance>1</MeleeHitChance>
+			</statOffsets>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/HediffDef[defName="HunterRuneHediff"]/stages/li[1]/statOffsets</xpath>
+		<value>
+			<AimingAccuracy>0.4</AimingAccuracy>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/HediffDef[defName="HunterRuneHediff"]/stages/li[1]/statOffsets/ShootingAccuracyPawn</xpath>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/HediffDef[defName="DragonArmor_Dakotaraptor"]/stages/li[1]/statOffsets</xpath>
+		<value>
+			<statOffsets>
+				<ArmorRating_Sharp>5.2</ArmorRating_Sharp>
+				<ArmorRating_Blunt>6.4</ArmorRating_Blunt>
+				<ArmorRating_Heat> 0.4</ArmorRating_Heat>
+			</statOffsets>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/HediffDef[defName="DragonArmor_Utahraptor"]/stages/li[1]/statOffsets</xpath>
+		<value>
+			<statOffsets>
+				<ArmorRating_Sharp>7.8</ArmorRating_Sharp>
+				<ArmorRating_Blunt>9.5</ArmorRating_Blunt>
+				<ArmorRating_Heat> 0.4</ArmorRating_Heat>
+			</statOffsets>
+		</value>
+	</Operation>
+</Patch>
