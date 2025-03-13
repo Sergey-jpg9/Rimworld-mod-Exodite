@@ -17,7 +17,7 @@
 			<Ammo_ExoditeArrow_Stone>Projectile_ExoditeArrow_Stone</Ammo_ExoditeArrow_Stone>
 			<Ammo_ExoditeArrow_Steel>Projectile_ExoditeArrow_Steel</Ammo_ExoditeArrow_Steel>
 			<Ammo_ExoditeArrow_Plasteel>Projectile_ExoditeArrow_Plasteel</Ammo_ExoditeArrow_Plasteel>
-			<Ammo_ExoditeArrow_Psybone>Projectile_ExoditeArrow_Psybone</Ammo_ExoditeArrow_Psybone>
+			<Ammo_ExoditeArrow_Wraithbone>Projectile_ExoditeArrow_Wraithbone</Ammo_ExoditeArrow_Wraithbone>
 			<Ammo_ExoditeArrow_Venom>Projectile_ExoditeArrow_Venom</Ammo_ExoditeArrow_Venom>
 			<Ammo_ExoditeArrow_Flame>Projectile_ExoditeArrow_Flame</Ammo_ExoditeArrow_Flame>
 		</ammoTypes>
@@ -92,7 +92,7 @@
 	</ThingDef>
 	
 	<ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoExoditeArrowBase">
-		<defName>Ammo_ExoditeArrow_Psybone</defName>
+		<defName>Ammo_ExoditeArrow_Wraithbone</defName>
 		<label>great arrow (psybone)</label>
 		<graphicData>
 			<texPath>Things/Ammo/Neolithic/Arrow/Plasteel</texPath>
@@ -203,7 +203,7 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="BaseExoditeArrowProjectile">
-		<defName>Projectile_ExoditeArrow_Psybone</defName>
+		<defName>Projectile_ExoditeArrow_Wraithbone</defName>
 		<label>exodite arrow (psybone)</label>
 		<graphicData>
 			<texPath>Things/Projectile/Arrows/Arrow_Plasteel</texPath>
@@ -215,7 +215,7 @@
 			<armorPenetrationBlunt>5.5</armorPenetrationBlunt>
 			<armorPenetrationSharp>7</armorPenetrationSharp>
 			<preExplosionSpawnChance>0.8</preExplosionSpawnChance><!-- 50 arrows per resource -->
-			<preExplosionSpawnThingDef>Ammo_ExoditeArrow_Psybone</preExplosionSpawnThingDef>
+			<preExplosionSpawnThingDef>Ammo_ExoditeArrow_Wraithbone</preExplosionSpawnThingDef>
 		</projectile>
 	</ThingDef>
 
@@ -349,6 +349,30 @@
 		<products>
 			<Ammo_ExoditeArrow_Plasteel>10</Ammo_ExoditeArrow_Plasteel>
 		</products>
+	</RecipeDef>
+	
+	<RecipeDef Class="Exodites.PsyhicRecipeDef">
+		<defName>MakeAmmo_ExoditeArrow_Wraithbone</defName>
+		<label>make wraithbone exodite arrows x10</label>
+		<description>Craft 10 wraithbone exodite arrows.\Price:\nAll psy-heating - 3000.\nConcentration loss - 4%\nMin bonesinger level - 1\nMin concentration - 10%</description>
+		<jobString>Making wraithbone exodite arrows.</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<workAmount>1000</workAmount>
+		<unfinishedThingDef>UnfinishedApparel_E</unfinishedThingDef>
+		<products>
+			<Ammo_ExoditeArrow_Wraithbone>10</Ammo_ExoditeArrow_Wraithbone>
+		</products>
+		<skillRequirements>
+			<Crafting>1</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+		<displayPriority>0</displayPriority>
+	
+		<EntropyPer60Tick>3</EntropyPer60Tick>
+		<PsyfocusPerTick>-0.00004</PsyfocusPerTick>
+		<minBonesingerLevel>1</minBonesingerLevel>
+		<minPsyfocusNeed>0.1</minPsyfocusNeed>
 	</RecipeDef>
 
 	<RecipeDef ParentName="AmmoRecipeNeolithicBase">
