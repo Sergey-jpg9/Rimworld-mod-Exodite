@@ -248,7 +248,7 @@
   <RecipeDef Class="Exodites.PsyhicRecipeDef">
     <defName>Make_ShurikenCatapult</defName>
     <label>make shuriken catapult</label>
-    <description>Make a shuriken catapult.\Price:\nAll psy-heating - 60000.\nConcentration loss - 100%\nMin bonesinger level - 4\nMin concentration - 30%</description>
+    <description>Make a shuriken catapult.\nPrice:\nAll psy-heating - 60000.\nConcentration loss - 100%\nMin bonesinger level - 4\nMin concentration - 30%</description>
     <jobString>Making a shuriken catapult.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
@@ -268,6 +268,32 @@
 	<EntropyPer60Tick>4</EntropyPer60Tick>
 	<PsyfocusPerTick>-0.0000666</PsyfocusPerTick>
 	<minBonesingerLevel>4</minBonesingerLevel>
+	<minPsyfocusNeed>0.3</minPsyfocusNeed>
+  </RecipeDef>
+  
+  <RecipeDef Class="Exodites.PsyhicRecipeDef">
+    <defName>Make_EMagicStuff</defName>
+    <label>make magic stuff</label>
+    <description>Make a magic stuff.\nPrice:\nAll psy-heating - 60000.\nConcentration loss - 100%\nMin bonesinger level - 3\nMin concentration - 30%</description>
+    <jobString>Making a magic stuff.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>15000</workAmount>
+    <unfinishedThingDef>UnfinishedWeapon_E</unfinishedThingDef>
+    <products>
+      <MagicStaff_Exodite>1</MagicStaff_Exodite>
+    </products>
+    <skillRequirements>
+      <Crafting>4</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <displayPriority>0</displayPriority>
+	<researchPrerequisite>Tech_WraithboneWeapons</researchPrerequisite>
+	
+	<EntropyPer60Tick>4</EntropyPer60Tick>
+	<PsyfocusPerTick>-0.0000666</PsyfocusPerTick>
+	<minBonesingerLevel>3</minBonesingerLevel>
 	<minPsyfocusNeed>0.3</minPsyfocusNeed>
   </RecipeDef>
   

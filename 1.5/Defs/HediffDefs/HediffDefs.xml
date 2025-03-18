@@ -50,7 +50,7 @@
     </stages>
     <comps>
       <li Class="HediffCompProperties_Disappears">
-        <disappearsAfterTicks>10000~10000</disappearsAfterTicks>
+        <disappearsAfterTicks>40000~40000</disappearsAfterTicks>
         <showRemainingTime>true</showRemainingTime>
       </li>
 	  <li Class="Exodites.HediffCompProperties_KhaineMask"></li>

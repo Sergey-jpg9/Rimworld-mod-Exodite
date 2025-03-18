@@ -74,7 +74,7 @@
       <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
     </recipeMaker>-->
     <rotateInShelves>false</rotateInShelves>
-	<techLevel>Neolithic</techLevel>
+	<techLevel>Medieval</techLevel>
     <tradeTags>
       <li>ExoditeWeaponRanged</li>
     </tradeTags>
@@ -103,7 +103,7 @@
     <graphicData>
       <texPath>Things/Projectile/Charge_Small</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-	  <drawSize>2.5</drawSize>
+	  <drawSize>2</drawSize>
     </graphicData>
 	<thingClass>Exodites.MagicBullet</thingClass>
     <projectile>
