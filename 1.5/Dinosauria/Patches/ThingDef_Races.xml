@@ -35,4 +35,15 @@
 		  </li>
 		</value>
 	</Operation>
+
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[canBuildBase = "true"]/allowedPackAnimals</xpath>
+		<value>
+			<li>Ankylosaurus</li>
+			<li>Magyarosaurus</li>
+			<li>Stegosaurus</li>
+			<li>Triceratops</li>
+		</value>
+	</Operation>
 </Patch>
