@@ -35,29 +35,68 @@
   </AbilityDef>
   
   <AbilityDef ParentName="PsycastBase">
-    <defName>Flashstrike</defName>
-    <label>thunder strike</label>
-    <description>Block pain pathways in the target's brain for a short time. This can allow a person to move and act even with grievous injuries which would normally incapacitate them.</description>
+    <defName>ManyFlashstrikes</defName>
+    <label>many thunder strikes</label>
+    <description>A lot of slightly thundrstrikes. Warning for friendly fire!</description>
     <level>0</level>
-    <iconPath>UI/Abilities/Painblock</iconPath>
+    <iconPath>UI/Abilities/Flashstorm</iconPath>
     <hotKey>Misc1</hotKey>
     <hostile>false</hostile>
+	<casterMustBeCapableOfViolence>true</casterMustBeCapableOfViolence>
     <statBases>
-      <Ability_EntropyGain>26</Ability_EntropyGain>
-      <Ability_PsyfocusCost>0.06</Ability_PsyfocusCost>
-      <Ability_Duration>60</Ability_Duration>
+      <Ability_EntropyGain>36</Ability_EntropyGain>
+      <Ability_PsyfocusCost>0.08</Ability_PsyfocusCost>
+      <Ability_Duration>180</Ability_Duration>
 	  <Ability_EffectRadius>3.9</Ability_EffectRadius>
     </statBases>
     <verbProperties>
       <warmupTime>1</warmupTime>
-      <range>26.9</range>
+      <range>29.9</range>
       <targetParams>
 		<canTargetLocations>True</canTargetLocations>
+		<canTargetAnimals>True</canTargetAnimals>
+		<canTargetMechanoids>True</canTargetMechanoids>
       </targetParams>
     </verbProperties>
     <comps>
       <li Class="Exodites.CompProperties_AbilityFlashstrike">
-        <goodwillImpact>-35</goodwillImpact>
+        <goodwillImpact>0</goodwillImpact>
+		<damageAmount>12</damageAmount>
+		<drawAmplitude>2</drawAmplitude>
+		<explosionRadius>0.9</explosionRadius>
+      </li>
+    </comps>
+  </AbilityDef>
+  
+  <AbilityDef ParentName="PsycastBase">
+    <defName>PowerfulFlashstrike</defName>
+    <label>thunder strike</label>
+    <description>One powerful thundrstrike at your target</description>
+    <level>0</level>
+    <iconPath>UI/Abilities/Flashstorm</iconPath>
+    <hotKey>Misc1</hotKey>
+    <hostile>false</hostile>
+	<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <statBases>
+      <Ability_EntropyGain>46</Ability_EntropyGain>
+      <Ability_PsyfocusCost>0.08</Ability_PsyfocusCost>
+      <Ability_Duration>200</Ability_Duration>
+    </statBases>
+    <verbProperties>
+      <warmupTime>1</warmupTime>
+      <range>29.9</range>
+      <targetParams>
+		<canTargetLocations>True</canTargetLocations>
+		<canTargetAnimals>True</canTargetAnimals>
+		<canTargetBuildings>True</canTargetBuildings>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="Exodites.CompProperties_AbilityFlashstrike">
+        <goodwillImpact>0</goodwillImpact>
+		<damageAmount>33</damageAmount>
+		<drawAmplitude>2</drawAmplitude>
+		<explosionRadius>1.4</explosionRadius>
       </li>
     </comps>
   </AbilityDef>
@@ -205,21 +244,5 @@
 	<defName>Ability_None</defName> <!-- Служебная способность, ничего не делает -->
 	<description>An ability that do northing.</description>
     <label>ability none</label>
-    <level>0</level>
-    <statBases>
-      <Ability_EntropyGain>15</Ability_EntropyGain>
-      <Ability_PsyfocusCost>0.02</Ability_PsyfocusCost>
-      <Ability_Duration>60</Ability_Duration>
-    </statBases>
-    <verbProperties>
-      <warmupTime>0.35</warmupTime>
-      <range>9.9</range>
-      <targetParams>
-        <canTargetSelf>True</canTargetSelf>
-        <canTargetAnimals>True</canTargetAnimals>
-		<canTargetHumans>True</canTargetHumans>
-		<canTargetMechs>false</canTargetMechs>
-      </targetParams>
-    </verbProperties>
   </AbilityDef>
 </Defs>

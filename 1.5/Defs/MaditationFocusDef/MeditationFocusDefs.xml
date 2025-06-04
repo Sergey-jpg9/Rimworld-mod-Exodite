@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <MeditationFocusDef>
-    <defName>Runic</defName>
-    <label>runic</label>
+    <defName>Exodite</defName>
+    <label>exodite</label>
     <requiredBackstoriesAny>
       <li>
         <categoryName>ExoditeCivil</categoryName>

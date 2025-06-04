@@ -306,7 +306,7 @@
   
   <RitualBehaviorDef>
     <defName>MainRune_Behaviors_RegrowthBodypart</defName>
-    <durationTicks>15000</durationTicks>
+    <durationTicks>1500</durationTicks>
     <workerClass>Exodites.RitualBehaviorWorker_MainRune_RegrowthBodypart</workerClass>
     <roles>
       <li Class="Exodites.RitualRoleMainRune_Doctor">
@@ -315,6 +315,7 @@
         <required>true</required>
         <maxCount>1</maxCount>
         <defaultForSelectedColonist>false</defaultForSelectedColonist>
+		<mustBeAbleToReachTarget>True</mustBeAbleToReachTarget>
         <noCandidatesGizmoDesc>Need a colonist with the priest abilities.</noCandidatesGizmoDesc>
         <allowChild>false</allowChild>
         <customChildDisallowMessage>Only adults can link with an main rune.</customChildDisallowMessage>
@@ -325,8 +326,10 @@
         <required>true</required>
         <maxCount>1</maxCount>
         <defaultForSelectedColonist>false</defaultForSelectedColonist>
-        <noCandidatesGizmoDesc>Need a colonist with the priest abilities.</noCandidatesGizmoDesc>
+        <noCandidatesGizmoDesc>Need patient with scar or no bodypart.</noCandidatesGizmoDesc>
         <allowChild>true</allowChild>
+		<ignoreBleeding>true</ignoreBleeding>
+        <allowDowned>true</allowDowned>
       </li>
     </roles>
     <spectatorFilter Class="Exodites.RitualSpectatorFilter_RunicFocus">
@@ -335,6 +338,51 @@
     <spectatorsLabel>Participants</spectatorsLabel>
     <spectatorGerund>participate</spectatorGerund>
     <stages>
+	  <li Class="RitualStage_InteractWithRole">
+        <targets>
+          <li>
+            <pawnId>doctor</pawnId>
+            <targetId>patient</targetId>
+          </li>
+        </targets>
+        <defaultDuty>Spectate</defaultDuty>
+        <essential>True</essential>
+        <failTriggers>
+          <li Class="StageFailTrigger_TargetPawnUnreachable">
+            <takerId>doctor</takerId>
+            <takeeId>patient</takeeId>
+            <desc>Target is not reachable.</desc>
+          </li>
+          <li Class="StageFailTrigger_PawnAsleep">
+            <desc>escort asleep</desc>
+            <pawnId>doctor</pawnId>
+          </li>
+        </failTriggers>
+        <endTriggers>
+          <li Class="StageEndTrigger_RolesArrived">
+            <roleIds>
+              <li>doctor</li>
+            </roleIds>
+            <clearTag>true</clearTag>
+          </li>
+        </endTriggers>
+        <roleBehaviors>
+          <li>
+            <roleId>doctor</roleId>
+            <dutyDef>DeliverPawnToCell</dutyDef>
+            <customPositions>
+              <li Class="RitualPosition_OnInteractionCell">
+                <offset>(-1,0,0)</offset>
+                <facing>South</facing>
+              </li>
+            </customPositions>
+          </li>
+          <li>
+            <roleId>patient</roleId>
+            <dutyDef>Idle</dutyDef>
+          </li>
+        </roleBehaviors>
+      </li>
       <li Class="RitualStage_AnimaTreeLinking">               <!-- Это вроде надо поменять, но пока норм-->
         <defaultDuty>Spectate</defaultDuty>
         <endTriggers>
@@ -351,9 +399,6 @@
 			<customPositions>
               <li Class="RitualPosition_BehindThingCenter" />
             </customPositions>
-            <!--<customPositions>
-              <li Class="Exodites.RitualPosition_MainRuneLinkingSpot" />
-            </customPositions>-->
           </li>
 		  <li>
             <roleId>patient</roleId>
@@ -361,9 +406,6 @@
 			<customPositions>
               <li Class="RitualPosition_InFrontThingCenter"/>
             </customPositions>
-            <!--<customPositions>
-              <li Class="Exodites.RitualPosition_MainRuneLinkingSpot" />
-            </customPositions>-->
           </li>
         </roleBehaviors>
       </li>

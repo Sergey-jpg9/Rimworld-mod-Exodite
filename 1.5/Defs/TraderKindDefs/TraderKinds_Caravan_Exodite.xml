@@ -4,6 +4,7 @@
   <TraderKindDef>
     <defName>Caravan_Exodite_BulkGoods</defName>
     <label>bulk goods trader</label>
+	<commonality>2</commonality>
     <stockGenerators>
       
       <!-- Resources -->
@@ -56,16 +57,29 @@
       </li>
       
       <!-- Drugs -->
-      <!--<li Class="StockGenerator_Category">
+      <li Class="StockGenerator_Category">
         <categoryDef>Drugs</categoryDef>
-        <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
-      </li>-->
+        <maxTechLevelGenerate>Medieval</maxTechLevelGenerate>
+      </li>
       
       <!-- Techprints -->
       <!-- none -->
 
       <!-- Books -->
-      <!-- none -->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>TextBook</thingDef>
+        <countRange>0~2</countRange>
+      </li>
+
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Schematic</thingDef>
+        <countRange>1~1</countRange>
+      </li>
+
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Novel</thingDef>
+        <countRange>1~1</countRange>
+      </li>
       
       <!-- Weapons -->
       <!-- none -->

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<Structure_ExoditeRandom.label>Пантеон аэльдари</Structure_ExoditeRandom.label>
+	<Structure_ExoditeRandom.description>Боги не имеют телесной оболочки и живут в Море душ. Они всезнающи и всемогущи. Их воля определяет нравственное устройство нашего общества.</Structure_ExoditeRandom.description>
+
+	<Structure_ExoditeRandom.fixedDeityNameTypes.0.name>Иша</Structure_ExoditeRandom.fixedDeityNameTypes.0.name>
+	<Structure_ExoditeRandom.fixedDeityNameTypes.0.type>Богиня жизни</Structure_ExoditeRandom.fixedDeityNameTypes.0.type>
+	
+	<Structure_ExoditeRandom.fixedDeityNameTypes.1.name>Курноус</Structure_ExoditeRandom.fixedDeityNameTypes.1.name>
+	<Structure_ExoditeRandom.fixedDeityNameTypes.1.type>Бог охоты</Structure_ExoditeRandom.fixedDeityNameTypes.1.type>
+	
+	<Structure_ExoditeRandom.fixedDeityNameTypes.2.name>Кхейн</Structure_ExoditeRandom.fixedDeityNameTypes.2.name>
+	<Structure_ExoditeRandom.fixedDeityNameTypes.2.type>Бог войны</Structure_ExoditeRandom.fixedDeityNameTypes.2.type>
+	
+	<Structure_ExoditeRandom.fixedDeityNameTypes.3.name>Цегорах</Structure_ExoditeRandom.fixedDeityNameTypes.3.name>
+	<Structure_ExoditeRandom.fixedDeityNameTypes.3.type>Смеющийся бог</Structure_ExoditeRandom.fixedDeityNameTypes.3.type>
+	
+	<Structure_ExoditeRandom.fixedDeityNameTypes.4.name>Морай-Хег</Structure_ExoditeRandom.fixedDeityNameTypes.4.name>
+	<Structure_ExoditeRandom.fixedDeityNameTypes.4.type>Богиня судьбы</Structure_ExoditeRandom.fixedDeityNameTypes.4.type>
+</LanguageData>

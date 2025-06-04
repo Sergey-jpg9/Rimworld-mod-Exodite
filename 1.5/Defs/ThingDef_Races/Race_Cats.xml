@@ -5,12 +5,12 @@
     <defName>Gyrinx</defName>
     <label>gyrinx</label>
     <devNote>warg-1</devNote>
-    <description>A wildcat larger than a housecat, but smaller than a cougar. Lynxes survive on a diet of small birds and animals. Their very warm fur keeps them safe from the brutally cold temperatures of their frozen territories.</description>
+    <description>A Gyrinx resembles a large cat, that can grow to as much as a metre in length and has very thick and fluffy ginger or orange fur and bright blue eyes. Gyrinx are not intelligent as such, but they have an astounding ability to empathise with other creatures, forming a mental bond with their owner which is comparable to true friendship.</description>
     <statBases>
       <MoveSpeed>5.4</MoveSpeed>
       <ComfyTemperatureMin>-50</ComfyTemperatureMin>
-      <MarketValue>250</MarketValue>
-      <FilthRate>1.2</FilthRate>
+      <MarketValue>450</MarketValue>
+      <FilthRate>1</FilthRate>
     </statBases>
     <tools>
       <li>
@@ -48,6 +48,7 @@
         </surpriseAttack>
       </li>
       <li>
+	    <label>teeth</label>
         <capacities>
           <li>Bite</li>
         </capacities>
@@ -91,7 +92,7 @@
       <manhunterOnDamageChance>0.50</manhunterOnDamageChance>
       <gestationPeriodDays>10</gestationPeriodDays>
       <lifeExpectancy>40</lifeExpectancy>
-	  <trainability>Intermediate</trainability>
+	  <trainability>Advanced</trainability>
       <lifeStageAges>
         <li>
           <def>AnimalBaby</def>

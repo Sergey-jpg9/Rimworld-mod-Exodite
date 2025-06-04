@@ -53,7 +53,7 @@
         <li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
           <thingDef>Pemmican</thingDef>
-          <count>400</count>
+          <count>250</count>
         </li>
         <li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
@@ -100,7 +100,7 @@
         <!-- Game start dialog -->
         <li Class="ScenPart_GameStartDialog">
           <def>GameStartDialog</def>
-          <text>The gods were very angry. The blood machines came at night. They swept through your village, cutting and burning your people with their blades and devil-fire.\n\nOnly a few of you escaped.\n\nNow, after a harrowing journey, with no friends to turn to, you must build a new home in the wilderness - like your ancestors did.</text>
+          <text>Your tribe was destroyed by the drukhari warriors. Five of you managed to escape using by webway. Now, it's time to build up a new home.</text>
           <closeSound>GameStartSting</closeSound>
         </li>
 

@@ -421,9 +421,6 @@
 	    <statFactors>
 			<PsychicSensitivity>1.0</PsychicSensitivity>
 		</statFactors>
-		<statOffsets>
-			<PsychicEntropyMax>5</PsychicEntropyMax>
-		</statOffsets>
       </li>
 	  <li>
 	    <label>1</label>
@@ -431,9 +428,6 @@
 	    <statFactors>
 			<PsychicSensitivity>1.04</PsychicSensitivity>
 		</statFactors>
-		<statOffsets>
-			<PsychicEntropyMax>10</PsychicEntropyMax>
-		</statOffsets>
       </li>
 	  <li>
 	    <label>2</label>
@@ -461,9 +455,6 @@
 	    <statFactors>
 			<PsychicSensitivity>1.16</PsychicSensitivity>
 		</statFactors>
-		<statOffsets>
-			<PsychicEntropyMax>25</PsychicEntropyMax>
-		</statOffsets>
       </li>
 	  <li>
 	    <label>5</label>
@@ -471,9 +462,6 @@
 	    <statFactors>
 			<PsychicSensitivity>1.20</PsychicSensitivity>
 		</statFactors>
-		<statOffsets>
-			<PsychicEntropyMax>30</PsychicEntropyMax>
-		</statOffsets>
       </li>
 	  <li>
 	    <label>6</label>
@@ -481,9 +469,6 @@
 	    <statFactors>
 			<PsychicSensitivity>1.24</PsychicSensitivity>
 		</statFactors>
-		<statOffsets>
-			<PsychicEntropyMax>35</PsychicEntropyMax>
-		</statOffsets>
       </li>
 	  <li>
 	    <label>7</label>
@@ -491,9 +476,6 @@
 	    <statFactors>
 			<PsychicSensitivity>1.28</PsychicSensitivity>
 		</statFactors>
-		<statOffsets>
-			<PsychicEntropyMax>40</PsychicEntropyMax>
-		</statOffsets>
       </li>
 	  <li>
 	    <label>8</label>
@@ -501,9 +483,6 @@
 	    <statFactors>
 			<PsychicSensitivity>1.32</PsychicSensitivity>
 		</statFactors>
-		<statOffsets>
-			<PsychicEntropyMax>45</PsychicEntropyMax>
-		</statOffsets>
       </li>
 	  
 	  <li>
@@ -512,9 +491,6 @@
 	    <statFactors>
 			<PsychicSensitivity>1.36</PsychicSensitivity>
 		</statFactors>
-		<statOffsets>
-			<PsychicEntropyMax>50</PsychicEntropyMax>
-		</statOffsets>
       </li>
     </stages>
   </HediffDef>

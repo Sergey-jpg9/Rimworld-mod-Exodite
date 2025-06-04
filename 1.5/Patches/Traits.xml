@@ -4,7 +4,7 @@
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/TraitDef[defName = "Nimble"]/degreeDatas/li/statOffsets</xpath>
     <value>
-      <RangedDodge>0.07</RangedDodge>
+      <RangedDodge>0.1</RangedDodge>
     </value>
   </Operation>
 

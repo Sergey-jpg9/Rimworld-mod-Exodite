@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <MemeDef>
+    <defName>Structure_ExoditeRandom</defName>
+    <label>aeldari pantheon</label>
+    <description>The gods do not have physical form and live in Sea of souls. They know all, and can do anything. Their will defines the moral structure of our society.</description>
+    <category>Structure</category>
+    <!--<groupDef>Theist_Abstract</groupDef>-->
+    <iconPath>UI/Structures/AbstractTheist</iconPath>
+    <impact>0</impact>
+    <worshipRoomLabel>temple</worshipRoomLabel>
+    <deityCount>1~3</deityCount>
+	<fixedDeityNameTypes>
+		<li>
+			<name>Isha</name>
+			<type>Goddess of life</type>
+		</li>
+		<li>
+			<name>Kurnous</name>
+			<type>God of hunt</type>
+		</li>
+		<li>
+			<name>Khaine</name>
+			<type>God of war</type>
+		</li>
+		<li>
+			<name>Cegorach</name>
+			<type>Laughing god</type>
+		</li>
+		<li>
+			<name>Morai-Heg</name>
+			<type>Goddess of fate</type>
+		</li>
+	</fixedDeityNameTypes>
+    <generalRules>
+      <rulesStrings>
+        <li>memeCreed->temple</li>
+        <li>memeCreed->sect</li>
+        <li>memeCreed->cult</li>
+        <li>memeCreed->faith</li>
+        <li>memeHyphenPrefix->theo</li>
+        <li>memeConcept->creation</li>
+        <li>memeConcept->life</li>
+        <li>memeLeaderNoun->bishop</li>
+        <li>memeLeaderNoun->cardinal</li>
+        <li>memeLeaderNoun->pope</li>
+        <li>memeLeaderNoun->divus</li>
+        <li>memeLeaderAdjective->holy</li>
+        <li>memeLeaderAdjective->divine</li>
+        <li>memeMoralist->priest</li>
+        <li>memeMoralist->pastor</li>
+        <li>memeMoralist->cleric</li>
+        <li>memeMoralist->preacher</li>
+        <li>memeMoralist->rector</li>
+        <li>memeMoralist->abbot</li>
+      </rulesStrings>
+    </generalRules>
+    <descriptionMaker>
+      <patterns>
+        <li><def>TheistMyth</def></li>
+        <li><def>TheistFounder</def></li>
+      </patterns>
+      <constants>
+        <li><key>structure_theist</key><value>true</value></li>
+        <li><key>structure_theistAbstract</key><value>true</value></li>
+      </constants>
+    </descriptionMaker>
+    <symbolPacks>
+      <li>
+        <ideoName>Spiritism</ideoName>
+        <theme>spiritualism</theme>
+        <adjective>spiritual</adjective>
+        <member>spiritist</member>
+      </li>
+      <li>
+        <ideoName>Faith</ideoName>
+        <theme>faith</theme>
+        <adjective>faithful</adjective>
+        <member>faithholder</member>
+      </li>
+      <li>
+        <ideoName>Divinism</ideoName>
+        <theme>divinity</theme>
+        <adjective>divinist</adjective>
+        <member>divinist</member>
+      </li>
+      <li>
+        <ideoName>Holyism</ideoName>
+        <theme>holiness</theme>
+        <adjective>holyist</adjective>
+        <member>holyist</member>
+      </li>
+    </symbolPacks>
+  </MemeDef>
+</Defs>

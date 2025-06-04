@@ -59,7 +59,7 @@
     </weaponClasses>
     <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
 	<statBases>
-      <MarketValue>500</MarketValue>
+      <MarketValue>700</MarketValue>
       <Mass>1.2</Mass>
     </statBases>
     <equippedAngleOffset>-25</equippedAngleOffset>

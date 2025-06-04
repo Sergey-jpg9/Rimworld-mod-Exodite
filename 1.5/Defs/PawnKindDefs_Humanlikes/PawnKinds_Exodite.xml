@@ -44,6 +44,7 @@
       <li>Violent</li>
     </requiredWorkTags>
 	<apparelTags>
+	  <li>ExoditeLightMilitaryApparel</li>
 	  <li>HunterRune</li>
     </apparelTags>
     <initialWillRange>3~6</initialWillRange>
@@ -77,6 +78,7 @@
       <li>ExoditeSpear</li>
     </weaponTags>
 	<apparelTags>
+	  <li>ExoditeLightMilitaryApparel</li>
       <li>ExoditeSpecialMilitaryApparel</li>
 	  <li>ExoditeMilitaryApparel</li>
 	  <li>HealerRune</li>
@@ -116,6 +118,7 @@
 	  <li>ExoditeMagic</li>
     </weaponTags>
 	<apparelTags>
+	  <li>ExoditeLightMilitaryApparel</li>
       <li>ExoditeSpecialMilitaryApparel</li>
 	  <li>HealerRune</li>
 	  <li>MagicRune</li>
@@ -150,6 +153,7 @@
       <li>Violent</li>
     </requiredWorkTags>
 	<apparelTags>
+	  <li>ExoditeLightMilitaryApparel</li>
       <li>ExoditeSpecialMilitaryApparel</li>
 	  <li>HealerRune</li>
 	  <li>HunterRune</li>
@@ -206,6 +210,7 @@
       <li>ExoditeSpear</li>
     </weaponTags>
 	<apparelTags>
+	  <li>ExoditeLightMilitaryApparel</li>
       <li>ExoditeSpecialMilitaryApparel</li>
 	  <li>ExoditeMilitaryApparel</li>
 	  <li>HealerRune</li>
@@ -242,6 +247,7 @@
       <li>NeolithicMeleeDestructive</li>
     </weaponTags>
 	<apparelTags>
+	  <li>ExoditeLightMilitaryApparel</li>
       <li>ExoditeSpecialMilitaryApparel</li>
 	  <li>ExoditeMilitaryApparel</li>
 	  <li>HealerRune</li>

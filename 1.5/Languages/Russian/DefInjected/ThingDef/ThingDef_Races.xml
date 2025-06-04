@@ -13,5 +13,17 @@
   <Aeldari.tools.teeth.label>зубы</Aeldari.tools.teeth.label>
   <!-- EN: head -->
   <Aeldari.tools.head.label>голова</Aeldari.tools.head.label>
+  
+  <Gyrinx.label>гиринкс</Gyrinx.label>
+  
+  <Gyrinx.description>Гиринкс похож на большую кошку, которая может вырастать до метра в длину и имеет очень густую и пушистую рыжую или оранжевую шерсть и ярко-голубые глаза. Гиринкс не очень умны, но обладают поразительной способностью сопереживать другим существам, образуя ментальную связь со своим хозяином, сравнимую с настоящей дружбой.</Gyrinx.description>
+  <!-- EN: left fist -->
+  <Gyrinx.tools.left_claw.label>левая лапа</Gyrinx.tools.left_claw.label>
+  <!-- EN: right fist -->
+  <Gyrinx.tools.right_claw.label>правая лапа</Gyrinx.tools.right_claw.label>
+  <!-- EN: teeth -->
+  <Gyrinx.tools.teeth.label>зубы</Gyrinx.tools.teeth.label>
+  <!-- EN: head -->
+  <Gyrinx.tools.head.label>голова</Gyrinx.tools.head.label>
 
 </LanguageData>

@@ -33,7 +33,7 @@
 	<Tech_RuneTable.description>Открывает магические руны.</Tech_RuneTable.description>
 
 	<Tech_InstrumentaryTable.label>Вещи из психопластиков</Tech_InstrumentaryTable.label>
-	<Tech_InstrumentaryTable.description>Открывает вещи из психопластика - легких и твердых материала.</Tech_InstrumentaryTable.description>
+	<Tech_InstrumentaryTable.description>Открывает вещи из психопластика - легкого и твердого материала.</Tech_InstrumentaryTable.description>
 	
 	<Tech2_DoctorRitual.label>Ритуал "Отрастить конечность"</Tech2_DoctorRitual.label>
 	<Tech2_DoctorRitual.description>Технология открывает ритуал, с помощью которого жрец Иши может помочь больным.</Tech2_DoctorRitual.description>
