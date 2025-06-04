@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <ExoditeTribeScenario.label>Племя экзодитов</ExoditeTribeScenario.label>
+  <ExoditeTribeScenario.description>Ваше племя было уничтожено воинами друкхари. Пятерым из вас удаётся спастись с помощью паутины. Пришло время построить новый дом.\n\nВнимание: из-за примитивных, неразвитых технологий и минимальных начальных ресурсов этот сценарий представляет высокую сложность.</ExoditeTribeScenario.description>
+  <ExoditeTribeScenario.scenario.name>Потерянное племя</ExoditeTribeScenario.scenario.name>
+  <ExoditeTribeScenario.scenario.parts.GameStartDialog.text>Ваше племя было уничтожено воинами друкхари. Пятерым из вас удаётся спастись с помощью паутины. Пришло время построить новый дом.</ExoditeTribeScenario.scenario.parts.GameStartDialog.text>
+  <ExoditeTribeScenario.scenario.summary>Пять членов потерянного племени пытаются заново наладить свою жизнь. Сложный сценарий.</ExoditeTribeScenario.scenario.summary>
+</LanguageData>

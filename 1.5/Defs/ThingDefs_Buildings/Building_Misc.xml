@@ -122,7 +122,7 @@
           <li>Runic</li>
         </focusTypes>
         <offsets>
-          <li Class="FocusStrengthOffset_ArtificialBuildings">
+          <!--<li Class="FocusStrengthOffset_ArtificialBuildings">
             <radius>9.9</radius>
             <curve>
               <points>
@@ -132,7 +132,7 @@
                 <li>(50, -0.3)</li>
               </points>
             </curve>
-          </li>
+          </li>-->
           <li Class="FocusStrengthOffset_BuildingDefs">
             <defs>
               <StoneAbelisk>0.04</StoneAbelisk>

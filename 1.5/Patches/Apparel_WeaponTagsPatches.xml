@@ -2,35 +2,49 @@
 <Patch>
 
   <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ThingDef[defName = "Apparel_TribalA" or defName = "Apparel_Parka" or defName = "Apparel_Pants" or defName = "Apparel_BasicShirt" or defName = "Apparel_CollarShirt" or defName = "Apparel_Duster" or defName = "Apparel_Jacket" or defName = "Apparel_Tuque" or defName = "Apparel_HatHood" or defName = "Apparel_KidRomper" or defName = "Apparel_KidShirt" or defName = "Apparel_KidPants" or defName = "Apparel_KidParka" or defName = "Apparel_Robe"]/apparel/tags</xpath>
+    <xpath>/Defs/ThingDef[defName = "Apparel_TribalA" or defName = "Apparel_Parka" or defName = "Apparel_Pants"
+	or defName = "Apparel_BasicShirt" or defName = "Apparel_CollarShirt" or defName = "Apparel_Duster" or defName = "Apparel_Jacket"
+	or defName = "Apparel_Tuque" or defName = "Apparel_HatHood" or defName = "Apparel_KidRomper" or defName = "Apparel_KidShirt"
+	or defName = "Apparel_KidPants" or defName = "Apparel_KidParka"]/apparel/tags</xpath>
     <value>
       <li>ExoditeCivilApparel</li>
     </value>
   </Operation>
   
   <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ThingDef[defName = "Apparel_RobeRoyal"]/apparel/tags</xpath>
+    <xpath>/Defs/ThingDef[defName = "Apparel_RobeRoyal"  or defName = "Apparel_Robe"]/apparel/tags</xpath>
     <value>
       <li>ExoditeSpecialCivilApparel</li>
     </value>
   </Operation>
   
   <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ThingDef[defName = "Apparel_PlateArmor" or defName = "Apparel_SimpleHelmet"]/apparel/tags</xpath>
+    <xpath>/Defs/ThingDef[defName = "VAE_Apparel_Gambeson"  or defName = "VAE_Apparel_QuiltedVest" or defName = "VAE_Apparel_Chainmail"]/apparel/tags</xpath>
+    <value>
+      <li>ExoditeLightMilitaryApparel</li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName = "Apparel_PlateArmor" or defName = "VAE_Apparel_LightPlateArmor"
+	or defName = "Apparel_SimpleHelmet" or defName = "VAE_Apparel_Chestplate" or defName = "VAE_Apparel_PlateHelmet"]/apparel/tags</xpath>
     <value>
       <li>ExoditeMilitaryApparel</li>
     </value>
   </Operation>
   
+  <!-- ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+  
   <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ThingDef[defName = "MeleeWeapon_Spear" or defName = "MeleeWeapon_Mace" or defName = "MeleeWeapon_Gladius"]/weaponTags</xpath>
+    <xpath>/Defs/ThingDef[defName = "MeleeWeapon_Spear" or defName = "MeleeWeapon_Mace" or defName = "MeleeWeapon_Gladius" or defName = "MeleeWeapon_Axe"
+	or defName = "VWE_MeleeWeapon_Halberd" or defName = "VWE_MeleeWeapon_Axe"]/weaponTags</xpath>
     <value>
       <li>ExoditeMeleeBasic</li>
     </value>
   </Operation>
   
   <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ThingDef[defName = "Bow_Recurve" or defName = "Bow_Great"]/weaponTags</xpath>
+    <xpath>/Defs/ThingDef[defName = "Bow_Recurve" or defName = "Bow_Great" or defName = "VWE_Bow_Long"]/weaponTags</xpath>
     <value>
       <li>ExoditeRangedBasic</li>
     </value>

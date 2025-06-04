@@ -20,6 +20,7 @@
     </weaponClasses>
 	<tickerType>Normal</tickerType>
     <statBases>
+	  <MarketValue>300</MarketValue>
       <Mass>2</Mass>
     </statBases>
     <equippedAngleOffset>-45</equippedAngleOffset>

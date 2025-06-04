@@ -14,7 +14,7 @@
     <techLevel>Medieval</techLevel>
     <statBases>
       <Mass>0.5</Mass>
-	  <MarketValue>80</MarketValue>
+	  <MarketValue>160</MarketValue>
       <WorkToMake>14000</WorkToMake>
       <Flammability>0.4</Flammability>
       <EquipDelay>2</EquipDelay>
@@ -69,7 +69,7 @@
     <statBases>
       <Mass>0.5</Mass>
       <WorkToMake>14000</WorkToMake>
-	  <MarketValue>80</MarketValue>
+	  <MarketValue>160</MarketValue>
       <Flammability>0.4</Flammability>
       <EquipDelay>2</EquipDelay>
 	  <MaxHitPoints>30</MaxHitPoints>
@@ -123,7 +123,7 @@
     <statBases>
       <Mass>0.5</Mass>
       <WorkToMake>14000</WorkToMake>
-	  <MarketValue>80</MarketValue>
+	  <MarketValue>160</MarketValue>
       <Flammability>0.4</Flammability>
       <EquipDelay>2</EquipDelay>
 	  <MaxHitPoints>30</MaxHitPoints>

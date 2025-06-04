@@ -16,9 +16,9 @@
 	  <MeleeDodgeChance>8</MeleeDodgeChance>
 	  <PawnTrapSpringChance>0.5</PawnTrapSpringChance>
       <RoyalFavorValue>3</RoyalFavorValue>
-	  <RangedDodge>0.067</RangedDodge>
+	  <RangedDodge>0.092</RangedDodge>
 	  <IncomingDamageFactor>1</IncomingDamageFactor>
-	  <JoyFallRateFactor>1.4</JoyFallRateFactor>
+	  <JoyFallRateFactor>1.25</JoyFallRateFactor>
     </statBases>
 	<tools>
       <li>

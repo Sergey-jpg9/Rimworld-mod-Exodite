@@ -139,8 +139,8 @@
 	
 	<abilitiesToGain>
 		<li>KhaineMaskGiver</li>
-		<li>Flashstrike</li>
-		<li>Ability_None</li>
+		<li>PowerfulFlashstrike</li>
+		<li>ManyFlashstrikes</li>
 		<li>Ability_None</li>
 	</abilitiesToGain>
   </HediffDef>
